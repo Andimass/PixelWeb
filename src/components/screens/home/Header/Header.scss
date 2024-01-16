@@ -1,0 +1,1007 @@
+@media (min-width: 390px) and (max-width: 420px) {
+    .custom-zoom-page {
+      zoom: 16.33%;
+      background-color: black;
+
+      .Header_container_1 {
+        margin-top: -4150px;
+      }
+      .Header_container_2 {
+        margin-top: -5px;
+      }
+      .Header_container_3 {
+        margin-top: 620px;
+      }
+    }
+}
+
+@media (min-width: 1800px) and (max-width: 1920px) {
+    .custom-zoom-page {
+      zoom: 74.33%;
+      background-color: black;
+
+      .Header_container_1 {
+        margin-top: 180px;
+      }
+      .Header_container_2 {
+        margin-top: 300px;
+      }
+      .Header_container_3 {
+        margin-top: 620px;
+      }
+    }
+}
+
+.body{
+  background-color: black;
+  z-index: 111;
+}
+
+
+.Header {
+  max-width: 2495px;
+  position: absolute;
+  top: 0px;
+  background-color: black;
+  height: 1316px;
+  z-index: 22;
+}
+
+.Header_img {
+  position: absolute;
+  width: 1000px;
+  left: 50%;          /* Центрирование изображения по горизонтали */
+  top: 120px;
+  transform: translateX(-50%); /* Смещение изображения на половину его ширины влево */
+  z-index: 999;
+}
+
+.Header_animation {
+  position: absolute;
+  width: 2495px;
+  left: 50%;          /* Центрирование по горизонтали */
+  top: 2px;         /* Верхний отступ */
+  transform: translateX(-50%); /* Смещение на половину ширины влево */
+  background-color: black;
+  height: 1315px;
+  animation: start2 0.5s forwards;
+  z-index: 999;
+  animation-delay: 0.4s;
+}
+
+@keyframes start2 {
+  0% {
+    z-index: 999;
+    transform: translateX(-50%) scale(1); /* Начальный масштаб 100% */
+  }
+  100% {
+    z-index: 1;
+    transform: translateX(-50%) scale(0); /* Конечный масштаб 0% */
+  }
+}
+
+@keyframes start {
+  0% {
+    transform: translateX(50%) scale(1); /* Начальный масштаб 100% */
+  }
+  100% {
+    transform: translateX(-50%) scale(0); /* Конечный масштаб 0% */
+    z-index: 1;
+  }
+}
+
+.Header_menu {
+  width: 2495px;
+  height: 70px;
+  background-color: black;
+  margin-top: 0px;
+  z-index: 5;
+  animation: start3 2.5s ease-in-out;
+}
+
+@keyframes start3 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+
+.Header_menu_img img{
+  width: 150px;
+  margin-top: 35px;
+  margin-left: 120px;
+  border: 4px white solid;
+  padding: 5px;
+  background-color: black;
+}
+
+.Header_menu_text{
+  position: absolute;
+  margin-left: 2050px;
+  margin-top: -50px;
+}
+
+
+.Header_menu a{
+  color: white;
+  margin-left: 50px;
+  font-size: 21px;
+  text-transform: uppercase;
+  font-family: "Cera Pro Regular", sans-serif;
+}
+
+.Header_menu_center{
+
+}
+
+.Header_menu_icon{
+  width: 50px;
+  height: 50px;
+  margin-left: 2400px;
+  position: fixed;
+  margin-top: -30px;
+  overflow: hidden;
+
+}
+
+.Header_menu_icon_1{
+  width: 40px;
+  background-color: white;
+  height: 3px;
+  border-radius: 30px;
+  margin-left: 5px;
+  margin-top: 10px;
+}
+
+.Header_menu_icon_2{
+  width: 35px;
+  background-color: white;
+  height: 3px;
+  border-radius: 30px;
+  margin-left: 5px;
+  margin-top: -7px;
+}
+
+.Header_menu_icon_3{
+  width: 30px;
+  background-color: white;
+  height: 3px;
+  border-radius: 30px;
+  margin-left: 5px;
+  margin-top: -7px;
+}
+
+.Header_menu_icon_4{
+  width: 40px;
+  background-color: white;
+  height: 3px;
+  border-radius: 30px;
+  margin-left: -45px;
+  margin-top: -43px;
+}
+
+.Header_menu_icon_5{
+  width: 35px;
+  background-color: white;
+  height: 3px;
+  border-radius: 30px;
+  margin-left: -45px;
+  margin-top: -7px;
+}
+
+.Header_menu_icon_6{
+  width: 30px;
+  background-color: white;
+  height: 3px;
+  border-radius: 30px;
+  margin-left: -45px;
+  margin-top: -7px;
+}
+
+@keyframes menu {
+    0%{
+      margin-left: 5px;
+    }
+
+     100%{
+      margin-left: 55px;
+    }
+}
+
+@keyframes unmenu {
+    0%{
+      margin-left: 55px;
+    }
+
+     100%{
+      margin-left: 5px;
+    }
+}
+
+@keyframes menut {
+    0%{
+      margin-left: -45px;
+    }
+
+     100%{
+      margin-left: 5px;
+    }
+}
+
+@keyframes unmenut {
+    0%{
+      margin-left: 5px;
+    }
+
+     100%{
+      margin-left: -45px;
+    }
+}
+
+.Header_menu_icon:hover {
+    cursor: pointer;
+}
+
+.Header_menu_icon:hover .Header_menu_icon_1 {
+  animation: menu 0.6s forwards;
+}
+
+.Header_menu_icon:hover .Header_menu_icon_2 {
+  animation: menu 0.6s forwards;
+  animation-delay: 0.2s;
+}
+
+.Header_menu_icon:hover .Header_menu_icon_3 {
+  animation: menu 0.6s forwards;
+  animation-delay: 0.3s;
+}
+
+.Header_menu_icon:hover .Header_menu_icon_4 {
+  animation: menut 0.6s forwards;
+}
+
+.Header_menu_icon:hover .Header_menu_icon_5 {
+  animation: menut 0.6s forwards;
+  animation-delay: 0.2s;
+}
+
+.Header_menu_icon:hover .Header_menu_icon_6 {
+  animation: menut 0.6s forwards;
+  animation-delay: 0.3s;
+}
+
+
+
+
+
+
+.Header_menu_icon:not(hover) .Header_menu_icon_1 {
+  animation: unmenu 0.6s forwards;
+}
+
+.Header_menu_icon:not(hover) .Header_menu_icon_2 {
+  animation: unmenu 0.6s forwards;
+  animation-delay: 0.2s;
+}
+
+.Header_menu_icon:not(hover) .Header_menu_icon_3 {
+  animation: unmenu 0.6s forwards;
+  animation-delay: 0.3s;
+}
+
+.Header_menu_icon:not(hover) .Header_menu_icon_4 {
+  animation: unmenut 0.6s forwards;
+}
+
+.Header_menu_icon:not(hover) .Header_menu_icon_5 {
+  animation: unmenut 0.6s forwards;
+  animation-delay: 0.2s;
+}
+
+.Header_menu_icon:not(hover) .Header_menu_icon_6 {
+  animation: unmenut 0.6s forwards;
+  animation-delay: 0.3s;
+}
+
+.Header_menu_activate{
+  position: fixed;
+  width: 2495px;
+  background-color: black;
+  opacity: 0.99;
+  height: 100%;
+  z-index: 99555;
+  margin-top: -68px;
+}
+
+.scaled-iframe-container {
+    transform: scale(0.59);
+    transform-origin: 0 0;
+    width: 3500px; /* Удвоение размера контейнера для компенсации масштабирования */
+    height: 200%;
+    overflow: auto; /* Скрытие частей сайта, выходящих за пределы контейнера */
+  margin-left: 440px;
+  position: absolute;
+}
+
+.scaled-iframe-container iframe {
+    width: 72%;
+    height: 50%;
+    margin-top: 450px;
+    margin-left: 1000px;
+}
+
+.Header_menu_activate_text_blok{
+  display: block;
+  margin-top: 300px;
+  margin-left: 100px;
+  position: absolute;
+}
+
+.Header_menu_activate_text_blok_nav{
+    display: flex;
+  margin-top: 50px;
+  font-size: 40px;
+  font-family: "Cera Pro Bold", sans-serif;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+    background: linear-gradient(45deg, gold, deeppink);
+
+  /* Использование фона только для текста */
+  -webkit-background-clip: text;
+  background-clip: text;
+
+  /* Делаем цвет текста прозрачным, чтобы был виден только фон */
+  color: transparent;
+
+  /* Применяем обрезку к тексту */
+  -webkit-clip-path: inset(0px round 10px);
+  clip-path: inset(0px round 10px);
+  animation: borderAnimation 2s infinite;
+}
+
+.Header_menu_activate_text_blok_nav_usl{
+    text-transform: uppercase;
+    font-family: "Cera Pro Bold", sans-serif;
+    position: absolute;
+    top: 480px;
+}
+
+.Header_menu_activate_text_blok_nav_con{
+    text-transform: uppercase;
+    font-family: "Cera Pro Bold", sans-serif;
+    position: absolute;
+      top: 530px;
+}
+
+.Header_menu_activate_text_blok_nav_2{
+      display: flex;
+  margin-top: 25px;
+  font-size: 40px;
+  font-family: "Cera Pro Bold", sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+    background: linear-gradient(45deg, #6df139, #03fcfc);
+
+  /* Использование фона только для текста */
+  -webkit-background-clip: text;
+  background-clip: text;
+
+  /* Делаем цвет текста прозрачным, чтобы был виден только фон */
+  color: transparent;
+
+  /* Применяем обрезку к тексту */
+  -webkit-clip-path: inset(0px round 5px);
+  clip-path: inset(0px round 5px);
+  animation: borderAnimation 2s infinite;
+}
+
+.Header_menu_activate_text_blok a{
+  display: flex;
+  margin-top: 30px;
+  font-size: 30px;
+  font-family: "Cera Pro Regular", sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.Header_menu_activate_text_blok a:hover{
+  color: white;
+}
+
+.Header_menu_center_text{
+  text-align: center;
+  font-family: "Cera Pro Bold", sans-serif;
+  font-weight: 400;
+  font-size: 90px;
+  position: absolute;
+  margin-top: 500px;
+  text-transform: uppercase;
+  width: 2000px;
+  z-index: 100;
+  transform: translateX(12.2%); /* Смещение на половину ширины влево */
+  animation: start4 1s ease-in-out;
+  animation-delay: 0.5s;
+}
+
+@keyframes start4 {
+  0% {
+    z-index: 999;
+    transform: translateX(12.2%) scale(0); /* Начальный масштаб 100% */
+  }
+  100% {
+    z-index: 1;
+    transform: translateX(12.2%) scale(1); /* Конечный масштаб 0% */
+  }
+}
+
+.Header_menu_center_cvadro{
+  width: 620px;
+  height: 620px;
+  border: 10px solid;
+  border-image: linear-gradient(45deg, gold, deeppink) 1;
+  clip-path: inset(0px round 10px);
+  filter: hue-rotate(360deg);
+  position: absolute;
+  margin-left: 932px;
+  margin-top: 270px;
+  z-index: 5;animation: borderAnimation 6s infinite;
+}
+
+@keyframes borderAnimation {
+    0% {
+        filter: hue-rotate(0deg);
+    }
+    100% {
+        filter: hue-rorate(360deg);
+    }
+}
+
+.Header_menu_down {
+  font-family: "Cera Pro Regular", sans-serif;
+  text-align: center;
+  font-weight: 400;
+  font-size: 26px;
+  width: 1400px;
+  margin-left: 550px;
+  margin-top: 1100px;
+}
+
+.Header_container_1 {
+  width: 2495px;
+  height: 1535px;
+  background-color: black;
+  z-index: 1180;
+  margin-top: 0px;
+}
+
+.Header_menu_icon2{
+  width: 50px;
+  height: 50px;
+  margin-left: 2400px;
+  position: absolute;
+  margin-top: -30px;
+  overflow: hidden;
+}
+
+.Header_container_1_img {
+  width: 150px;
+  margin-top: 35px;
+  margin-left: 120px;
+  border: 4px white solid;
+  padding: 5px;
+  background-color: black;
+  position: absolute;
+}
+
+.Header_container_1_title {
+  color: white;
+  text-align: center;
+  font-family: "Cera Pro Bold", sans-serif;
+  font-weight: 400;
+  font-size: 50px;
+  position: absolute;
+  margin-left: 120px;
+  text-transform: uppercase;
+  margin-top: 120px;
+}
+
+.Header_container_1_1{
+  position: absolute;
+  width: 2495px;
+  border-top: 1px white solid;
+  border-bottom: 1px white solid;
+  height: 250px;
+  margin-top: 220px;
+  overflow: hidden;
+}
+
+.Header_container_1_1_img_1{
+  width: 600px;
+  height: auto;
+}
+
+.Header_container_1_1_img_2{
+  width: 600px;
+  height: auto;
+  margin-left: 1900px;
+}
+
+.Header_container_1_1:hover .Header_container_1_1_text{
+    transform: translateY(-200%);
+    transition: transform 0.2s ease-in-out;
+}
+
+.Header_container_1_1:not(hover) .Header_container_1_1_text{
+    transform: translateY(0%);
+    transition: transform 0.2s ease-in-out;
+}
+
+.Header_container_1_1:hover .Header_container_1_1_text_1{
+    transform: translateY(-170%);
+    transition: transform 0.2s ease-in-out;
+}
+
+.Header_container_1_1:not(hover) .Header_container_1_1_text_1{
+    transform: translateY(50%);
+    transition: transform 0.2s ease-in-out;
+}
+
+.Header_container_1_1:hover .Header_container_1_1_img_1{
+    transform: translateY(-140%);
+    transition: transform 0.2s ease-in-out;
+}
+
+.Header_container_1_1:not(hover) .Header_container_1_1_img_1{
+    transform: translateY(-250%);
+    transition: transform 0.2s ease-in-out;
+}
+
+.Header_container_1_1:hover .Header_container_1_1_img_2{
+    transform: translateY(-160%);
+    transition: transform 0.2s ease-in-out;
+}
+
+.Header_container_1_1:not(hover) .Header_container_1_1_img_2{
+    transform: translateY(-250%);
+    transition: transform 0.2s ease-in-out;
+}
+
+
+
+.Header_container_1_1_text{
+  text-align: center;
+  font-family: "Cera Pro Bold", sans-serif;
+  font-weight: 400;
+  font-size: 100px;
+  margin-top: 40px;
+  text-transform: uppercase;
+}
+
+.Header_container_1_1_text_1 {
+  text-align: center;
+  font-family: "Cera Pro Bold", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  margin-top: 45px;
+  width: 1000px;
+  margin-left: 750px;
+}
+
+.Header_container_1_2{
+  position: absolute;
+  width: 2495px;
+  border-bottom: 1px white solid;
+  height: 250px;
+  margin-top: 471px;
+  overflow: hidden;
+}
+
+.Header_container_1_2_text{
+  text-align: center;
+  font-family: "Cera Pro Bold", sans-serif;
+  font-weight: 400;
+  font-size: 100px;
+  margin-top: 45px;
+  width: 1000px;
+  margin-left: 750px;
+  text-transform: uppercase;
+}
+
+.Header_container_1_2_img_1{
+  width: 600px;
+  height: auto;
+}
+
+.Header_container_1_2_img_2{
+  width: 600px;
+  height: auto;
+  margin-left: 1900px;
+}
+
+.Header_container_1_2_text_1{
+  text-align: center;
+  font-family: "Cera Pro Bold", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  margin-top: 45px;
+  width: 1000px;
+  margin-left: 750px;
+}
+
+.Header_container_1_2:hover .Header_container_1_2_text{
+    transform: translateY(-200%);
+    transition: transform 0.2s ease-in-out;
+}
+
+.Header_container_1_2:not(hover) .Header_container_1_2_text{
+    transform: translateY(0%);
+    transition: transform 0.2s ease-in-out;
+}
+
+.Header_container_1_2:hover .Header_container_1_2_text_1{
+    transform: translateY(-140%);
+    transition: transform 0.2s ease-in-out;
+}
+
+.Header_container_1_2:not(hover) .Header_container_1_2_text_1{
+    transform: translateY(0%);
+    transition: transform 0.2s ease-in-out;
+}
+
+.Header_container_1_2:hover .Header_container_1_2_img_1{
+    transform: translateY(-120%);
+    transition: transform 0.2s ease-in-out;
+}
+
+.Header_container_1_2:not(hover) .Header_container_1_2_img_1{
+    transform: translateY(-250%);
+    transition: transform 0.2s ease-in-out;
+}
+
+.Header_container_1_2:hover .Header_container_1_2_img_2{
+    transform: translateY(-250%);
+    transition: transform 0.2s ease-in-out;
+}
+
+.Header_container_1_2:not(hover) .Header_container_1_2_img_2{
+    transform: translateY(-350%);
+    transition: transform 0.2s ease-in-out;
+}
+.Header_container_1_3{
+  position: absolute;
+  width: 2495px;
+  border-bottom: 1px white solid;
+  height: 250px;
+  margin-top: 722px;
+  overflow: hidden;
+}
+
+.Header_container_1_3_text{
+  text-align: center;
+  font-family: "Cera Pro Bold", sans-serif;
+  font-weight: 400;
+  font-size: 100px;
+  margin-top: 45px;
+  width: 1000px;
+  margin-left: 750px;
+  text-transform: uppercase;
+}
+
+.Header_container_1_3_img_1{
+  width: 600px;
+  height: auto;
+  z-index: -1;
+}
+
+.Header_container_1_3_img_2{
+  width: 600px;
+  height: auto;
+  margin-left: 1900px;
+  z-index: 1;
+}
+
+.Header_container_1_3_text_1{
+  text-align: center;
+  font-family: "Cera Pro Bold", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  margin-top: 45px;
+  width: 1000px;
+  margin-left: 750px;
+}
+
+.Header_container_1_3:hover .Header_container_1_3_text{
+    transform: translateY(-200%);
+    transition: transform 0.2s ease-in-out;
+}
+
+.Header_container_1_3:not(hover) .Header_container_1_3_text{
+    transform: translateY(0%);
+    transition: transform 0.2s ease-in-out;
+}
+
+.Header_container_1_3:hover .Header_container_1_3_text_1{
+    transform: translateY(-125%);
+    transition: transform 0.2s ease-in-out;
+}
+
+.Header_container_1_3:not(hover) .Header_container_1_3_text_1{
+    transform: translateY(0%);
+    transition: transform 0.2s ease-in-out;
+}
+
+.Header_container_1_3:hover .Header_container_1_3_img_1{
+    transform: translateY(-125%);
+    transition: transform 0.2s ease-in-out;
+}
+
+.Header_container_1_3:not(hover) .Header_container_1_3_img_1{
+    transform: translateY(-250%);
+    transition: transform 0.2s ease-in-out;
+}
+
+.Header_container_1_3:hover .Header_container_1_3_img_2{
+    transform: translateY(-225%);
+    transition: transform 0.2s ease-in-out;
+}
+
+.Header_container_1_3:not(hover) .Header_container_1_3_img_2{
+    transform: translateY(-350%);
+    transition: transform 0.2s ease-in-out;
+}
+
+.Header_container_1_4{
+  position: absolute;
+  width: 2495px;
+  border-bottom: 1px white solid;
+  height: 250px;
+  margin-top: 973px;
+  overflow: hidden;
+}
+
+.Header_container_1_4_text{
+  text-align: center;
+  font-family: "Cera Pro Bold", sans-serif;
+  font-weight: 400;
+  font-size: 100px;
+  margin-top: 45px;
+  width: 1000px;
+  margin-left: 750px;
+  text-transform: uppercase;
+}
+
+.Header_container_1_4_text_1{
+  text-align: center;
+  font-family: "Cera Pro Bold", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  margin-top: 45px;
+  width: 1000px;
+  margin-left: 750px;
+}
+
+.Header_container_1_4_img_1{
+  width: 600px;
+  height: auto;
+  z-index: -1;
+}
+
+.Header_container_1_4_img_2{
+  width: 600px;
+  height: auto;
+  margin-left: 1900px;
+  z-index: 1;
+}
+
+.Header_container_1_4:hover .Header_container_1_4_text{
+    transform: translateY(-200%);
+    transition: transform 0.2s ease-in-out;
+}
+
+.Header_container_1_4:not(hover) .Header_container_1_4_text{
+    transform: translateY(0%);
+    transition: transform 0.2s ease-in-out;
+}
+
+.Header_container_1_4:hover .Header_container_1_4_text_1{
+    transform: translateY(-175%);
+    transition: transform 0.2s ease-in-out;
+}
+
+.Header_container_1_4:not(hover) .Header_container_1_4_text_1{
+    transform: translateY(0%);
+    transition: transform 0.2s ease-in-out;
+}
+
+.Header_container_1_4:hover .Header_container_1_4_img_1{
+    transform: translateY(-95%);
+    transition: transform 0.2s ease-in-out;
+}
+
+.Header_container_1_4:not(hover) .Header_container_1_4_img_1{
+    transform: translateY(-250%);
+    transition: transform 0.2s ease-in-out;
+}
+
+.Header_container_1_4:hover .Header_container_1_4_img_2{
+    transform: translateY(-225%);
+    transition: transform 0.2s ease-in-out;
+}
+
+.Header_container_1_4:not(hover) .Header_container_1_4_img_2{
+    transform: translateY(-350%);
+    transition: transform 0.2s ease-in-out;
+}
+
+
+.Header_container_2{
+  width: 2495px;
+  margin-top: 0px;
+  background-color: black;
+  height: 1556px; /* Высота, равная высоте слайда */
+  position: absolute;
+}
+
+.Header_container_2_img {
+  width: 150px;
+  margin-top: 60px;
+  margin-left: 120px;
+  border: 4px white solid;
+  padding: 5px;
+  background-color: black;
+  position: absolute;
+}
+
+.Header_container_2_cvadro{
+  width: 620px;
+  height: 620px;
+  border: 10px solid;
+  border-image: linear-gradient(45deg, gold, deeppink) 1;
+  clip-path: inset(0px round 10px);
+  filter: hue-rotate(360deg);
+  position: absolute;
+  margin-left: -430px;
+  margin-top: 150px;
+  z-index: 1;
+  animation: borderAnimation 6s infinite;
+  opacity: 0.4;
+}
+
+@keyframes borderAnimation {
+    0% {
+        filter: hue-rotate(0deg);
+    }
+    100% {
+        filter: hue-rorate(360deg);
+    }
+}
+
+.Header_container_2_blok_title{
+  color: white;
+  text-align: center;
+  font-family: "Cera Pro Bold", sans-serif;
+  font-weight: 400;
+  font-size: 50px;
+  position: absolute;
+  margin-left: 120px;
+  text-transform: uppercase;
+  margin-top: 130px;
+}
+
+.Header_container_2_glav{
+  width: 1200px;
+  justify-content: center;
+  margin-left: 970px;
+  margin-top: 200px;
+  position: absolute;
+}
+
+.Header_container_2_glav p{
+  width: 1200px;
+  margin-top: 100px;
+}
+
+.slider-dots{
+  margin-left: -240px;
+}
+
+.title-content{
+  color: white;
+  font-family: "Cera Pro Bold", sans-serif;
+  font-weight: 400;
+  font-size: 75px;
+  position: absolute;
+  margin-top: 150px;
+  margin-left: -400px;
+}
+
+.slider-content{
+  color: white;
+  font-family: "Cera Pro Bold", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  position: absolute;
+  margin-top: 270px;
+  margin-left: -400px;
+  width: 590px;
+  z-index: 1;
+}
+
+.slider_img{
+  width: 620px;
+  position: absolute;
+  margin-top: 160px;
+  margin-left: 300px;
+  border: 10px solid;
+  border-image: linear-gradient(45deg, gold, deeppink) 0.4;
+  clip-path: inset(0px round 10px);
+  filter: hue-rotate(360deg);
+  z-index: 0;
+  animation: borderAnimation 6s infinite;
+}
+
+.img1{
+  opacity: 0;
+}
+
+.img2{
+  opacity: 0;
+}
+
+.img3{
+  opacity: 0;
+}
+
+.dot {
+  height: 10px;
+  width: 10px;
+  margin: 5px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  cursor: pointer;
+  margin-top: 820px;
+  margin-left: 50px;
+}
+
+.dot.active {
+  background-color: #6cea72;
+}
+
+.Header_container_3{
+  background-color: black;
+  height: 1316px;
+}
+
+.Header_container_3_blok{
+  width: 600px;
+  height: 200px;
+  background-color: black;
+}
+
+.Header_container_3_img {
+  width: 150px;
+  margin-top: 45px;
+  margin-left: 120px;
+  border: 4px white solid;
+  padding: 5px;
+  background-color: black;
+  position: absolute;
+}
+
+.Header_our_partner {
+    color: white;
+  text-align: center;
+  font-family: "Cera Pro Bold", sans-serif;
+  font-weight: 400;
+  font-size: 50px;
+  position: absolute;
+  margin-left: 120px;
+  text-transform: uppercase;
+  margin-top: 105px;
+}

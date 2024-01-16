@@ -1,0 +1,9129 @@
+@import '/fonts.css';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Roboto:ital,wght@0,100;0,300;1,100;1,300&display=swap');
+
+@media (min-width: 350px) and (max-width: 410px) {
+
+    .Gazification {
+        max-width: 390px;
+        height: auto;
+        display: flex;
+        position: absolute;
+        top: 4px; /* Прикрепить шапку к верху экрана */
+        /* Дополнительные стили для вашей шапки */
+        font-family: "Cera Pro Light", sans-serif;
+
+    .header_logo {
+        width: 80px;
+        margin-left: 10px;
+        margin-top: 7px;
+        position: fixed;
+        z-index: 1999;
+    }
+
+    .header_animation_square {
+        position: fixed;
+        width: 10px; /* Та же ширина, что и у .menu_supply */
+        height: 10px; /* Та же высота, что и у .menu_supply */
+        margin-left: 310px; /* Смещение влево на значение ширины .menu_supply плюс его отступ слева, чтобы разместить квадрат справа от .menu_supply */ /* Тот же отступ сверху, что и у .menu_supply */
+        display: block; /* Больше, чем у .menu_supply */
+        z-index: 1999;
+    }
+
+    .header_black_square {
+        position: fixed;
+        width: 10px; /* Та же ширина, что и у .menu_supply */
+        height: 10px; /* Та же высота, что и у .menu_supply */
+        margin-left: 55px; /* Смещение влево на значение ширины .menu_supply плюс его отступ слева, чтобы разместить квадрат справа от .menu_supply */
+        margin-top: 1px; /* Тот же отступ сверху, что и у .menu_supply */
+        z-index: 2000; /* Больше, чем у .menu_supply */
+        background-color: rgba(255, 255, 255); /* Черный цвет фона */
+        overflow-x: hidden;
+        visibility: hidden;
+    }
+
+    .header_black_square2 {
+        position: fixed;
+        width: 10px; /* Та же ширина, что и у .menu_supply */
+        height: 10px; /* Та же высота, что и у .menu_supply */
+        margin-left: -55px; /* Смещение влево на значение ширины .menu_supply плюс его отступ слева, чтобы разместить квадрат справа от .menu_supply */
+        margin-top: 1px; /* Тот же отступ сверху, что и у .menu_supply */
+        z-index: 2000; /* Больше, чем у .menu_supply */
+        background-color: rgba(255, 255, 255); /* Черный цвет фона */
+        visibility: hidden;
+
+    }
+
+    .header_menu_supply {
+        position: fixed;
+        max-width: 20px; /* Установите желаемую ширину для логотипа */
+        max-height: 20px;
+        margin-left: 35px;
+        margin-top: 10px;
+        z-index: 1999;
+    }
+
+    .header_menu_supply2 {
+        position: fixed;
+        max-width: 20px; /* Установите желаемую ширину для логотипа */
+        max-height: 20px;
+        margin-left: 35px;
+        margin-top: 12px;
+        z-index: 1999;
+    }
+
+    .header_menu_supply3 {
+        position: fixed;
+        max-width: 20px; /* Установите желаемую ширину для логотипа */
+        max-height: 20px;
+        margin-left: 35px;
+        margin-top: 15px;
+        z-index: 1999;
+    }
+
+    .header_menu_supply4 {
+        position: fixed;
+        max-width: 20px; /* Установите желаемую ширину для логотипа */
+        max-height: 20px;
+        margin-left: -55px;
+        margin-top: 15px;
+        z-index: 1999;
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    .header_menu_supply5 {
+        position: fixed;
+        max-width: 20px; /* Установите желаемую ширину для логотипа */
+        max-height: 20px;
+        margin-left: -55px;
+        margin-top: 10px;
+        z-index: 1999;
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    .header_menu_supply6 {
+        position: fixed;
+        max-width: 20px; /* Установите желаемую ширину для логотипа */
+        max-height: 20px;
+        margin-left: -55px;
+        margin-top: 15px;
+        z-index: 1999;
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    @keyframes menu1 {
+        0% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 0;
+        }
+    }
+    @keyframes menu2 {
+        0% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 0;
+        }
+    }
+
+
+    @keyframes menu2 {
+        0% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 0;
+        }
+    }
+
+    .header_animation_square:hover .header_menu_supply {
+
+    }
+
+    .header_animation_square:hover .header_menu_supply2 {
+
+    }
+
+    .header_animation_square:hover .header_menu_supply3 {
+
+    }
+
+    .header_animation_square:hover .header_menu_supply4 {
+
+    }
+
+    .header_animation_square:hover .header_menu_supply5 {
+
+    }
+
+    .header_animation_square:hover .header_menu_supply6 {
+
+    }
+
+
+    @keyframes menu3 {
+        0% {
+            opacity: 0
+        }
+
+        100% {
+            opacity: 0;
+        }
+    }
+    @keyframes menu4 {
+        0% {
+            opacity: 0;
+
+        }
+
+        100% {
+            opacity: 0;
+        }
+    }
+
+
+    .header_animation_square:not(:hover) .header_menu_supply,
+    .header_animation_square:not(:hover) .header_menu_supply2,
+    .header_animation_square:not(:hover) .header_menu_supply3 {
+    }
+
+    .header_animation_square:not(:hover) .header_menu_supply2 {
+
+    }
+
+    .header_animation_square:not(:hover) .header_menu_supply3 {
+
+    }
+
+    .header_animation_square:not(:hover) .header_menu_supply4,
+    .header_animation_square:not(:hover) .header_menu_supply5,
+    .header_animation_square:not(:hover) .header_menu_supply6 {
+
+    }
+
+    .header_animation_square:not(:hover) .header_menu_supply5 {
+
+    }
+
+    .header_animation_square:not(:hover) .header_menu_supply6 {
+
+    }
+
+    .gazification_1 {
+        width: 390px;
+        position: absolute;
+        background-color: #ffffff;
+        height: 160px;
+        margin-top: -5px;
+        z-index: 1;
+    }
+
+    .gazification_1_title {
+        position: absolute;
+        margin-left: 20px;
+        margin-top: 65px;
+        color: black;
+        font-size: 20px;
+        font-family: "Cera Pro Bold", sans-serif;
+        z-index: 1;
+    }
+
+    .gazification_1_text {
+        position: absolute;
+        margin-left: 11px;
+        margin-top: 150px;
+        color: black;
+        width: 370px;
+        font-size: 10px;
+        font-family: "Cera Pro Medium", sans-serif;
+        z-index: 1;
+        text-align: center;
+    }
+
+    .gazification_1_img {
+        width: 130px;
+        margin-left: 240px;
+        margin-top: 60px;
+        position: absolute;
+        z-index: 11;
+    }
+
+    .gazification_fon_img {
+        width: 390px;
+        height: 241px;
+        z-index: -1;
+        visibility: hidden;
+
+    }
+    
+    .mini_fon{
+    width: 390px;
+    height: 241px;
+    position: absolute;
+        margin-left: -390px;
+    }
+
+    .header_header{
+    width: 100px;
+    position: absolute;
+    background-color: white;
+    height: auto;
+}
+
+
+    .gazification_for {
+        width: 390px;
+        position: absolute;
+        background: linear-gradient(to right, #6383F9, #8DB2FB 15%);
+        height: 390px;
+        margin-top: 230px;
+        z-index: 1;
+
+    .gazification_for_block {
+        position: absolute;
+        width: 220px;
+        margin-top: 11px;
+        margin-left: 134px;
+        height: 153px;
+    }
+
+    .gazification_for_img1 {
+        position: absolute;
+        width: 380px;
+        margin-left: -130px;
+        margin-top: 32px;
+        z-index: 4;
+        content: '';
+        border: 0.1px white solid;
+        opacity: 0.6;
+    }
+
+    .gazification_for_img2 {
+        position: absolute;
+        height: 220px;
+        margin-left: -108px;
+        margin-top: 5px;
+        z-index: 4;
+        content: '';
+        border: 1px white solid;
+        opacity: 0.6;
+    }
+
+    .gazification_for_img3 {
+        position: absolute;
+        height: 130px;
+        margin-left: -108px;
+        margin-top: 250px;
+        z-index: 4;
+        content: '';
+        border: 1px white solid;
+        opacity: 0.6;
+    }
+
+    .gazification_for_img4 {
+        position: absolute;
+        width: 380px;
+        height: 0px;
+        margin-left: -130px;
+        margin-top: 275px;
+        z-index: 4;
+        content: '';
+        border: 1px white solid;
+        opacity: 0.6;
+    }
+
+    .gazification_for_img5 {
+        position: absolute;
+        height: 181px;
+        margin-left: 9px;
+        margin-top: 5px;
+        z-index: 4;
+        content: '';
+        border: 1px white solid;
+        opacity: 0.6;
+        visibility: hidden;
+    }
+
+    .gazification_for_img6 {
+        position: absolute;
+        height: 181px;
+        margin-left: 1px;
+        margin-top: 25px;
+        z-index: 4;
+        content: '';
+        border: 1px white solid;
+        opacity: 0.6;
+        visibility: hidden;
+    }
+
+    .gazification_for_block_org {
+        position: absolute;
+
+    }
+
+    .gazification_for_block_org_title {
+        position: absolute;
+        color: white;
+        font-size: 16px;
+        font-family: "Cera Pro Regular", sans-serif;
+        margin-left: -95px;
+        width: 232px;
+        margin-top: 9px;
+
+    }
+
+    .gazification_for_block_org_block {
+        position: absolute;
+        margin-top: 58px;
+        margin-left: -90px;
+    }
+
+
+    .gazification_for_block_org_block p {
+        display: flex;
+        color: white;
+        width: 291px;
+        margin-bottom: -8px; /* Расстояние между параграфами */
+        font-size: 12px;
+        font-family: "Cera Pro Regular", sans-serif;
+    }
+
+    /* Убрать margin у последнего параграфа, чтобы не было дополнительного пространства после него */
+    .gazification_for_block_org_block p:last-child {
+        margin-bottom: 0;
+    }
+
+    .gazification_for_block_org_text_1 {
+        position: absolute;
+        margin-top: -18px;
+    }
+
+    .gazification_for_block_org_text_2 {
+        margin-top: 1px;
+    }
+
+    /*.gazification_for_block_org_text_3{*/
+    /*}*/
+    /*.gazification_for_block_org_text_4{*/
+    /*}*/
+    /*.gazification_for_block_org_text_5{*/
+    /*}*/
+    /*.gazification_for_block_org_text_6{*/
+    /*}*/
+    /*.gazification_for_block_org_text_7{*/
+    /*}*/
+    /*.gazification_for_block_org_text_8{*/
+    /*}*/
+    .gazification_for_block_ur {
+        width: 150px;
+        height: 186px;
+        margin-left: -110px;
+        position: absolute;
+        margin-top: 1px;
+    }
+
+
+    .gazification_for_block_ur_title {
+        position: absolute;
+        color: white;
+        font-size: 16px;
+        font-family: "Cera Pro Regular", sans-serif;
+        margin-left: 15px;
+        width: 220px;
+        margin-top: 250px;
+
+    }
+
+    .gazification_for_block_ur_block {
+        position: absolute;
+        margin-top: 300px;
+        margin-left: 20px;
+        width: 300px;
+        height: 274px;
+    }
+
+
+    .gazification_for_block_ur_block p {
+        display: flex;
+        color: white;
+        width: 300px;
+        margin-bottom: -10px; /* Расстояние между параграфами */
+        font-size: 12px;
+        font-family: "Cera Pro Regular", sans-serif;
+    }
+
+    /* Убрать margin у последнего параграфа, чтобы не было дополнительного пространства после него */
+    .gazification_for_block_ur_block p:last-child {
+        margin-bottom: 0;
+    }
+
+    .gazification_for_block_ur_text_1 {
+        position: absolute;
+        margin-top: -22px;
+    }
+
+    .gazification_for_block_ur_text_2 {
+        position: absolute;
+        margin-top: -4px;
+    }
+
+    .gazification_for_block_ur_text_3 {
+        position: absolute;
+        margin-top: 30px;
+    }
+
+    .gazification_for_block_ur_text_4 {
+        position: absolute;
+        margin-top: 47px;
+    }
+
+}
+
+.gazification_2 {
+    position: absolute;
+    width: 390px;
+    height: 480px;
+    background-color: rgba(246, 245, 245, 0.97);
+    margin-top: 620px;
+    z-index: 1;
+
+
+.gazification_2_block_1_img_1 {
+    position: absolute;
+    width: 19px;
+    margin-left: 11px;
+    margin-top: 12px;
+}
+
+.gazification_2_block_1_img_2 {
+    position: absolute;
+    margin-left: 11px;
+    margin-top: 11px;
+    width: 44px;
+}
+
+.gazification_2_block_1_img_3 {
+    position: absolute;
+    width: 27px;
+    margin-left: 11px;
+    margin-top: 9px;
+}
+
+.gazification_2_block_1_img_4 {
+    position: absolute;
+    width: 24px;
+    margin-left: 11px;
+    margin-top: 11px;
+}
+
+.gazification_2_block_1_img_5 {
+    position: absolute;
+    width: 19px;
+    margin-left: 11px;
+    margin-top: 11px;
+}
+
+.gazification_2_block_1_img_6 {
+    position: absolute;
+    width: 24px;
+    margin-left: 11px;
+    margin-top: 11px;
+}
+
+.gazification_2_title_1 {
+    color: black;
+    position: absolute;
+    margin-left: 40px;
+    font-size: 18px;
+    font-family: "Cera Pro Medium", sans-serif;
+    width: 320px;
+    margin-top: 20px;
+    z-index: 5;
+    line-height: 20px;
+    text-align: center;
+}
+
+.gazification_2_title_text {
+    color: black;
+    width: 200px;
+    position: absolute;
+    font-size: 11px;
+    margin-left: 75px;
+    margin-top: 215px;
+    z-index: 5;
+    visibility: hidden;
+}
+
+.gazification_2_block {
+    position: absolute;
+    margin-top: -120px;
+}
+
+.gazification_2_block_img_1 {
+    position: absolute;
+    margin-left: 25px;
+    height: 471px;
+    width: 0px;
+    margin-top: 120px;
+    border: 1px grey solid;
+    opacity: 0.6;
+}
+
+.gazification_2_block_img_2 {
+    position: absolute;
+    margin-left: 40px;
+    height: 471px;
+    width: 0px;
+    margin-top: 120px;
+    border: 1px grey solid;
+    opacity: 0.6;
+}
+
+.gazification_2_block_img_3 {
+    position: absolute;
+    margin-left: 365px;
+    height: 471px;
+    width: 0px;
+    margin-top: 120px;
+    border: 1px grey solid;
+    opacity: 0.6;
+}
+
+.gazification_2_block_img_4 {
+    position: absolute;
+    margin-left: 200px;
+    height: 400px;
+    width: 0px;
+    margin-top: 190px;
+    border: 1px grey solid;
+    opacity: 0.6;
+}
+
+.gazification_2_block_img_5 {
+    position: absolute;
+    width: 380px;
+    margin-left: 5px;
+    margin-top: 190px;
+    z-index: 4;
+    content: '';
+    border: 0.1px grey solid;
+    opacity: 0.6;
+}
+
+.gazification_2_block_img_6 {
+    position: absolute;
+    width: 325px;
+    margin-left: 40px;
+    margin-top: 325px;
+    z-index: 4;
+    content: '';
+    border: 0.1px grey solid;
+    opacity: 0.6;
+}
+
+.gazification_2_block_img_7 {
+    position: absolute;
+    margin-left: 5px;
+    width: 380px;
+    height: 0px;
+    margin-top: 465px;
+    border: 1px grey solid;
+    opacity: 0.6;
+}
+
+.gazification_2_block_img_8 {
+    position: absolute;
+    margin-left: 35px;
+    width: 330px;
+    height: 0px;
+    margin-top: 592px;
+    border: 1px grey solid;
+    opacity: 0.6;
+    visibility: hidden;
+}
+
+.gazification_2_block_img_9 {
+    position: absolute;
+    margin-left: 1px;
+    height: 339px;
+    width: 0px;
+    margin-top: 154px;
+    border: 0.5px grey solid;
+    opacity: 0.6;
+    visibility: hidden;
+}
+
+.gazification_2_block_img_10 {
+    position: absolute;
+    margin-left: 1px;
+    height: 339px;
+    width: 0px;
+    margin-top: 154px;
+    border: 1px grey solid;
+    opacity: 0.6;
+    visibility: hidden;
+}
+
+.gazification_2_block_img_11 {
+    position: absolute;
+    margin-left: 1px;
+    width: 25px;
+    margin-top: 333px;
+    border: 1px grey solid;
+    opacity: 0.6;
+    visibility: hidden;
+}
+
+.gazification_2_block_img_12 {
+    position: absolute;
+    margin-left: 35px;
+    width: 11px;
+    margin-top: 190px;
+    border: 1px grey solid;
+    opacity: 0.6;
+    transform: rotate(135deg);
+}
+
+.gazification_2_block_img_13 {
+    position: absolute;
+    margin-left: 35px;
+    width: 11px;
+    margin-top: 465px;
+    border: 1px grey solid;
+    opacity: 0.6;
+    transform: rotate(135deg);
+}
+
+.gazification_2_block_img_14 {
+    position: absolute;
+    margin-left: 360px;
+    width: 11px;
+    margin-top: 190px;
+    border: 1px grey solid;
+    opacity: 0.6;
+    transform: rotate(135deg);
+}
+
+.gazification_2_block_img_15 {
+    position: absolute;
+    margin-left: 359px;
+    width: 11px;
+    margin-top: 465px;
+    border: 1px grey solid;
+    opacity: 0.6;
+    transform: rotate(135deg);
+}
+
+.gazification_2_block_1 {
+    position: absolute;
+    width: 160px;
+    height: 134px;
+    margin-left: 41px;
+    margin-top: 191px;
+    z-index: 5;
+}
+
+.transportir_1 {
+    position: absolute;
+    margin-left: -160px;
+    margin-top: 80px;
+    width: 300px;
+    transform-origin: center center;
+    transition: transform 3s;
+    visibility: hidden;
+}
+
+.transportir_2 {
+    position: absolute;
+    margin-left: -160px;
+    margin-top: 80px;
+    width: 300px;
+    transform-origin: center center;
+    transition: transform 3s;
+    visibility: hidden;
+}
+
+.gazification_2_block_1_text_1 {
+    color: black;
+    margin-top: 56px;
+    margin-left: 8px;
+    font-size: 10px;
+    font-family: "Cera Pro Regular", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    display: flex;
+}
+
+.gazification_2_block_1 .gazification_2_block_1_text_1 {
+        color: black;
+    margin-top: 45px;
+    margin-left: 8px;
+    font-size: 12px;
+    font-family: "Cera Pro Regular", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    display: flex;
+}
+
+.gazification_2_block_1:hover .gazification_2_block_1_text_1 {
+    color: white;
+}
+
+.gazification_2_block_2:hover .gazification_2_block_1_text_1 {
+    color: white;
+}
+
+.gazification_2_block_3:hover .gazification_2_block_1_text_1 {
+    color: white;
+}
+
+.gazification_2_block_4:hover .gazification_2_block_1_text_1 {
+    color: white;
+}
+
+.gazification_2_block_5:hover .gazification_2_block_1_text_1 {
+    color: white;
+
+}
+
+.gazification_2_block_5 .gazification_2_block_1_text_1 {
+    color: white;
+    font-size: 12px;
+}
+
+
+.gazification_2_block_6:hover .gazification_2_block_1_text_1 {
+    color: white;
+}
+
+.gazification_2_block_2 .gazification_2_block_1_text_1 {
+        color: black;
+    margin-top: 45px;
+    margin-left: 8px;
+    font-size: 12px;
+    font-family: "Cera Pro Regular", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    display: flex;
+}
+
+.gazification_2_block_3 .gazification_2_block_1_text_1 {
+        color: black;
+    margin-top: 40px;
+    margin-left: 8px;
+    font-size: 10px;
+    font-family: "Cera Pro Regular", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    display: flex;
+}
+
+.gazification_2_block_4 .gazification_2_block_1_text_1 {
+        color: black;
+    margin-top: 40px;
+    margin-left: 8px;
+    font-size: 10px;
+    font-family: "Cera Pro Regular", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    display: flex;
+}
+
+.gazification_2_block_3 .gazification_2_block_1_text_2 span {
+    display: none;
+}
+
+.gazification_2_block_5 .gazification_2_block_1_text_1 {
+        color: black;
+    margin-top: 40px;
+    margin-left: 8px;
+    font-size: 12px;
+    font-family: "Cera Pro Regular", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    display: flex;
+}
+
+.gazification_2_block_6 .gazification_2_block_1_text_1 {
+        color: black;
+    margin-top: 40px;
+    margin-left: 8px;
+    font-size: 12px;
+    font-family: "Cera Pro Regular", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    display: flex;
+}
+
+.gazification_2_block_1_text_1 span {
+    color: black;
+    margin-left: -8px;
+    margin-top: 3px;
+    font-size: 11px;
+    font-family: "Cera Pro Regular", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    position: absolute;
+}
+
+.gazification_2_block_1_text_2 {
+    color: black;
+    margin-left: 8px;
+    font-size: 12px;
+    font-family: "Cera Pro Light", sans-serif;
+    margin-top: -15px;
+}
+
+.gazification_2_block_1_number {
+    width: 27px;
+    height: 27px;
+    font-family: "Cera Pro Regular", sans-serif;
+    font-size: 22px;
+    color: black;
+    margin-left: 126px;
+    margin-top: -16px;
+    overflow: hidden;
+}
+
+.gazification_2_block_1_text_3 {
+    color: black;
+    position: absolute;
+    font-size: 12px;
+    font-family: "Cera Pro Medium", sans-serif;
+    margin-left: 137px;
+    margin-top: -30px;
+}
+
+.gazification_2_block_2_text_3 {
+    color: black;
+    position: absolute;
+    font-size: 12px;
+    font-family: "Cera Pro Medium", sans-serif;
+    margin-left: 137px;
+    margin-top: -30px;
+}
+
+.gazification_2_block_3_text_3 {
+    color: black;
+    position: absolute;
+    font-size: 12px;
+    font-family: "Cera Pro Medium", sans-serif;
+    margin-left: 137px;
+    margin-top: -15px;
+}
+
+.gazification_2_block_4_text_3 {
+    color: black;
+    position: absolute;
+    font-size: 12px;
+    font-family: "Cera Pro Medium", sans-serif;
+    margin-left: 137px;
+    margin-top: -25px;
+}
+
+.gazification_2_block_5_text_3 {
+    color: black;
+    position: absolute;
+    font-size: 12px;
+    font-family: "Cera Pro Medium", sans-serif;
+    margin-left: 137px;
+    margin-top: -25px;
+}
+
+.gazification_2_block_6_text_3 {
+    color: black;
+    position: absolute;
+    font-size: 12px;
+    font-family: "Cera Pro Medium", sans-serif;
+    margin-left: 137px;
+    margin-top: -25px;
+}
+
+.gazification_2_block_2 {
+    position: absolute;
+    width: 165px;
+    height: 134px;
+    margin-left: 201px;
+    margin-top: 191px;
+}
+
+.gazification_2_block_3 {
+    position: absolute;
+    width: 159px;
+    height: 140px;
+    margin-left: 41px;
+    margin-top: 325px;
+}
+
+.gazification_2_block_3 .gazification_2_block_1_text_1{
+    font-size: 11px;
+}
+
+.gazification_2_block_4 .gazification_2_block_1_text_1{
+    font-size: 12px;
+}
+
+.gazification_2_block_4 .gazification_2_block_1_text_2{
+    font-size: 12px;
+    margin-top: -10px;
+}
+
+.gazification_2_block_4 {
+    position: absolute;
+    width: 165px;
+    height: 140px;
+    margin-left: 201px;
+    margin-top: 325px;
+}
+
+.gazification_2_block_5 {
+    position: absolute;
+    width: 159px;
+    height: 133px;
+    margin-left: 41px;
+    margin-top: 466px;
+}
+
+.gazification_2_block_6 {
+    position: absolute;
+    width: 164px;
+    height: 133px;
+    margin-left: 201px;
+    margin-top: 466px;
+}
+
+}
+
+.gazification_uslugi {
+    width: 390px;
+    height: auto;
+    position: absolute;
+    margin-top: 1400px;
+    display: flex;
+    margin-left: -130px;
+
+
+.gazification_uslugi_title {
+    color: black;
+    font-size: 18px;
+    font-family: "Cera Pro bold", sans-serif;
+    position: absolute;
+    margin-top: -285px;
+    margin-left: 275px;
+    width: 200px;
+}
+
+.gazification_body_uslugi {
+    position: absolute;
+    font-size: 32px;
+    margin-left: 409px;
+}
+
+
+.gazification_body_uslugi_box1 {
+    width: 170px;
+    height: 130px;
+    background-color: white;
+    position: absolute;
+    margin-left: 145px;
+    margin-top: -150px;
+   border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.1);
+    transition: transform 0.1s ease; /* Добавил анимацию */
+}
+
+
+.gazification_body_box1_image {
+    width: 170px;
+    height: 92px;
+    align-items: center;
+    border-radius: 4px 4px 0 0;
+    margin-left: 0px;
+    margin-top: -92px;
+    position: absolute;
+    z-index: 1;
+        box-shadow: 2px 0px 2px 0px rgba(0, 0, 0, 0.15);
+    /*animation: unrotate 20s linear infinite;*/
+}
+
+.gazification_body_uslugi_box_title_1 {
+    margin-top: 5px;
+    width: 181px;
+    margin-left: 8px;
+    font-size: 13px;
+    font-weight: 700;
+    font-family: "Cera Pro Bold", serif;
+    position: absolute;
+    color: #000000;
+    line-height: 1; /* Уменьшаем расстояние между строками */
+}
+
+.gazification_body_text {
+    font-size: 12px;
+    color: #000000;
+    font-family: "Cera Pro Regular", serif;
+    margin-top: 58px;
+    margin-left: 8px;
+    width: 160px;
+
+}
+
+.gazification_body_price {
+    position: absolute;
+    margin-top: 43px;
+    margin-left: 8px;
+    letter-spacing: 0.5px;
+    font-size: 12px;
+    font-weight: 900;
+    font-family: "Cera Pro Bold", serif;
+    color: #0003ff;
+}
+
+
+.gazification_body_uslugi_box2 {
+    width: 170px;
+    height: 130px;
+    background-color: white;
+    position: absolute;
+    border-radius: 0px 0px 4px 4px;
+    margin-left: 335px;
+    margin-top: -150px;
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.1);
+    transition: transform 0.1s ease; /* Добавил анимацию */
+}
+
+
+.gazification_body_box2_image {
+    width: 170px;
+    height: 92px;
+    align-items: center;
+    border-radius: 4px 4px 0 0;
+    margin-left: 0px;
+    margin-top: -92px;
+    position: absolute;
+    z-index: 1;
+        box-shadow: 2px 0px 2px 0px rgba(0, 0, 0, 0.15);
+}
+
+.gazification_body_uslugi_box_title_2 {
+    margin-top: 5px;
+    width: 181px;
+    margin-left: 8px;
+    font-size: 13px;
+    font-weight: 700;
+    font-family: "Cera Pro Bold", serif;
+    position: absolute;
+    color: #000000;
+    line-height: 1; /* Уменьшаем расстояние между строками */
+}
+
+.gazification_body_text2 {
+    font-size: 12px;
+    color: #000000;
+    font-family: "Cera Pro Regular", serif;
+    margin-top: 57px;
+    margin-left: 8px;
+    width: 165px;
+
+}
+
+.gazification_body_price2 {
+    position: absolute;
+    margin-top: 43px;
+    margin-left: 8px;
+    letter-spacing: 0.5px;
+    font-size: 12px;
+    font-weight: 900;
+    font-family: "Cera Pro Bold", serif;
+    color: #0003ff;
+}
+
+
+.ambilight {
+    filter: url(#ambilight);
+}
+
+.gazification_body_uslugi_box3 {
+    width: 170px;
+    height: 131px;
+    background-color: white;
+    position: absolute;
+    border-radius: 0px 0px 4px 4px;
+    margin-left: 145px;
+    margin-top: 90px;
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.1);
+    transition: transform 0.1s ease; /* Добавил анимацию */
+}
+
+
+.gazification_body_box3_image {
+    width: 170px;
+    height: 92px;
+    align-items: center;
+    border-radius: 8px 8px 0 0;
+    margin-left: 0px;
+    margin-top: -92px;
+    position: absolute;
+    z-index: 1;
+    /*animation: unrotate 20s linear infinite;*/
+}
+
+.gazification_body_uslugi_box_title_3 {
+    margin-top: 5px;
+    width: 171px;
+    margin-left: 8px;
+    font-size: 13px;
+    font-weight: 700;
+    font-family: "Cera Pro Bold", serif;
+    position: absolute;
+    color: #000000;
+    line-height: 1; /* Уменьшаем расстояние между строками */
+}
+
+.gazification_body_text3 {
+    font-size: 12px;
+    color: #000000;
+    font-family: "Cera Pro Regular", serif;
+    margin-top: 60px;
+    margin-left: 8px;
+    width: 160px;
+
+}
+
+.gazification_body_price3 {
+    position: absolute;
+    margin-top: 45px;
+    margin-left: 8px;
+    letter-spacing: 0.5px;
+    font-size: 12px;
+    font-weight: 900;
+    font-family: "Cera Pro Bold", serif;
+    color: #0003ff;
+}
+
+
+.gazification_body_uslugi_box4 {
+    width: 170px;
+    height: 131px;
+    background-color: white;
+    position: absolute;
+    border-radius: 0px 0px 4px 4px;
+    margin-left: 335px;
+    margin-top: 90px;
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.1);
+    transition: transform 0.1s ease; /* Добавил анимацию */
+}
+
+
+.gazification_body_box4_image {
+    width: 170px;
+    height: 92px;
+    align-items: center;
+    border-radius: 4px 4px 0 0;
+    margin-left: 0px;
+    margin-top: -92px;
+    position: absolute;
+    z-index: 1;
+    /*animation: unrotate 20s linear infinite;*/
+}
+
+.gazification_body_uslugi_box_title_4 {
+    margin-top: 5px;
+    width: 171px;
+    margin-left: 8px;
+    font-size: 13px;
+    font-weight: 700;
+    font-family: "Cera Pro Bold", serif;
+    position: absolute;
+    color: #000000;
+    line-height: 1; /* Уменьшаем расстояние между строками */
+}
+
+.gazification_body_text4 {
+    font-size: 12px;
+    color: #000000;
+    font-family: "Cera Pro Regular", serif;
+    margin-top: 60px;
+    margin-left: 8px;
+    width: 162px;
+
+}
+
+.gazification_body_text4 span{
+    display: none;
+}
+
+.gazification_body_price4 {
+    position: absolute;
+    margin-top: 45px;
+    margin-left: 8px;
+    letter-spacing: 0.5px;
+    font-size: 12px;
+    font-weight: normal;
+    font-family: "Cera Pro Bold", serif;
+    color: #0003ff;
+}
+
+
+.gazification_body_uslugi_box5 {
+    width: 170px;
+    height: 130px;
+    background-color: white;
+    position: absolute;
+    border-radius: 0px 0px 4px 4px;
+    margin-left: 145px;
+    margin-top: 330px;
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.1);
+    transition: transform 0.1s ease; /* Добавил анимацию */
+}
+
+
+.gazification_body_box5_image {
+    width: 170px;
+    height: 92px;
+    align-items: center;
+    border-radius: 4px 4px 0 0;
+    margin-left: 0px;
+    margin-top: -92px;
+    position: absolute;
+    z-index: 1;
+    /*animation: unrotate 20s linear infinite;*/
+}
+
+.gazification_body_uslugi_box_title_5 {
+    margin-top: 5px;
+    width: 181px;
+    margin-left: 8px;
+    font-size: 13px;
+    font-weight: 700;
+    font-family: "Cera Pro Bold", serif;
+    position: absolute;
+    color: #000000;
+    line-height: 1; /* Уменьшаем расстояние между строками */
+}
+
+.gazification_body_text5 {
+    font-size: 12px;
+    color: #000000;
+    font-family: "Cera Pro Regular", serif;
+    margin-top: 45px;
+    margin-left: 8px;
+    width: 160px;
+    line-height: 17px;
+}
+
+.gazification_body_text5 span{
+    display: none;
+}
+
+.gazification_body_price5 {
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 8px;
+    letter-spacing: 0.5px;
+    font-size: 12px;
+    font-weight: 900;
+    font-family: "Cera Pro Bold", serif;
+    color: #0003ff;
+}
+
+
+.gazification_body_uslugi_box6 {
+    width: 170px;
+    height: 130px;
+    background-color: white;
+    position: absolute;
+    border-radius: 0px 0px 4px 4px;
+    margin-left: 335px;
+    margin-top: 330px;
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.1);
+    transition: transform 0.1s ease; /* Добавил анимацию */
+}
+
+
+.gazification_body_box6_image {
+    width: 170px;
+    height: 92px;
+    align-items: center;
+    border-radius: 8px 8px 0 0;
+    margin-left: 0px;
+    margin-top: -92px;
+    position: absolute;
+    z-index: 1;
+    /*animation: unrotate 20s linear infinite;*/
+}
+
+.gazification_body_uslugi_box_title_6 {
+    margin-top: 5px;
+    width: 181px;
+    margin-left: 8px;
+    font-size: 13px;
+    font-weight: 700;
+    font-family: "Cera Pro Bold", serif;
+    position: absolute;
+    color: #000000;
+    line-height: 1; /* Уменьшаем расстояние между строками */
+}
+
+.gazification_body_text6 {
+    font-size: 12px;
+    color: #000000;
+    font-family: "Cera Pro Regular", serif;
+    margin-top: 45px;
+    margin-left: 8px;
+    width: 165px;
+    line-height: 14px;
+}
+
+.gazification_body_price6 {
+    position: absolute;
+    margin-top: 28px;
+    margin-left: 8px;
+    letter-spacing: 0.5px;
+    font-size: 12px;
+    font-weight: 900;
+    font-family: "Cera Pro Bold", serif;
+    color: #0003ff;
+}
+
+
+.gazification_body_uslugi_box7 {
+    width: 170px;
+    height: 130px;
+    background-color: white;
+    position: absolute;
+    border-radius: 0px 0px 4px 4px;
+    margin-left: 145px;
+    margin-top: 570px;
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.1);
+    transition: transform 0.1s ease; /* Добавил анимацию */
+}
+
+
+.gazification_body_box7_image {
+    width: 170px;
+    height: 92px;
+    align-items: center;
+    border-radius: 8px 8px 0 0;
+    margin-left: 0px;
+    margin-top: -92px;
+    position: absolute;
+    z-index: 1;
+    /*animation: unrotate 20s linear infinite;*/
+}
+
+.gazification_body_uslugi_box_title_7 {
+    margin-top: 5px;
+    width: 151px;
+    margin-left: 8px;
+    font-size: 13px;
+    font-weight: 700;
+    font-family: "Cera Pro Bold", serif;
+    position: absolute;
+    color: #000000;
+    line-height: 1; /* Уменьшаем расстояние между строками */
+}
+
+.gazification_body_text7 {
+    font-size: 12px;
+    color: #000000;
+    font-family: "Cera Pro Regular", serif;
+    margin-top: 45px;
+    margin-left: 6px;
+    width: 165px;
+    line-height: 14px;
+}
+
+.gazification_body_price7 {
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 8px;
+    letter-spacing: 0.5px;
+    font-size: 12px;
+    font-weight: 900;
+    font-family: "Cera Pro Bold", serif;
+    color: #0003ff;
+}
+
+
+.gazification_body_uslugi_box8 {
+    width: 170px;
+    height: 130px;
+    background-color: white;
+    position: absolute;
+    border-radius: 0px 0px 4px 4px;
+    margin-left: 335px;
+    margin-top: 570px;
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.1);
+    transition: transform 0.1s ease; /* Добавил анимацию */
+}
+
+
+.gazification_body_box8_image {
+    width: 170px;
+    height: 92px;
+    align-items: center;
+    border-radius: 8px 8px 0 0;
+    margin-left: 0px;
+    margin-top: -92px;
+    position: absolute;
+    z-index: 1;
+    /*animation: unrotate 20s linear infinite;*/
+}
+
+.gazification_body_uslugi_box_title_8 {
+    margin-top: 5px;
+    width: 141px;
+    margin-left: 8px;
+    font-size: 13px;
+    font-weight: 700;
+    font-family: "Cera Pro Bold", serif;
+    position: absolute;
+    color: #000000;
+    line-height: 1; /* Уменьшаем расстояние между строками */
+}
+
+.gazification_body_text8 {
+    font-size: 12px;
+    color: #000000;
+    font-family: "Cera Pro Regular", serif;
+    margin-top: 45px;
+    margin-left: 8px;
+    width: 160px;
+    line-height: 14px;
+}
+
+.gazification_body_price8 {
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 8px;
+    letter-spacing: 0.5px;
+    font-size: 12px;
+    font-weight: 900;
+    font-family: "Cera Pro Bold", serif;
+    color: #0003ff;
+}
+
+}
+
+.gazification_pdf {
+    width: 390px;
+    position: absolute;
+    height: 410px;
+    background-color: rgba(246, 245, 245, 0.97);
+    margin-left: 130px;
+    margin-top: 720px;
+
+
+.gazification_pdf_title {
+    color: black;
+    position: absolute;
+    font-family: "Cera Pro bold", sans-serif;
+    font-size: 18px;
+    margin-left: 140px;
+    margin-top: 10px;
+}
+
+.gazification_pdf_box {
+
+}
+
+.gazification_pdf_box_1 {
+    margin-left: 41px;
+}
+
+.gazification_pdf_box_img {
+    position: absolute;
+    width: 25px;
+    margin-top: 50px;
+    margin-left: 45px;
+}
+
+.gazification_pdf_box_img2 {
+    position: absolute;
+    width: 25px;
+    margin-top: 50px;
+    margin-left: 235px;
+}
+
+.gazification_pdf_box_img3 {
+    position: absolute;
+    width: 25px;
+    margin-top: 170px;
+    margin-left: 45px;
+}
+
+.gazification_pdf_box_img4 {
+    position: absolute;
+    width: 25px;
+    margin-top: 170px;
+    margin-left: 235px;
+}
+
+.gazification_pdf_box_img5 {
+    position: absolute;
+    width: 25px;
+    margin-top: 290px;
+    margin-left: 45px;
+}
+
+.gazification_pdf_box_img6 {
+    position: absolute;
+    width: 25px;
+    margin-top: 290px;
+    margin-left: 235px;
+}
+
+.gazification_pdf_box_title_1 {
+    color: black;
+    position: absolute;
+    margin-top: 83px;
+    margin-left: -35px;
+    font-size: 8px;
+    font-family: "Cera Pro Regular", sans-serif;
+    width: 180px;
+}
+
+.gazification_pdf_box_title_2 {
+    color: black;
+    position: absolute;
+    margin-top: 83px;
+    margin-left: 155px;
+    font-size: 8px;
+    font-family: "Cera Pro Regular", sans-serif;
+    width: 180px;
+}
+
+
+.gazification_pdf_box_title_3 {
+    color: black;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: -35px;
+    font-size: 8px;
+    font-family: "Cera Pro Regular", sans-serif;
+    width: 180px;
+    text-align: center;
+}
+
+
+.gazification_pdf_box_title_4 {
+    color: black;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 155px;
+    font-size: 8px;
+    font-family: "Cera Pro Regular", sans-serif;
+    width: 180px;
+    text-align: center;
+}
+
+
+.gazification_pdf_box_title_5 {
+    color: black;
+    position: absolute;
+    margin-top: 323px;
+    margin-left: -35px;
+    font-size: 8px;
+    font-family: "Cera Pro Regular", sans-serif;
+    width: 180px;
+    text-align: center;
+}
+
+
+.gazification_pdf_box_title_6 {
+    color: black;
+    position: absolute;
+    margin-top: 323px;
+    margin-left: 155px;
+    font-size: 8px;
+    font-family: "Cera Pro Regular", sans-serif;
+    width: 180px;
+    text-align: center;
+}
+
+}
+
+.gazification_faq {
+    width: 390px;
+    height: 466px;
+    position: absolute;
+    margin-top: 2520px;
+    background-color: #ffffff;
+
+
+.gazification_faq_title {
+    color: black;
+    position: absolute;
+    font-size: 18px;
+    font-family: "Cera Pro bold", sans-serif;
+    margin-left: 75px;
+    margin-top: 10px;
+}
+
+.gazification_faq_block {
+    position: absolute;
+    margin-top: 1px;
+    width: 390px;
+}
+
+.gazification_faq_block_1 {
+    width: 375px;
+    height: 74px;
+    margin-left: 10px;
+    margin-top: 60px;
+    color: black;
+    border-radius: 15px;
+}
+
+.gazification_faq_block_1:after {
+    content: "";
+    border: 1px #cecccc solid;
+    width: 380px;
+    position: absolute;
+    margin-top: -35px;
+    margin-left: -5px;
+}
+
+.gazification_faq_block_1:before {
+    content: "";
+    border: 1px #cecccc solid;
+    width: 380px;
+    position: absolute;
+    margin-top: 25px;
+    margin-left: -5px;
+}
+
+.faq_1 {
+
+}
+
+.faq_1:after {
+    margin-top: -105px;
+}
+
+.faq_1:before {
+    margin-top: 95px;
+    transition: opacity 0.3s ease, margin-top 0.5s ease;
+}
+
+.gazification_faq_block_1_title {
+    font-size: 12px;
+    font-family: "Cera Pro Medium", sans-serif;
+
+}
+
+.gazification_faq_block_1_title_strela1 {
+    position: absolute;
+    margin-top: -23px;
+    margin-left: 360px;
+    width: 8px;
+    height: 8px;
+    transform: rotate(135deg);
+}
+
+.strela-digris {
+    transform: rotate(90deg);
+    transition: transform 0.5s ease;
+}
+
+
+.gazification_faq_block_1_text {
+    animation: plav 1.3s ease;
+    font-size: 10px;
+    width: 370px;
+}
+
+.gazification_faq_block_2 {
+    width: 375px;
+    height: 74px;
+    margin-left: 10px;
+    margin-top: -37px;
+    color: black;
+    border-radius: 15px;
+}
+
+.gazification_faq_block_2:before {
+    content: "";
+    border: 1px #cecccc solid;
+    width: 380px;
+    position: absolute;
+    margin-top: 25px;
+    margin-left: -5px;
+}
+
+.faq_2 {
+
+}
+
+.faq_2:before {
+    margin-top: 140px;
+    transition: opacity 0.3s ease, margin-top 0.5s ease;
+}
+
+.gazification_faq_block_2_title {
+    font-size: 12px;
+    font-family: "Cera Pro Medium", sans-serif;
+    margin-top: -20px;
+}
+
+.gazification_faq_block_2_title_strela1 {
+    position: absolute;
+    margin-top: -23px;
+    margin-left: 360px;
+    width: 8px;
+    height: 8px;
+    transform: rotate(135deg);
+}
+
+.strela-digris_2 {
+    transform: rotate(90deg);
+    transition: transform 0.5s ease;
+}
+
+.faq_2_2 {
+    margin-top: 50px;
+}
+
+.gazification_faq_block_2_text {
+    animation: plav 1.3s ease;
+    font-size: 10px;
+    width: 370px;
+}
+
+.gazification_faq_block_3 {
+    width: 375px;
+    height: 74px;
+    margin-left: 10px;
+    margin-top: -40px;
+    color: black;
+    border-radius: 15px;
+}
+
+.gazification_faq_block_3:before {
+    content: "";
+    border: 1px #cecccc solid;
+    width: 380px;
+    position: absolute;
+    margin-top: 25px;
+    margin-left: -5px;
+}
+
+.faq_3:before {
+    margin-top: 80px;
+    transition: opacity 0.3s ease, margin-top 0.5s ease;
+}
+
+.gazification_faq_block_3_title {
+    font-size: 12px;
+    font-family: "Cera Pro Medium", sans-serif;
+}
+
+.gazification_faq_block_3_title_strela1 {
+    position: absolute;
+    margin-top: -23px;
+    margin-left: 360px;
+    width: 8px;
+    height: 8px;
+    transform: rotate(135deg);
+}
+
+.strela-digris_3 {
+    transform: rotate(90deg);
+    transition: transform 0.5s ease;
+}
+
+.faq_3_3 {
+    margin-top: 90px;
+}
+
+.gazification_faq_block_3_text {
+    animation: plav 1.3s ease;
+    font-size: 10px;
+}
+
+.gazification_faq_block_4 {
+    width: 370px;
+    height: 74px;
+    margin-left: 10px;
+    margin-top: -40px;
+    color: black;
+    border-radius: 15px;
+}
+
+.gazification_faq_block_4:before {
+    content: "";
+    border: 1px #cecccc solid;
+    width: 380px;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: -5px;
+}
+
+.faq_4:before {
+    margin-top: 100px;
+    transition: opacity 0.3s ease, margin-top 0.5s ease;
+}
+
+.gazification_faq_block_4 .gazification_faq_block_2_title {
+    font-size: 12px;
+    font-family: "Cera Pro Medium", sans-serif;
+    width: 340px;
+}
+
+.gazification_faq_block_4_title_strela1 {
+    position: absolute;
+    margin-top: -33px;
+    margin-left: 360px;
+    width: 8px;
+    height: 8px;
+    transform: rotate(135deg);
+}
+
+.strela-digris_4 {
+    transform: rotate(90deg);
+    transition: transform 0.5s ease;
+}
+
+.faq_4_4 {
+    margin-top: 30px;
+}
+
+.gazification_faq_block_4_text {
+    animation: plav 1.3s ease;
+    font-size: 10px;
+}
+
+
+.gazification_faq_block_5 {
+    width: 370px;
+    height: 74px;
+    margin-left: 10px;
+    margin-top: -25px;
+    color: black;
+    border-radius: 15px;
+}
+
+.gazification_faq_block_5:before {
+    content: "";
+    border: 1px #cecccc solid;
+    width: 380px;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: -5px;
+}
+
+
+.faq_5:before {
+    margin-top: 100px;
+    transition: opacity 0.3s ease, margin-top 0.5s ease;
+}
+
+.gazification_faq_block_5_title {
+    font-size: 17px;
+    font-family: "Cera Pro Medium", sans-serif;
+
+}
+
+.gazification_faq_block_5_title_strela1 {
+    position: absolute;
+    margin-top: -23px;
+    margin-left: 360px;
+    width: 8px;
+    height: 8px;
+    transform: rotate(135deg);
+}
+
+.strela-digris_5 {
+    transform: rotate(90deg);
+    transition: transform 0.5s ease;
+}
+
+.faq_5_5 {
+    margin-top: 50px;
+}
+
+.gazification_faq_block_5_text {
+    animation: plav 1.3s ease;
+    font-size: 10px;
+}
+
+@keyframes plav {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.gazification_faq_block_6 {
+    width: 370px;
+    height: 74px;
+    margin-left: 10px;
+    margin-top: -37px;
+    color: black;
+    border-radius: 15px;
+}
+
+.gazification_faq_block_6:before {
+    content: "";
+    border: 1px #cecccc solid;
+    width: 380px;
+    position: absolute;
+    margin-top: 25px;
+    margin-left: -5px;
+}
+
+
+.faq_6:before {
+    margin-top: 85px;
+    transition: opacity 0.3s ease, margin-top 0.5s ease;
+}
+
+.gazification_faq_block_6_title {
+    font-size: 17px;
+    font-family: "Cera Pro Medium", sans-serif;
+
+}
+
+.gazification_faq_block_6_title_strela1 {
+    position: absolute;
+    margin-top: -23px;
+    margin-left: 360px;
+    width: 8px;
+    height: 8px;
+    transform: rotate(135deg);
+}
+
+.strela-digris_6 {
+    transform: rotate(90deg);
+    transition: transform 0.5s ease;
+}
+
+.faq_6_6 {
+    margin-top: 50px;
+}
+
+.gazification_faq_block_6_text {
+    animation: plav 1.3s ease;
+    font-size: 10px;
+}
+
+@keyframes plav {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.gazification_faq_block_7 {
+    width: 370px;
+    height: 74px;
+    margin-left: 10px;
+    margin-top: -40px;
+    color: black;
+    border-radius: 15px;
+}
+
+.gazification_faq_block_7:before {
+    content: "";
+    border: 1px #cecccc solid;
+    width: 380px;
+    position: absolute;
+    margin-top: 25px;
+    margin-left: -5px;
+}
+
+.faq_7:before {
+    margin-top: 100px;
+    transition: opacity 0.3s ease, margin-top 0.5s ease;
+}
+
+.gazification_faq_block_7_title {
+    font-size: 17px;
+    font-family: "Cera Pro Medium", sans-serif;
+
+}
+
+.gazification_faq_block_7_title_strela1 {
+    position: absolute;
+    margin-top: -23px;
+    margin-left: 360px;
+    width: 8px;
+    height: 8px;
+    transform: rotate(135deg);
+}
+
+.strela-digris_7 {
+    transform: rotate(90deg);
+    transition: transform 0.5s ease;
+}
+
+.faq_7_7 {
+    margin-top: 40px;
+}
+
+.gazification_faq_block_7_text {
+    animation: plav 1.3s ease;
+}
+
+@keyframes plav {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.gazification_faq_block_8 {
+    width: 370px;
+    height: 74px;
+    margin-left: 10px;
+    margin-top: -40px;
+    color: black;
+    border-radius: 15px;
+}
+
+.gazification_faq_block_8:before {
+    content: "";
+    border: 1px #cecccc solid;
+    width: 380px;
+    position: absolute;
+    margin-top: 25px;
+    margin-left: -5px;
+}
+
+.faq_8:before {
+    margin-top: 100px;
+    transition: opacity 0.3s ease, margin-top 0.5s ease;
+}
+
+.gazification_faq_block_8_title {
+    font-size: 17px;
+    font-family: "Cera Pro Medium", sans-serif;
+
+}
+
+.gazification_faq_block_8_title_strela1 {
+    position: absolute;
+    margin-top: -23px;
+    margin-left: 360px;
+    width: 8px;
+    height: 8px;
+    transform: rotate(135deg);
+}
+
+.strela-digris_8 {
+    transform: rotate(90deg);
+    transition: transform 0.5s ease;
+}
+
+.faq_8_8 {
+    margin-top: 55px;
+}
+
+.gazification_faq_block_8_text {
+    animation: plav 1.3s ease;
+    font-size: 10px;
+}
+
+@keyframes plav {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+.gazification_faq_block_9 {
+    width: 375px;
+    height: 74px;
+    margin-left: 10px;
+    margin-top: -50px;
+    color: black;
+    border-radius: 15px;
+}
+
+.gazification_faq_block_9:before {
+    content: "";
+    border: 1px #cecccc solid;
+    width: 380px;
+    position: absolute;
+    margin-top: 25px;
+    margin-left: -5px;
+}
+
+.faq_9:before {
+    margin-top: 70px;
+    transition: opacity 0.3s ease, margin-top 0.5s ease;
+}
+
+.gazification_faq_block_9_title {
+    font-size: 12px;
+    font-family: "Cera Pro Medium", sans-serif;
+
+}
+
+.gazification_faq_block_9_title_strela1 {
+    position: absolute;
+    margin-top: -23px;
+    margin-left: 360px;
+    width: 8px;
+    height: 8px;
+    transform: rotate(135deg);
+}
+
+.strela-digris_9 {
+    transform: rotate(90deg);
+    transition: transform 0.5s ease;
+}
+
+.faq_9_9 {
+    margin-top: 35px;
+}
+
+.gazification_faq_block_9_text {
+    animation: plav 1.3s ease;
+    font-size: 10px;
+}
+
+@keyframes plav {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+}
+
+.gazification_footer {
+    position: absolute;
+    width: 390px;
+    height: 164px;
+    background-color: #2c2b2b;
+    margin-top: 2915px;
+}
+
+.gazification_footer_1 {
+    width: 10px;
+}
+
+.gazification_footer_1_img {
+    width: 80px;
+    height: 15px;
+    margin-left: 160px;
+    margin-top: 14px;
+    position: absolute;
+}
+
+.gazification_footer_2_img {
+    margin-left: 5px;
+    margin-top: 22px;
+    position: absolute;
+    width: 385px;
+}
+
+.gazification_footer_1_text {
+    width: 100px;
+    margin-left: 10px;
+    margin-top: 23px;
+    text-align: center;
+    font-size: 10px;
+    color: white;
+    position: absolute;
+}
+
+.gazification_footer_1_text:after {
+    position: absolute;
+    border: 1px grey solid;
+    width: 1px;
+    content: '';
+    margin-top: 49px;
+    margin-left: -348px;
+}
+
+
+.gazification_footer_2 {
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 71px;
+    width: 170px;
+}
+
+.gazification_footer_2_text_1 {
+    font-size: 8px;
+    color: white;
+
+}
+
+
+/*.gazification_footer_2_text_1:after{*/
+/*	border-bottom: dotted 5px white;*/
+/*    width: 1000px;*/
+/*    position: absolute;*/
+/*    content: '';*/
+/*    !*height: 1px;*!*/
+/*    margin-top: -80px;*/
+/*    margin-left: -500px;*/
+/*}*/
+
+
+.gazification_footer_2_text_2 {
+    font-size: 8px;
+    font-family: "Cera Pro Regular", sans-serif;
+    color: white;
+    opacity: 0.5;
+    width: 80px;
+}
+
+.gazification_footer_2_text_3 {
+    font-size: 8px;
+    font-family: "Cera Pro Regular", sans-serif;
+    margin-top: -7px;
+    opacity: 0.5;
+    width: 100px;
+}
+
+
+.gazification_footer_4 {
+    width: 200px;
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 71px;
+    visibility: hidden;
+}
+
+.gazification_footer_5 {
+    width: 100px;
+    position: absolute;
+    margin-left: 130px;
+    margin-top: 71px;
+}
+
+.gazification_footer_5:before {
+    position: absolute;
+    border: 1px grey solid;
+    width: 380px;
+    content: '';
+    margin-top: -7px;
+    margin-left: -125px;
+}
+
+.gazification_footer_6 {
+    width: 120px;
+    position: absolute;
+    margin-left: 220px;
+    margin-top: 71px;
+}
+
+
+.gazification_footer_2_text_5 {
+    font-size: 10px;
+    font-family: "Cera Pro Regular", sans-serif;
+    color: white;
+    margin-left: 2px;
+}
+
+.gazification_footer_2_text_4 {
+    font-size: 10px;
+    font-family: "Cera Pro Regular", sans-serif;
+    margin-top: 21px;
+    position: absolute;
+    margin-left: -65px;
+    color: white;
+    opacity: 0.5;
+}
+
+.gazification_footer_7 {
+    width: 70px;
+    position: absolute;
+    margin-left: 320px;
+    margin-top: 71px;
+}
+
+.gazification_footer_2_text_11 {
+    opacity: 0.5;
+    font-size: 8px;
+    font-family: "Cera Pro Regular", sans-serif;
+}
+
+.gazification_footer_2_text_21 {
+    opacity: 0.5;
+    font-size: 8px;
+    margin-top: -7px;
+    font-family: "Cera Pro Regular", sans-serif;
+}
+
+.footer-shot_1_1{
+    margin-top: 3000px;
+}
+
+.footer-shot_2_1{
+    margin-top: 3030px;
+}
+
+.footer-shot_3_1{
+    margin-top: 2970px;
+}
+
+.footer-shot_4_1{
+    margin-top: 2980px;
+}
+
+.footer-shot_5_1{
+    margin-top: 3000px;
+}
+
+.footer-shot_6_1{
+    margin-top: 3000px;
+}
+
+.footer-shot_7_1{
+    margin-top: 3000px;
+}
+
+.footer-shot_8_1{
+    margin-top: 3000px;
+}
+
+.footer-shot_9_1{
+    margin-top: 2970px;
+}
+
+
+
+
+
+
+
+}
+}
+
+
+@media (min-width: 1100px) and (max-width: 1460px) {
+
+    .Gazification {
+        max-width: 1375px;
+        height: auto;
+        display: flex;
+        position: absolute;
+        top: 7px; /* Прикрепить шапку к верху экрана */
+        /* Дополнительные стили для вашей шапки */
+        font-family: "Cera Pro Light", sans-serif;
+
+
+    .gazification_1 {
+        width: 1375px;
+        position: absolute;
+        background-color: #ffffff;
+        height: 351px;
+        margin-top: -5px;
+        z-index: 1;
+
+
+    .gazification_1_title {
+        position: absolute;
+        margin-left: 291px;
+        margin-top: 126px;
+        color: black;
+        font-size: 26px;
+        font-family: "Cera Pro Bold", sans-serif;
+        z-index: 1;
+    }
+
+    .gazification_1_text {
+        position: absolute;
+        margin-left: 291px;
+        margin-top: 192px;
+        color: black;
+        width: 494px;
+        font-size: 14px;
+        font-family: "Cera Pro Medium", sans-serif;
+        z-index: 1;
+    }
+
+    .gazification_1_img {
+        width: 384px;
+        margin-left: 770px;
+        margin-top: 71px;
+        position: absolute;
+        z-index: 0;
+    }
+
+    .gazification_fon_img {
+        width: 1370px;
+        height: 341px;
+        z-index: -1;
+
+    }
+}
+
+
+.gazification_for {
+    width: 1378px;
+    position: absolute;
+    background: linear-gradient(to right, #6383F9, #8DB2FB 15%);
+    height: 197px;
+    margin-top: 340px;
+    z-index: 1;
+
+
+.gazification_for_block {
+    position: absolute;
+    width: 1099px;
+    margin-top: 11px;
+    margin-left: 134px;
+    height: 153px;
+}
+
+.gazification_for_img1 {
+    position: absolute;
+    width: 1138px;
+    margin-left: -11px;
+    margin-top: 32px;
+    z-index: 4;
+    content: '';
+    border: 0.1px white solid;
+    opacity: 0.6;
+}
+
+.gazification_for_img2 {
+    position: absolute;
+    height: 155px;
+    margin-left: 538px;
+    margin-top: 5px;
+    z-index: 4;
+    content: '';
+    border: 1px white solid;
+    opacity: 0.6;
+}
+
+.gazification_for_img3 {
+    position: absolute;
+    height: 181px;
+    margin-left: 98px;
+    margin-top: 5px;
+    z-index: 4;
+    content: '';
+    border: 1px white solid;
+    opacity: 0.6;
+}
+
+.gazification_for_img4 {
+    position: absolute;
+    height: 181px;
+    margin-left: 76px;
+    margin-top: 5px;
+    z-index: 4;
+    content: '';
+    border: 1px white solid;
+    opacity: 0.6;
+}
+
+.gazification_for_img5 {
+    position: absolute;
+    height: 181px;
+    margin-left: 989px;
+    margin-top: 5px;
+    z-index: 4;
+    content: '';
+    border: 1px white solid;
+    opacity: 0.6;
+}
+
+.gazification_for_img6 {
+    position: absolute;
+    height: 181px;
+    margin-left: 1011px;
+    margin-top: 5px;
+    z-index: 4;
+    content: '';
+    border: 1px white solid;
+    opacity: 0.6;
+}
+
+.gazification_for_block_org {
+    position: absolute;
+
+}
+
+.gazification_for_block_org_title {
+    position: absolute;
+    color: white;
+    font-size: 18px;
+    font-family: "Cera Pro Regular", sans-serif;
+    margin-left: 142px;
+    width: 232px;
+    margin-top: 4px;
+
+}
+
+.gazification_for_block_org_block {
+    position: absolute;
+    margin-top: 58px;
+    margin-left: 142px;
+}
+
+
+.gazification_for_block_org_block p {
+    display: flex;
+    color: white;
+    width: 291px;
+    margin-bottom: -8px; /* Расстояние между параграфами */
+    font-size: 12px;
+    font-family: "Cera Pro Regular", sans-serif;
+}
+
+/* Убрать margin у последнего параграфа, чтобы не было дополнительного пространства после него */
+.gazification_for_block_org_block p:last-child {
+    margin-bottom: 0;
+}
+
+.gazification_for_block_org_text_1 {
+    position: absolute;
+    margin-top: -18px;
+}
+
+.gazification_for_block_org_text_2 {
+    margin-top: 1px;
+}
+
+/*.gazification_for_block_org_text_3{*/
+/*}*/
+/*.gazification_for_block_org_text_4{*/
+/*}*/
+/*.gazification_for_block_org_text_5{*/
+/*}*/
+/*.gazification_for_block_org_text_6{*/
+/*}*/
+/*.gazification_for_block_org_text_7{*/
+/*}*/
+/*.gazification_for_block_org_text_8{*/
+/*}*/
+.gazification_for_block_ur {
+    width: 571px;
+    height: 186px;
+    margin-left: 555px;
+    position: absolute;
+    margin-top: -11px;
+}
+
+
+.gazification_for_block_ur_title {
+    position: absolute;
+    color: white;
+    font-size: 18px;
+    font-family: "Cera Pro Regular", sans-serif;
+    margin-left: 27px;
+    width: 220px;
+    margin-top: 18px;
+
+}
+
+.gazification_for_block_ur_block {
+    position: absolute;
+    margin-top: 75px;
+    margin-left: 27px;
+    width: 571px;
+    height: 274px;
+}
+
+
+.gazification_for_block_ur_block p {
+    display: flex;
+    color: white;
+    width: 393px;
+    margin-bottom: -11px; /* Расстояние между параграфами */
+    font-size: 12px;
+    font-family: "Cera Pro Regular", sans-serif;
+}
+
+/* Убрать margin у последнего параграфа, чтобы не было дополнительного пространства после него */
+.gazification_for_block_ur_block p:last-child {
+    margin-bottom: 0;
+}
+
+.gazification_for_block_ur_text_1 {
+    position: absolute;
+    margin-top: -22px;
+}
+
+.gazification_for_block_ur_text_2 {
+    position: absolute;
+    margin-top: 0px;
+}
+
+.gazification_for_block_ur_text_3 {
+    position: absolute;
+    margin-top: 23px;
+}
+
+.gazification_for_block_ur_text_4 {
+    position: absolute;
+    margin-top: 45px;
+}
+
+}
+
+.gazification_2 {
+    position: absolute;
+    width: 1382px;
+    height: 387px;
+    background-color: rgba(246, 245, 245, 0.97);
+    margin-top: 539px;
+    z-index: 1;
+
+
+.gazification_2_block_1_img_1 {
+    position: absolute;
+    width: 19px;
+    margin-left: 11px;
+    margin-top: 12px;
+}
+
+.gazification_2_block_1_img_2 {
+    position: absolute;
+    margin-left: 11px;
+    margin-top: 11px;
+    width: 44px;
+}
+
+.gazification_2_block_1_img_3 {
+    position: absolute;
+    width: 27px;
+    margin-left: 11px;
+    margin-top: 9px;
+}
+
+.gazification_2_block_1_img_4 {
+    position: absolute;
+    width: 24px;
+    margin-left: 11px;
+    margin-top: 11px;
+}
+
+.gazification_2_block_1_img_5 {
+    position: absolute;
+    width: 19px;
+    margin-left: 11px;
+    margin-top: 11px;
+}
+
+.gazification_2_block_1_img_6 {
+    position: absolute;
+    width: 24px;
+    margin-left: 11px;
+    margin-top: 11px;
+}
+
+.gazification_2_title_1 {
+    color: black;
+    position: absolute;
+    margin-left: 275px;
+    font-size: 20px;
+    font-family: "Cera Pro Medium", sans-serif;
+    width: 275px;
+    margin-top: 144px;
+    z-index: 5;
+    line-height: 20px;
+}
+
+.gazification_2_title_text {
+    color: black;
+    width: 200px;
+    position: absolute;
+    font-size: 11px;
+    margin-left: 275px;
+    margin-top: 215px;
+    z-index: 5;
+}
+
+.gazification_2_block {
+    position: absolute;
+    margin-top: -120px;
+}
+
+.gazification_2_block_img_1 {
+    position: absolute;
+    margin-left: 212px;
+    height: 407px;
+    width: 0px;
+    margin-top: 120px;
+    border: 1px grey solid;
+    opacity: 0.6;
+}
+
+.gazification_2_block_img_2 {
+    position: absolute;
+    margin-left: 233px;
+    height: 383px;
+    width: 0px;
+    margin-top: 120px;
+    border: 1px grey solid;
+    opacity: 0.6;
+}
+
+.gazification_2_block_img_3 {
+    position: absolute;
+    margin-left: 1125px;
+    height: 383px;
+    width: 0px;
+    margin-top: 120px;
+    border: 1px grey solid;
+    opacity: 0.6;
+}
+
+.gazification_2_block_img_4 {
+    position: absolute;
+    margin-left: 1145px;
+    height: 373px;
+    width: 0px;
+    margin-top: 120px;
+    border: 1px grey solid;
+    opacity: 0.6;
+}
+
+.gazification_2_block_img_5 {
+    position: absolute;
+    width: 1138px;
+    margin-left: 123px;
+    margin-top: 198px;
+    z-index: 4;
+    content: '';
+    border: 0.1px grey solid;
+    opacity: 0.6;
+}
+
+.gazification_2_block_img_6 {
+    position: absolute;
+    width: 1138px;
+    margin-left: 123px;
+    margin-top: 474px;
+    z-index: 4;
+    content: '';
+    border: 0.1px grey solid;
+    opacity: 0.6;
+}
+
+.gazification_2_block_img_7 {
+    position: absolute;
+    margin-left: 602px;
+    height: 350px;
+    width: 0px;
+    margin-top: 154px;
+    border: 1px grey solid;
+    opacity: 0.6;
+}
+
+.gazification_2_block_img_8 {
+    position: absolute;
+    margin-left: 1095px;
+    height: 339px;
+    width: 0px;
+    margin-top: 154px;
+    border: 1px grey solid;
+    opacity: 0.6;
+}
+
+.gazification_2_block_img_9 {
+    position: absolute;
+    margin-left: 763px;
+    height: 339px;
+    width: 0px;
+    margin-top: 154px;
+    border: 0.5px grey solid;
+    opacity: 0.6;
+}
+
+.gazification_2_block_img_10 {
+    position: absolute;
+    margin-left: 928px;
+    height: 339px;
+    width: 0px;
+    margin-top: 154px;
+    border: 1px grey solid;
+    opacity: 0.6;
+}
+
+.gazification_2_block_img_11 {
+    position: absolute;
+    margin-left: 593px;
+    width: 505px;
+    margin-top: 333px;
+    border: 1px grey solid;
+    opacity: 0.6;
+}
+
+.gazification_2_block_img_12 {
+    position: absolute;
+    margin-left: 596px;
+    width: 11px;
+    margin-top: 198px;
+    border: 1px grey solid;
+    opacity: 0.6;
+    transform: rotate(135deg);
+}
+
+.gazification_2_block_img_13 {
+    position: absolute;
+    margin-left: 596px;
+    width: 11px;
+    margin-top: 473px;
+    border: 1px grey solid;
+    opacity: 0.6;
+    transform: rotate(135deg);
+}
+
+.gazification_2_block_img_14 {
+    position: absolute;
+    margin-left: 1089px;
+    width: 11px;
+    margin-top: 473px;
+    border: 1px grey solid;
+    opacity: 0.6;
+    transform: rotate(135deg);
+}
+
+.gazification_2_block_img_15 {
+    position: absolute;
+    margin-left: 1089px;
+    width: 11px;
+    margin-top: 198px;
+    border: 1px grey solid;
+    opacity: 0.6;
+    transform: rotate(135deg);
+}
+
+.gazification_2_block_1 {
+    position: absolute;
+    width: 161px;
+    height: 134px;
+    margin-left: 602px;
+    margin-top: 199px;
+    z-index: 5;
+}
+
+.transportir_1 {
+    position: absolute;
+    margin-left: -329px;
+    margin-top: -87px;
+    width: 659px;
+    transform-origin: center center;
+    transition: transform 3s;
+}
+
+.transportir_2 {
+    position: absolute;
+    margin-left: -329px;
+    margin-top: -87px;
+    width: 659px;
+    transform-origin: center center;
+    transition: transform 3s;
+}
+
+.gazification_2_block_1_text_1 {
+    color: black;
+    margin-top: 56px;
+    margin-left: 8px;
+    font-size: 10px;
+    font-family: "Cera Pro Regular", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    display: flex;
+}
+
+.gazification_2_block_1 .gazification_2_block_1_text_1 {
+        color: black;
+    margin-top: 40px;
+    margin-left: 8px;
+    font-size: 10px;
+    font-family: "Cera Pro Regular", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    display: flex;
+}
+
+.gazification_2_block_2 .gazification_2_block_1_text_1 {
+        color: black;
+    margin-top: 40px;
+    margin-left: 8px;
+    font-size: 10px;
+    font-family: "Cera Pro Regular", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    display: flex;
+}
+
+.gazification_2_block_3 .gazification_2_block_1_text_1 {
+        color: black;
+    margin-top: 40px;
+    margin-left: 8px;
+    font-size: 10px;
+    font-family: "Cera Pro Regular", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    display: flex;
+}
+
+.gazification_2_block_4 .gazification_2_block_1_text_1 {
+        color: black;
+    margin-top: 40px;
+    margin-left: 8px;
+    font-size: 10px;
+    font-family: "Cera Pro Regular", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    display: flex;
+}
+
+.gazification_2_block_5 .gazification_2_block_1_text_1 {
+        color: black;
+    margin-top: 40px;
+    margin-left: 8px;
+    font-size: 10px;
+    font-family: "Cera Pro Regular", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    display: flex;
+}
+
+.gazification_2_block_6 .gazification_2_block_1_text_1 {
+        color: black;
+    margin-top: 40px;
+    margin-left: 8px;
+    font-size: 10px;
+    font-family: "Cera Pro Regular", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    display: flex;
+}
+
+.gazification_2_block_1_text_1 span {
+    color: black;
+    margin-left: -8px;
+    margin-top: 3px;
+    font-size: 11px;
+    font-family: "Cera Pro Regular", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    position: absolute;
+}
+
+.gazification_2_block_1_text_2 {
+    color: black;
+    margin-left: 6px;
+    font-size: 10px;
+    font-family: "Cera Pro Light", sans-serif;
+    margin-top: 5px;
+}
+
+.gazification_2_block_1_number {
+    width: 27px;
+    height: 27px;
+    font-family: "Cera Pro Regular", sans-serif;
+    font-size: 22px;
+    color: black;
+    margin-left: 126px;
+    margin-top: -16px;
+    overflow: hidden;
+}
+
+.gazification_2_block_1_text_3 {
+    color: black;
+    position: absolute;
+    font-size: 12px;
+    font-family: "Cera Pro Medium", sans-serif;
+    margin-left: 137px;
+    margin-top: -5px;
+}
+
+.gazification_2_block_2_text_3 {
+    color: black;
+    position: absolute;
+    font-size: 12px;
+    font-family: "Cera Pro Medium", sans-serif;
+    margin-left: 137px;
+    margin-top: -20px;
+}
+
+.gazification_2_block_3_text_3 {
+    color: black;
+    position: absolute;
+    font-size: 12px;
+    font-family: "Cera Pro Medium", sans-serif;
+    margin-left: 137px;
+    margin-top: -20px;
+}
+
+.gazification_2_block_4_text_3 {
+    color: black;
+    position: absolute;
+    font-size: 12px;
+    font-family: "Cera Pro Medium", sans-serif;
+    margin-left: 137px;
+    margin-top: -15px;
+}
+
+.gazification_2_block_5_text_3 {
+    color: black;
+    position: absolute;
+    font-size: 12px;
+    font-family: "Cera Pro Medium", sans-serif;
+    margin-left: 137px;
+    margin-top: -12px;
+}
+
+.gazification_2_block_6_text_3 {
+    color: black;
+    position: absolute;
+    font-size: 12px;
+    font-family: "Cera Pro Medium", sans-serif;
+    margin-left: 137px;
+    margin-top: -12px;
+}
+
+.gazification_2_block_2 {
+    position: absolute;
+    width: 163px;
+    height: 134px;
+    margin-left: 765px;
+    margin-top: 199px;
+}
+
+.gazification_2_block_3 {
+    position: absolute;
+    width: 164px;
+    height: 134px;
+    margin-left: 928px;
+    margin-top: 199px;
+}
+
+.gazification_2_block_4 {
+    position: absolute;
+    width: 162px;
+    height: 139px;
+    margin-left: 602px;
+    margin-top: 334px;
+}
+
+.gazification_2_block_5 {
+    position: absolute;
+    width: 163px;
+    height: 139px;
+    margin-left: 765px;
+    margin-top: 334px;
+}
+
+.gazification_2_block_6 {
+    position: absolute;
+    width: 164px;
+    height: 139px;
+    margin-left: 929px;
+    margin-top: 334px;
+}
+
+}
+
+.gazification_uslugi {
+    width: 934px;
+    height: auto;
+    position: absolute;
+    margin-top: 1237px;
+    display: flex;
+    margin-left: 109px;
+
+
+.gazification_uslugi_title {
+    color: black;
+    font-size: 35px;
+    font-family: "Cera Pro bold", sans-serif;
+    position: absolute;
+    margin-top: -302px;
+    margin-left: 494px;
+}
+
+.gazification_body_uslugi {
+    position: absolute;
+    font-size: 32px;
+    margin-left: 409px;
+}
+
+
+.gazification_body_uslugi_box1 {
+    width: 194px;
+    height: 137px;
+    background-color: white;
+    position: absolute;
+    border-radius: 0px 0px 4px 4px;
+    margin-left: 137px;
+    margin-top: -150px;
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.1);
+    transition: transform 0.1s ease; /* Добавил анимацию */
+}
+
+
+.gazification_body_box1_image {
+    width: 194px;
+    height: 92px;
+    align-items: center;
+    border-radius: 4px 4px 0 0;
+    margin-left: 0px;
+    margin-top: -92px;
+    position: absolute;
+    z-index: 1;
+    /*animation: unrotate 20s linear infinite;*/
+}
+
+.gazification_body_uslugi_box_title_1 {
+    margin-top: 11px;
+    width: 181px;
+    margin-left: 8px;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: "Cera Pro Bold", serif;
+    position: absolute;
+    color: #000000;
+    line-height: 1; /* Уменьшаем расстояние между строками */
+}
+
+.gazification_body_text {
+    font-size: 10px;
+    color: #000000;
+    font-family: "Cera Pro Regular", serif;
+    margin-top: 57px;
+    margin-left: 8px;
+    width: 175px;
+
+}
+
+.gazification_body_price {
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 11px;
+    letter-spacing: 0.5px;
+    font-size: 12px;
+    font-weight: 900;
+    font-family: "Cera Pro Bold", serif;
+    color: #0003ff;
+}
+
+
+.gazification_body_uslugi_box2 {
+    width: 194px;
+    height: 137px;
+    background-color: white;
+    position: absolute;
+    border-radius: 0px 0px 4px 4px;
+    margin-left: 357px;
+    margin-top: -150px;
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.1);
+    transition: transform 0.1s ease; /* Добавил анимацию */
+}
+
+
+.gazification_body_box2_image {
+    width: 194px;
+    height: 92px;
+    align-items: center;
+    border-radius: 8px 8px 0 0;
+    margin-left: 0px;
+    margin-top: -92px;
+    position: absolute;
+    z-index: 1;
+    /*animation: unrotate 20s linear infinite;*/
+}
+
+.gazification_body_uslugi_box_title_2 {
+    margin-top: 11px;
+    width: 181px;
+    margin-left: 8px;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: "Cera Pro Bold", serif;
+    position: absolute;
+    color: #000000;
+    line-height: 1; /* Уменьшаем расстояние между строками */
+}
+
+.gazification_body_text2 {
+    font-size: 10px;
+    color: #000000;
+    font-family: "Cera Pro Regular", serif;
+    margin-top: 57px;
+    margin-left: 8px;
+    width: 175px;
+
+}
+
+.gazification_body_price2 {
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 11px;
+    letter-spacing: 0.5px;
+    font-size: 12px;
+    font-weight: 900;
+    font-family: "Cera Pro Bold", serif;
+    color: #0003ff;
+}
+
+
+.ambilight {
+    filter: url(#ambilight);
+}
+
+.gazification_body_uslugi_box3 {
+    width: 194px;
+    height: 137px;
+    background-color: white;
+    position: absolute;
+    border-radius: 0px 0px 4px 4px;
+    margin-left: 577px;
+    margin-top: -150px;
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.1);
+    transition: transform 0.1s ease; /* Добавил анимацию */
+}
+
+
+.gazification_body_box3_image {
+    width: 194px;
+    height: 92px;
+    align-items: center;
+    border-radius: 8px 8px 0 0;
+    margin-left: 0px;
+    margin-top: -92px;
+    position: absolute;
+    z-index: 1;
+    /*animation: unrotate 20s linear infinite;*/
+}
+
+.gazification_body_uslugi_box_title_3 {
+    margin-top: 11px;
+    width: 181px;
+    margin-left: 8px;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: "Cera Pro Bold", serif;
+    position: absolute;
+    color: #000000;
+    line-height: 1; /* Уменьшаем расстояние между строками */
+}
+
+.gazification_body_text3 {
+    font-size: 10px;
+    color: #000000;
+    font-family: "Cera Pro Regular", serif;
+    margin-top: 57px;
+    margin-left: 8px;
+    width: 175px;
+
+}
+
+.gazification_body_price3 {
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 11px;
+    letter-spacing: 0.5px;
+    font-size: 12px;
+    font-weight: 900;
+    font-family: "Cera Pro Bold", serif;
+    color: #0003ff;
+}
+
+
+.gazification_body_uslugi_box4 {
+    width: 194px;
+    height: 137px;
+    background-color: white;
+    position: absolute;
+    border-radius: 0px 0px 4px 4px;
+    margin-left: 797px;
+    margin-top: -150px;
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.1);
+    transition: transform 0.1s ease; /* Добавил анимацию */
+}
+
+
+.gazification_body_box4_image {
+    width: 194px;
+    height: 92px;
+    align-items: center;
+    border-radius: 4px 4px 0 0;
+    margin-left: 0px;
+    margin-top: -92px;
+    position: absolute;
+    z-index: 1;
+    /*animation: unrotate 20s linear infinite;*/
+}
+
+.gazification_body_uslugi_box_title_4 {
+    margin-top: 11px;
+    width: 181px;
+    margin-left: 8px;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: "Cera Pro Bold", serif;
+    position: absolute;
+    color: #000000;
+    line-height: 1; /* Уменьшаем расстояние между строками */
+}
+
+.gazification_body_text4 {
+    font-size: 10px;
+    color: #000000;
+    font-family: "Cera Pro Regular", serif;
+    margin-top: 57px;
+    margin-left: 8px;
+    width: 175px;
+
+}
+
+.gazification_body_price4 {
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 8px;
+    letter-spacing: 0.5px;
+    font-size: 12px;
+    font-weight: normal;
+    font-family: "Cera Pro Bold", serif;
+    color: #0003ff;
+}
+
+
+.gazification_body_uslugi_box5 {
+    width: 194px;
+    height: 137px;
+    background-color: white;
+    position: absolute;
+    border-radius: 0px 0px 4px 4px;
+    margin-left: 137px;
+    margin-top: 104px;
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.1);
+    transition: transform 0.1s ease; /* Добавил анимацию */
+}
+
+
+.gazification_body_box5_image {
+    width: 194px;
+    height: 92px;
+    align-items: center;
+    border-radius: 4px 4px 0 0;
+    margin-left: 0px;
+    margin-top: -92px;
+    position: absolute;
+    z-index: 1;
+    /*animation: unrotate 20s linear infinite;*/
+}
+
+.gazification_body_uslugi_box_title_5 {
+    margin-top: 11px;
+    width: 181px;
+    margin-left: 8px;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: "Cera Pro Bold", serif;
+    position: absolute;
+    color: #000000;
+    line-height: 1; /* Уменьшаем расстояние между строками */
+}
+
+.gazification_body_text5 {
+    font-size: 10px;
+    color: #000000;
+    font-family: "Cera Pro Regular", serif;
+    margin-top: 60px;
+    margin-left: 8px;
+    width: 175px;
+
+}
+
+.gazification_body_price5 {
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 8px;
+    letter-spacing: 0.5px;
+    font-size: 12px;
+    font-weight: 900;
+    font-family: "Cera Pro Bold", serif;
+    color: #0003ff;
+}
+
+
+.gazification_body_uslugi_box6 {
+    width: 194px;
+    height: 137px;
+    background-color: white;
+    position: absolute;
+    border-radius: 0px 0px 4px 4px;
+    margin-left: 357px;
+    margin-top: 104px;
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.1);
+    transition: transform 0.1s ease; /* Добавил анимацию */
+}
+
+
+.gazification_body_box6_image {
+    width: 194px;
+    height: 92px;
+    align-items: center;
+    border-radius: 8px 8px 0 0;
+    margin-left: 0px;
+    margin-top: -92px;
+    position: absolute;
+    z-index: 1;
+    /*animation: unrotate 20s linear infinite;*/
+}
+
+.gazification_body_uslugi_box_title_6 {
+    margin-top: 11px;
+    width: 182px;
+    margin-left: 8px;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: "Cera Pro Bold", serif;
+    position: absolute;
+    color: #000000;
+    line-height: 1; /* Уменьшаем расстояние между строками */
+}
+
+.gazification_body_text6 {
+    font-size: 10px;
+    color: #000000;
+    font-family: "Cera Pro Regular", serif;
+    margin-top: 57px;
+    margin-left: 8px;
+    width: 175px;
+
+}
+
+.gazification_body_price6 {
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 8px;
+    letter-spacing: 0.5px;
+    font-size: 12px;
+    font-weight: 900;
+    font-family: "Cera Pro Bold", serif;
+    color: #0003ff;
+}
+
+
+.gazification_body_uslugi_box7 {
+    width: 194px;
+    height: 137px;
+    background-color: white;
+    position: absolute;
+    border-radius: 0px 0px 4px 4px;
+    margin-left: 577px;
+    margin-top: 104px;
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.1);
+    transition: transform 0.1s ease; /* Добавил анимацию */
+}
+
+
+.gazification_body_box7_image {
+    width: 194px;
+    height: 92px;
+    align-items: center;
+    border-radius: 8px 8px 0 0;
+    margin-left: 0px;
+    margin-top: -92px;
+    position: absolute;
+    z-index: 1;
+    /*animation: unrotate 20s linear infinite;*/
+}
+
+.gazification_body_uslugi_box_title_7 {
+    margin-top: 11px;
+    width: 181px;
+    margin-left: 8px;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: "Cera Pro Bold", serif;
+    position: absolute;
+    color: #000000;
+    line-height: 1; /* Уменьшаем расстояние между строками */
+}
+
+.gazification_body_text7 {
+    font-size: 10px;
+    color: #000000;
+    font-family: "Cera Pro Regular", serif;
+    margin-top: 60px;
+    margin-left: 8px;
+    width: 175px;
+
+}
+
+.gazification_body_price7 {
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 8px;
+    letter-spacing: 0.5px;
+    font-size: 12px;
+    font-weight: 900;
+    font-family: "Cera Pro Bold", serif;
+    color: #0003ff;
+}
+
+
+.gazification_body_uslugi_box8 {
+    width: 194px;
+    height: 137px;
+    background-color: white;
+    position: absolute;
+    border-radius: 0px 0px 4px 4px;
+    margin-left: 797px;
+    margin-top: 104px;
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.1);
+    transition: transform 0.1s ease; /* Добавил анимацию */
+}
+
+
+.gazification_body_box8_image {
+    width: 194px;
+    height: 92px;
+    align-items: center;
+    border-radius: 8px 8px 0 0;
+    margin-left: 0px;
+    margin-top: -92px;
+    position: absolute;
+    z-index: 1;
+    /*animation: unrotate 20s linear infinite;*/
+}
+
+.gazification_body_uslugi_box_title_8 {
+    margin-top: 11px;
+    width: 181px;
+    margin-left: 11px;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: a_FuturaOrtoBold, serif;
+    position: absolute;
+    color: #000000;
+    line-height: 1; /* Уменьшаем расстояние между строками */
+}
+
+.gazification_body_text8 {
+    font-size: 10px;
+    color: #000000;
+    font-family: "Cera Pro Regular", serif;
+    margin-top: 57px;
+    margin-left: 11px;
+    width: 175px;
+
+}
+
+.gazification_body_price8 {
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 11px;
+    letter-spacing: 0.5px;
+    font-size: 12px;
+    font-weight: 900;
+    font-family: "Cera Pro Bold", serif;
+    color: #0003ff;
+}
+
+}
+
+.gazification_pdf {
+    width: 1370px;
+    position: absolute;
+    height: 300px;
+    background-color: rgba(246, 245, 245, 0.97);
+    margin-left: -109px;
+    margin-top: 285px;
+
+
+.gazification_pdf_title {
+    color: black;
+    position: absolute;
+    font-family: "Cera Pro bold", sans-serif;
+    font-size: 30px;
+    margin-left: 588px;
+    margin-top: 10px;
+}
+
+.gazification_pdf_box {
+
+}
+
+.gazification_pdf_box_1 {
+    margin-left: 241px;
+}
+
+.gazification_pdf_box_img {
+    position: absolute;
+    width: 43px;
+    margin-top: 71px;
+    margin-left: -5px;
+}
+
+.gazification_pdf_box_img2 {
+    position: absolute;
+    width: 43px;
+    margin-top: 71px;
+    margin-left: 165px;
+}
+
+.gazification_pdf_box_img3 {
+    position: absolute;
+    width: 43px;
+    margin-top: 71px;
+    margin-left: 335px;
+}
+
+.gazification_pdf_box_img4 {
+    position: absolute;
+    width: 43px;
+    margin-top: 71px;
+    margin-left: 505px;
+}
+
+.gazification_pdf_box_img5 {
+    position: absolute;
+    width: 43px;
+    margin-top: 71px;
+    margin-left: 676px;
+}
+
+.gazification_pdf_box_img6 {
+    position: absolute;
+    width: 43px;
+    margin-top: 71px;
+    margin-left: 846px;
+}
+
+.gazification_pdf_box_title_1 {
+    color: black;
+    position: absolute;
+    margin-top: 123px;
+    margin-left: -46px;
+    font-size: 10px;
+    font-family: "Cera Pro Regular", sans-serif;
+    width: 126px;
+    text-align: center;
+}
+
+.gazification_pdf_box_title_2 {
+    color: black;
+    position: absolute;
+    margin-top: 123px;
+    margin-left: 126px;
+    font-size: 10px;
+    font-family: "Cera Pro Regular", sans-serif;
+    width: 126px;
+    text-align: center;
+}
+
+
+.gazification_pdf_box_title_3 {
+    color: black;
+    position: absolute;
+    margin-top: 123px;
+    margin-left: 294px;
+    font-size: 10px;
+    font-family: "Cera Pro Regular", sans-serif;
+    width: 126px;
+    text-align: center;
+}
+
+
+.gazification_pdf_box_title_4 {
+    color: black;
+    position: absolute;
+    margin-top: 123px;
+    margin-left: 461px;
+    font-size: 10px;
+    font-family: "Cera Pro Regular", sans-serif;
+    width: 126px;
+    text-align: center;
+}
+
+
+.gazification_pdf_box_title_5 {
+    color: black;
+    position: absolute;
+    margin-top: 123px;
+    margin-left: 632px;
+    font-size: 10px;
+    font-family: "Cera Pro Regular", sans-serif;
+    width: 126px;
+    text-align: center;
+}
+
+
+.gazification_pdf_box_title_6 {
+    color: black;
+    position: absolute;
+    margin-top: 123px;
+    margin-left: 805px;
+    font-size: 10px;
+    font-family: "Cera Pro Regular", sans-serif;
+    width: 126px;
+    text-align: center;
+}
+
+}
+
+
+.gazification_faq {
+    width: 1375px;
+    height: 666px;
+    position: absolute;
+    margin-top: 1859px;
+    background-color: #ffffff;
+
+
+.gazification_faq_title {
+    color: black;
+    position: absolute;
+    font-size: 30px;
+    font-family: "Cera Pro bold", sans-serif;
+    margin-left: 505px;
+    margin-top: 7px;
+}
+
+.gazification_faq_block {
+    position: absolute;
+    margin-top: -58px;
+}
+
+.gazification_faq_block_1 {
+    width: 472px;
+    height: 54px;
+    margin-left: 549px;
+    margin-top: 135px;
+    color: black;
+    border-radius: 15px;
+}
+
+.gazification_faq_block_1:after {
+    content: "";
+    border: 1px #cecccc solid;
+    width: 535px;
+    position: absolute;
+    margin-top: -43px;
+}
+
+.gazification_faq_block_1:before {
+    content: "";
+    border: 1px #cecccc solid;
+    width: 535px;
+    position: absolute;
+    margin-top: 28px;
+}
+
+.faq_1 {
+    font-size: 10px;
+}
+
+.faq_1:after {
+    margin-top: -100px;
+}
+
+.faq_1:before {
+    margin-top: 100px;
+    transition: opacity 0.3s ease, margin-top 0.5s ease;
+}
+
+.gazification_faq_block_1_title {
+    font-size: 15px;
+    font-family: "Cera Pro Medium", sans-serif;
+
+}
+
+.gazification_faq_block_1_title_strela1 {
+    position: absolute;
+    margin-top: -28px;
+    margin-left: 500px;
+    width: 8px;
+    height: 8px;
+    transform: rotate(135deg);
+}
+
+.strela-digris {
+    transform: rotate(90deg);
+    transition: transform 0.5s ease;
+}
+
+
+.gazification_faq_block_1_text {
+    animation: plav 1.3s ease;
+}
+
+.gazification_faq_block_2 {
+    width: 482px;
+    height: 54px;
+    margin-left: 549px;
+    margin-top: -35px;
+    color: black;
+    border-radius: 15px;
+}
+
+.gazification_faq_block_2:before {
+    content: "";
+    border: 1px #cecccc solid;
+    width: 535px;
+    position: absolute;
+    margin-top: 28px;
+}
+
+.faq_2 {
+    font-size: 10px;
+}
+
+.faq_2:before {
+    margin-top: 133px;
+    transition: opacity 0.3s ease, margin-top 0.5s ease;
+}
+
+.gazification_faq_block_2_title {
+    font-size: 15px;
+    font-family: "Cera Pro Medium", sans-serif;
+
+}
+
+.gazification_faq_block_2_title_strela1 {
+    position: absolute;
+    margin-top: -33px;
+    margin-left: 500px;
+    width: 8px;
+    height: 8px;
+    transform: rotate(135deg);
+}
+
+.strela-digris_2 {
+    transform: rotate(90deg);
+    transition: transform 0.5s ease;
+}
+
+.faq_2_2 {
+    margin-top: 54px;
+}
+
+.gazification_faq_block_2_text {
+    animation: plav 1.3s ease;
+}
+
+.gazification_faq_block_3 {
+    width: 472px;
+    height: 54px;
+    margin-left: 549px;
+    margin-top: -33px;
+    color: black;
+    border-radius: 15px;
+}
+
+.gazification_faq_block_3:before {
+    content: "";
+    border: 1px #cecccc solid;
+    width: 535px;
+    position: absolute;
+    margin-top: 28px;
+}
+
+
+.faq_3 {
+        font-size: 10px;
+}
+
+.faq_3:before {
+    margin-top: 90px;
+    transition: opacity 0.3s ease, margin-top 0.5s ease;
+}
+
+.gazification_faq_block_3_title {
+    font-size: 15px;
+    font-family: "Cera Pro Medium", sans-serif;
+
+}
+
+.gazification_faq_block_3_title_strela1 {
+    position: absolute;
+    margin-top: -28px;
+    margin-left: 500px;
+    width: 8px;
+    height: 8px;
+    transform: rotate(135deg);
+}
+
+.strela-digris_3 {
+    transform: rotate(90deg);
+    transition: transform 0.5s ease;
+}
+
+.faq_3_3 {
+    margin-top: 88px;
+}
+
+.gazification_faq_block_3_text {
+    animation: plav 1.3s ease;
+}
+
+.gazification_faq_block_4 {
+    width: 472px;
+    height: 54px;
+    margin-left: 549px;
+    margin-top: -28px;
+    color: black;
+    border-radius: 15px;
+}
+
+.gazification_faq_block_4:before {
+    content: "";
+    border: 1px #cecccc solid;
+    width: 535px;
+    position: absolute;
+    margin-top: 33px;
+}
+
+
+.faq_4 {
+        font-size: 10px;
+}
+
+.faq_4:before {
+    margin-top: 75px;
+    transition: opacity 0.3s ease, margin-top 0.5s ease;
+}
+
+.gazification_faq_block_4_title {
+    font-size: 15px;
+    font-family: "Cera Pro Medium", sans-serif;
+
+}
+
+.gazification_faq_block_4_title_strela1 {
+    position: absolute;
+    margin-top: -33px;
+    margin-left: 500px;
+    width: 8px;
+    height: 8px;
+    transform: rotate(135deg);
+}
+
+.strela-digris_4 {
+    transform: rotate(90deg);
+    transition: transform 0.5s ease;
+}
+
+.faq_4_4 {
+    margin-top: 49px;
+}
+
+.gazification_faq_block_4_text {
+    animation: plav 1.3s ease;
+}
+
+
+.gazification_faq_block_5 {
+    width: 472px;
+    height: 54px;
+    margin-left: 549px;
+    margin-top: -27px;
+    color: black;
+    border-radius: 15px;
+}
+
+.gazification_faq_block_5:before {
+    content: "";
+    border: 1px #cecccc solid;
+    width: 535px;
+    position: absolute;
+    margin-top: 38px;
+}
+
+
+.faq_5 {
+    font-size: 10px;
+    margin-top: -20px;
+}
+
+.faq_5:before {
+    margin-top: 90px;
+    transition: opacity 0.3s ease, margin-top 0.5s ease;
+}
+
+.gazification_faq_block_5_title {
+    font-size: 17px;
+    font-family: "Cera Pro Medium", sans-serif;
+
+}
+
+.gazification_faq_block_5_title_strela1 {
+    position: absolute;
+    margin-top: -28px;
+    margin-left: 500px;
+    width: 8px;
+    height: 8px;
+    transform: rotate(135deg);
+}
+
+.strela-digris_5 {
+    transform: rotate(90deg);
+    transition: transform 0.5s ease;
+}
+
+.faq_5_5 {
+    margin-top: 29px;
+}
+
+.gazification_faq_block_5_text {
+    animation: plav 1.3s ease;
+    margin-top: 30px;
+}
+
+@keyframes plav {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.gazification_faq_block_6 {
+    width: 472px;
+    height: 54px;
+    margin-left: 549px;
+    margin-top: -20px;
+    color: black;
+    border-radius: 15px;
+}
+
+.gazification_faq_block_6:before {
+    content: "";
+    border: 1px #cecccc solid;
+    width: 535px;
+    position: absolute;
+    margin-top: 38px;
+}
+
+
+.faq_6 {
+    font-size: 10px;
+}
+
+.faq_6:before {
+    margin-top: 80px;
+    transition: opacity 0.3s ease, margin-top 0.5s ease;
+}
+
+.gazification_faq_block_6_title {
+    font-size: 17px;
+    font-family: "Cera Pro Medium", sans-serif;
+
+}
+
+.gazification_faq_block_6_title_strela1 {
+    position: absolute;
+    margin-top: -28px;
+    margin-left: 500px;
+    width: 8px;
+    height: 8px;
+    transform: rotate(135deg);
+}
+
+.strela-digris_6 {
+    transform: rotate(90deg);
+    transition: transform 0.5s ease;
+}
+
+.faq_6_6 {
+    margin-top: 49px;
+}
+
+.gazification_faq_block_6_text {
+    animation: plav 1.3s ease;
+}
+
+@keyframes plav {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.gazification_faq_block_7 {
+    width: 479px;
+    height: 54px;
+    margin-left: 549px;
+    margin-top: -23px;
+    color: black;
+    border-radius: 15px;
+}
+
+.gazification_faq_block_7:before {
+    content: "";
+    border: 1px #cecccc solid;
+    width: 535px;
+    position: absolute;
+    margin-top: 38px;
+}
+
+
+.faq_7 {
+    font-size: 10px;
+}
+
+.faq_7:before {
+    margin-top: 95px;
+    transition: opacity 0.3s ease, margin-top 0.5s ease;
+}
+
+.gazification_faq_block_7_title {
+    font-size: 17px;
+    font-family: "Cera Pro Medium", sans-serif;
+
+}
+
+.gazification_faq_block_7_title_strela1 {
+    position: absolute;
+    margin-top: -28px;
+    margin-left: 500px;
+    width: 8px;
+    height: 8px;
+    transform: rotate(135deg);
+}
+
+.strela-digris_7 {
+    transform: rotate(90deg);
+    transition: transform 0.5s ease;
+}
+
+.faq_7_7 {
+    margin-top: 45px;
+}
+
+.gazification_faq_block_7_text {
+    animation: plav 1.3s ease;
+}
+
+@keyframes plav {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.gazification_faq_block_8 {
+    width: 472px;
+    height: 54px;
+    margin-left: 549px;
+    margin-top: -14px;
+    color: black;
+    border-radius: 15px;
+}
+
+.gazification_faq_block_8:before {
+    content: "";
+    border: 1px #cecccc solid;
+    width: 535px;
+    position: absolute;
+    margin-top: 28px;
+}
+
+
+.faq_8 {
+    font-size: 10px;
+}
+
+.faq_8:before {
+    margin-top: 100px;
+    transition: opacity 0.3s ease, margin-top 0.5s ease;
+}
+
+.gazification_faq_block_8_title {
+    font-size: 15px;
+    font-family: "Cera Pro Medium", sans-serif;
+
+}
+
+.gazification_faq_block_8_title_strela1 {
+    position: absolute;
+    margin-top: -28px;
+    margin-left: 500px;
+    width: 8px;
+    height: 8px;
+    transform: rotate(135deg);
+}
+
+.strela-digris_8 {
+    transform: rotate(90deg);
+    transition: transform 0.5s ease;
+}
+
+.faq_8_8 {
+    margin-top: 50px;
+}
+
+.gazification_faq_block_8_text {
+    animation: plav 1.3s ease;
+}
+
+@keyframes plav {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+.gazification_faq_block_9 {
+    width: 472px;
+    height: 54px;
+    margin-left: 549px;
+    margin-top: -30px;
+    color: black;
+    border-radius: 15px;
+}
+
+.gazification_faq_block_9:before {
+    content: "";
+    border: 1px #cecccc solid;
+    width: 535px;
+    position: absolute;
+    margin-top: 38px;
+}
+
+
+.faq_9 {
+    font-size: 10px;
+}
+
+.faq_9:before {
+    margin-top: 70px;
+    transition: opacity 0.3s ease, margin-top 0.5s ease;
+}
+
+.gazification_faq_block_9_title {
+    font-size: 15px;
+    font-family: "Cera Pro Medium", sans-serif;
+
+}
+
+.gazification_faq_block_9_title_strela1 {
+    position: absolute;
+    margin-top: -25px;
+    margin-left: 500px;
+    width: 8px;
+    height: 8px;
+    transform: rotate(135deg);
+}
+
+.strela-digris_9 {
+    transform: rotate(90deg);
+    transition: transform 0.5s ease;
+}
+
+.faq_9_9 {
+    margin-top: 60px;
+}
+
+.gazification_faq_block_9_text {
+    animation: plav 1.3s ease;
+}
+
+@keyframes plav {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+}
+
+.gazification_footer {
+    position: absolute;
+    width: 1375px;
+    height: 164px;
+    background-color: #2c2b2b;
+    margin-top: 2451px;
+
+
+.gazification_footer_1 {
+
+}
+
+.gazification_footer_1_img {
+    width: 131px;
+    height: 26px;
+    margin-left: 601px;
+    margin-top: 24px;
+    position: absolute;
+}
+
+.gazification_footer_2_img {
+    margin-left: 170px;
+    margin-top: 37px;
+    position: absolute;
+    width: 1000px;
+}
+
+.gazification_footer_1_text {
+    width: 170px;
+    margin-left: 274px;
+    margin-top: 23px;
+    text-align: center;
+    font-size: 10px;
+    color: white;
+    position: absolute;
+}
+
+.gazification_footer_1_text:after {
+    position: absolute;
+    border: 1px grey solid;
+    width: 999px;
+    content: '';
+    margin-top: 49px;
+    margin-left: -348px;
+}
+
+
+.gazification_footer_2 {
+    position: absolute;
+    margin-left: 308px;
+    margin-top: 71px;
+}
+
+.gazification_footer_2_text_1 {
+    font-size: 10px;
+    color: white;
+
+}
+
+
+/*.gazification_footer_2_text_1:after{*/
+/*	border-bottom: dotted 5px white;*/
+/*    width: 1000px;*/
+/*    position: absolute;*/
+/*    content: '';*/
+/*    !*height: 1px;*!*/
+/*    margin-top: -80px;*/
+/*    margin-left: -500px;*/
+/*}*/
+
+
+.gazification_footer_2_text_2 {
+    font-size: 10px;
+    font-family: "Cera Pro Regular", sans-serif;
+    color: white;
+    opacity: 0.5;
+}
+
+.gazification_footer_2_text_3 {
+    font-size: 10px;
+    font-family: "Cera Pro Regular", sans-serif;
+    margin-top: -7px;
+    opacity: 0.5;
+}
+
+
+.gazification_footer_4 {
+    width: 164px;
+    position: absolute;
+    margin-left: 538px;
+    margin-top: 71px;
+}
+
+.gazification_footer_5 {
+    width: 222px;
+    position: absolute;
+    margin-left: 703px;
+    margin-top: 71px;
+}
+
+.gazification_footer_5:before {
+    position: absolute;
+    border: 1px grey solid;
+    width: 755px;
+    content: '';
+    margin-top: -7px;
+    margin-left: -393px;
+}
+
+.gazification_footer_6 {
+    width: 222px;
+    position: absolute;
+    margin-left: 967px;
+    margin-top: 71px;
+}
+
+.gazification_footer_7 {
+    width: 164px;
+    position: absolute;
+    margin-left: 384px;
+    margin-top: -40px;
+}
+
+.gazification_footer_2_text_5 {
+    font-size: 10px;
+    font-family: "Cera Pro Regular", sans-serif;
+    color: white;
+    margin-left: 2px;
+}
+
+.gazification_footer_2_text_4 {
+    font-size: 10px;
+    font-family: "Cera Pro Regular", sans-serif;
+    margin-top: 21px;
+    position: absolute;
+    margin-left: -65px;
+    color: white;
+    opacity: 0.5;
+}
+
+.gazification_footer_7 {
+    width: 164px;
+    position: absolute;
+    margin-left: 829px;
+    margin-top: 71px;
+}
+
+.gazification_footer_2_text_11 {
+    opacity: 0.5;
+    font-size: 10px;
+    font-family: "Cera Pro Regular", sans-serif;
+}
+
+.gazification_footer_2_text_21 {
+    opacity: 0.5;
+    font-size: 10px;
+    margin-top: -7px;
+    font-family: "Cera Pro Regular", sans-serif;
+}
+
+}
+
+
+
+}
+}
+
+
+@media (min-width: 1780px) and (max-width: 1920px) {
+
+    .Gazification {
+        max-width: 1850px;
+        height: auto;
+        display: flex;
+        position: absolute;
+        top: 7px; /* Прикрепить шапку к верху экрана */
+        /* Дополнительные стили для вашей шапки */
+        font-family: "Cera Pro Light", sans-serif;
+
+
+    .gazification_1 {
+        width: 1855px;
+        position: absolute;
+        background-color: #ffffff;
+        height: 473px;
+        margin-top: -7px;
+        z-index: 1;
+
+
+    .gazification_1_title {
+        position: absolute;
+        margin-left: 392px;
+        margin-top: 170px;
+        color: black;
+        font-size: 35px;
+        font-family: "Cera Pro Bold", sans-serif;
+        z-index: 1;
+    }
+
+    .gazification_1_text {
+        position: absolute;
+        margin-left: 392px;
+        margin-top: 259px;
+        color: black;
+        width: 666px;
+        font-size: 20px;
+        font-family: "Cera Pro Medium", sans-serif;
+        z-index: 1;
+    }
+
+    .gazification_1_img {
+        width: 518px;
+        margin-left: 1036px;
+        margin-top: 96px;
+        position: absolute;
+        z-index: 0;
+    }
+
+    .gazification_fon_img {
+        width: 1844px;
+        height: 466px;
+        z-index: -1;
+
+    }
+}
+
+
+.gazification_for {
+    width: 1855px;
+    position: absolute;
+    background: linear-gradient(to right, #6383F9, #8DB2FB 15%);
+    height: 266px;
+    margin-top: 458px;
+    z-index: 1;
+
+
+.gazification_for_block {
+    position: absolute;
+    width: 1480px;
+    margin-top: 15px;
+    margin-left: 181px;
+    height: 207px;
+}
+
+.gazification_for_img1 {
+    position: absolute;
+    width: 1532px;
+    margin-left: -15px;
+    margin-top: 44px;
+    z-index: 4;
+    content: '';
+    border: 0.1px white solid;
+    opacity: 0.6;
+}
+
+.gazification_for_img2 {
+    position: absolute;
+    height: 209px;
+    margin-left: 725px;
+    margin-top: 7px;
+    z-index: 4;
+    content: '';
+    border: 1px white solid;
+    opacity: 0.6;
+}
+
+.gazification_for_img3 {
+    position: absolute;
+    height: 244px;
+    margin-left: 133px;
+    margin-top: 7px;
+    z-index: 4;
+    content: '';
+    border: 1px white solid;
+    opacity: 0.6;
+}
+
+.gazification_for_img4 {
+    position: absolute;
+    height: 244px;
+    margin-left: 103px;
+    margin-top: 7px;
+    z-index: 4;
+    content: '';
+    border: 1px white solid;
+    opacity: 0.6;
+}
+
+.gazification_for_img5 {
+    position: absolute;
+    height: 244px;
+    margin-left: 1332px;
+    margin-top: 7px;
+    z-index: 4;
+    content: '';
+    border: 1px white solid;
+    opacity: 0.6;
+}
+
+.gazification_for_img6 {
+    position: absolute;
+    height: 244px;
+    margin-left: 1361px;
+    margin-top: 7px;
+    z-index: 4;
+    content: '';
+    border: 1px white solid;
+    opacity: 0.6;
+}
+
+.gazification_for_block_org {
+    position: absolute;
+
+}
+
+.gazification_for_block_org_title {
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    font-family: "Cera Pro Regular", sans-serif;
+    margin-left: 192px;
+    width: 259px;
+    margin-top: 4px;
+
+}
+
+.gazification_for_block_org_block {
+    position: absolute;
+    margin-top: 74px;
+    margin-left: 192px;
+}
+
+
+.gazification_for_block_org_block p {
+    display: flex;
+    color: white;
+    width: 393px;
+    margin-bottom: -11px; /* Расстояние между параграфами */
+    font-size: 13px;
+    font-family: "Cera Pro Regular", sans-serif;
+}
+
+/* Убрать margin у последнего параграфа, чтобы не было дополнительного пространства после него */
+.gazification_for_block_org_block p:last-child {
+    margin-bottom: 0;
+}
+
+.gazification_for_block_org_text_1 {
+    position: absolute;
+    margin-top: -22px;
+}
+
+.gazification_for_block_org_text_2 {
+    margin-top: 1px;
+}
+
+/*.gazification_for_block_org_text_3{*/
+/*}*/
+/*.gazification_for_block_org_text_4{*/
+/*}*/
+/*.gazification_for_block_org_text_5{*/
+/*}*/
+/*.gazification_for_block_org_text_6{*/
+/*}*/
+/*.gazification_for_block_org_text_7{*/
+/*}*/
+/*.gazification_for_block_org_text_8{*/
+/*}*/
+.gazification_for_block_ur {
+    width: 769px;
+    height: 251px;
+    margin-left: 747px;
+    position: absolute;
+    margin-top: -15px;
+}
+
+
+.gazification_for_block_ur_title {
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    font-family: "Cera Pro Regular", sans-serif;
+    margin-left: 37px;
+    width: 259px;
+    margin-top: 18px;
+
+}
+
+.gazification_for_block_ur_block {
+    position: absolute;
+    margin-top: 88px;
+    margin-left: 37px;
+    width: 769px;
+    height: 370px;
+}
+
+
+.gazification_for_block_ur_block p {
+    display: flex;
+    color: white;
+    width: 393px;
+    margin-bottom: -11px; /* Расстояние между параграфами */
+    font-size: 13px;
+    font-family: "Cera Pro Regular", sans-serif;
+}
+
+/* Убрать margin у последнего параграфа, чтобы не было дополнительного пространства после него */
+.gazification_for_block_ur_block p:last-child {
+    margin-bottom: 0;
+}
+
+.gazification_for_block_ur_text_1 {
+    position: absolute;
+    margin-top: -22px;
+}
+
+.gazification_for_block_ur_text_2 {
+    position: absolute;
+    margin-top: 0px;
+}
+
+.gazification_for_block_ur_text_3 {
+    position: absolute;
+    margin-top: 23px;
+}
+
+.gazification_for_block_ur_text_4 {
+    position: absolute;
+    margin-top: 45px;
+}
+
+}
+
+
+.gazification_2 {
+    position: absolute;
+    width: 1860px;
+    height: 521px;
+    background-color: rgba(246, 245, 245, 0.97);
+    margin-top: 725px;
+    z-index: 1;
+
+
+.gazification_2_block_1_img_1 {
+    position: absolute;
+    width: 26px;
+    margin-left: 15px;
+    margin-top: 14px;
+}
+
+.gazification_2_block_1_img_2 {
+    position: absolute;
+    margin-left: 15px;
+    margin-top: 16px;
+    width: 60px;
+}
+
+.gazification_2_block_1_img_3 {
+    position: absolute;
+    width: 37px;
+    margin-left: 15px;
+    margin-top: 13px;
+}
+
+.gazification_2_block_1_img_4 {
+    position: absolute;
+    width: 33px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.gazification_2_block_1_img_5 {
+    position: absolute;
+    width: 26px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.gazification_2_block_1_img_6 {
+    position: absolute;
+    width: 33px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.gazification_2_title_1 {
+    color: black;
+    position: absolute;
+    margin-left: 370px;
+    font-size: 20px;
+    font-family: "Cera Pro Medium", sans-serif;
+    width: 370px;
+    margin-top: 207px;
+    z-index: 5;
+    line-height: 20px;
+}
+
+.gazification_2_title_text {
+    color: black;
+    width: 259px;
+    position: absolute;
+    font-size: 11px;
+    margin-left: 370px;
+    margin-top: 281px;
+    z-index: 5;
+}
+
+.gazification_2_block {
+    position: absolute;
+    margin-top: -162px;
+}
+
+.gazification_2_block_img_1 {
+    position: absolute;
+    margin-left: 285px;
+    height: 547px;
+    width: 0px;
+    margin-top: 162px;
+    border: 1px grey solid;
+    opacity: 0.6;
+}
+
+.gazification_2_block_img_2 {
+    position: absolute;
+    margin-left: 314px;
+    height: 515px;
+    width: 0px;
+    margin-top: 162px;
+    border: 1px grey solid;
+    opacity: 0.6;
+}
+
+.gazification_2_block_img_3 {
+    position: absolute;
+    margin-left: 1513px;
+    height: 515px;
+    width: 0px;
+    margin-top: 162px;
+    border: 1px grey solid;
+    opacity: 0.6;
+}
+
+.gazification_2_block_img_4 {
+    position: absolute;
+    margin-left: 1543px;
+    height: 501px;
+    width: 0px;
+    margin-top: 162px;
+    border: 1px grey solid;
+    opacity: 0.6;
+}
+
+.gazification_2_block_img_5 {
+    position: absolute;
+    width: 1532px;
+    margin-left: 166px;
+    margin-top: 267px;
+    z-index: 4;
+    content: '';
+    border: 0.1px grey solid;
+    opacity: 0.6;
+}
+
+.gazification_2_block_img_6 {
+    position: absolute;
+    width: 1532px;
+    margin-left: 166px;
+    margin-top: 637px;
+    z-index: 4;
+    content: '';
+    border: 0.1px grey solid;
+    opacity: 0.6;
+}
+
+.gazification_2_block_img_7 {
+    position: absolute;
+    margin-left: 810px;
+    height: 470px;
+    width: 0px;
+    margin-top: 207px;
+    border: 1px grey solid;
+    opacity: 0.6;
+}
+
+.gazification_2_block_img_8 {
+    position: absolute;
+    margin-left: 1472px;
+    height: 455px;
+    width: 0px;
+    margin-top: 207px;
+    border: 1px grey solid;
+    opacity: 0.6;
+}
+
+.gazification_2_block_img_9 {
+    position: absolute;
+    margin-left: 1028px;
+    height: 455px;
+    width: 0px;
+    margin-top: 207px;
+    border: 1px grey solid;
+    opacity: 0.6;
+}
+
+.gazification_2_block_img_10 {
+    position: absolute;
+    margin-left: 1250px;
+    height: 469px;
+    width: 0px;
+    margin-top: 207px;
+    border: 1px grey solid;
+    opacity: 0.6;
+}
+
+.gazification_2_block_img_11 {
+    position: absolute;
+    margin-left: 798px;
+    width: 680px;
+    margin-top: 449px;
+    border: 1px grey solid;
+    opacity: 0.6;
+}
+
+.gazification_2_block_img_12 {
+    position: absolute;
+    margin-left: 802px;
+    width: 15px;
+    margin-top: 267px;
+    border: 1px grey solid;
+    opacity: 0.6;
+    transform: rotate(135deg);
+}
+
+.gazification_2_block_img_13 {
+    position: absolute;
+    margin-left: 803px;
+    width: 15px;
+    margin-top: 637px;
+    border: 1px grey solid;
+    opacity: 0.6;
+    transform: rotate(135deg);
+}
+
+.gazification_2_block_img_14 {
+    position: absolute;
+    margin-left: 1465px;
+    width: 15px;
+    margin-top: 637px;
+    border: 1px grey solid;
+    opacity: 0.6;
+    transform: rotate(135deg);
+}
+
+.gazification_2_block_img_15 {
+    position: absolute;
+    margin-left: 1465px;
+    width: 15px;
+    margin-top: 267px;
+    border: 1px grey solid;
+    opacity: 0.6;
+    transform: rotate(135deg);
+}
+
+.gazification_2_block_1 {
+    position: absolute;
+    width: 218px;
+    height: 181px;
+    margin-left: 811px;
+    margin-top: 267px;
+    z-index: 5;
+    /*        background: linear-gradient( 135deg, rgba(79, 243, 6, 0.4), rgba(61, 164, 49, 0.6), rgba(45, 140, 117, 0.6), rgb(12, 106, 227, 0.6), rgba(0,55,251, 0.6));*/
+    /*-webkit-mask-image: url("https://raw.githubusercontent.com/robin-dela/css-mask-animation/master/img/urban-sprite.png");*/
+    /*mask-image: url("https://raw.githubusercontent.com/robin-dela/css-mask-animation/master/img/urban-sprite.png");*/
+    /*-webkit-mask-size: 3000% 100%;*/
+    /*mask-size: 3000% 100%;*/
+    /*-webkit-animation: ani2 0.7s steps(29) forwards;*/
+    /*animation: ani2 0.7s steps(29) forwards;*/
+}
+
+/*.gazification_2_block_1:hover {*/
+/*  -webkit-animation: ani 0.7s steps(29) forwards;*/
+/*  animation: ani 0.7s steps(29) forwards;*/
+/*}*/
+
+/*@keyframes ani {*/
+/*  100% {*/
+/*    -webkit-mask-position: 100% 100%;*/
+/*    mask-position: 100% 100%;*/
+/*  }*/
+/*}*/
+
+/*@keyframes ani2 {*/
+/*  100% {*/
+/*    -webkit-mask-position: 0% 0%;*/
+/*    mask-position: 0% 0%;*/
+/*  }*/
+/*}*/
+
+.transportir_1 {
+    position: absolute;
+    margin-left: -444px;
+    margin-top: -118px;
+    width: 888px;
+    transform-origin: center center;
+    transition: transform 3s;
+}
+
+.transportir_2 {
+    position: absolute;
+    margin-left: -444px;
+    margin-top: -118px;
+    width: 888px;
+    transform-origin: center center;
+    transition: transform 3s;
+}
+
+
+.gazification_2_block_1:hover,
+.gazification_2_block_2:hover,
+.gazification_2_block_3:hover,
+.gazification_2_block_4:hover,
+.gazification_2_block_5:hover,
+.gazification_2_block_6:hover {
+    background: linear-gradient(135deg, rgba(79, 243, 6, 0.4), rgba(61, 164, 49, 0.6), rgba(45, 140, 117, 0.6), rgb(12, 106, 227, 0.6), rgba(0, 55, 251, 0.6));
+    transition: transform 1s;
+}
+
+
+.gazification_2_block_1:hover .gazification_2_block_1_text_1,
+.gazification_2_block_1:hover .gazification_2_block_1_text_3,
+.gazification_2_block_2:hover .gazification_2_block_1_text_1,
+.gazification_2_block_2:hover .gazification_2_block_2_text_3,
+.gazification_2_block_3:hover .gazification_2_block_1_text_1,
+.gazification_2_block_3:hover .gazification_2_block_3_text_3,
+.gazification_2_block_4:hover .gazification_2_block_1_text_1,
+.gazification_2_block_4:hover .gazification_2_block_4_text_3,
+.gazification_2_block_5:hover .gazification_2_block_1_text_1,
+.gazification_2_block_5:hover .gazification_2_block_5_text_3,
+.gazification_2_block_6:hover .gazification_2_block_1_text_1,
+.gazification_2_block_6:hover .gazification_2_block_6_text_3 {
+    color: white;
+}
+
+.gazification_2_block_1:hover .gazification_2_block_1_text_2,
+.gazification_2_block_2:hover .gazification_2_block_1_text_2,
+.gazification_2_block_3:hover .gazification_2_block_1_text_2,
+.gazification_2_block_4:hover .gazification_2_block_1_text_2,
+.gazification_2_block_5:hover .gazification_2_block_1_text_2,
+.gazification_2_block_6:hover .gazification_2_block_1_text_2 {
+    color: white;
+}
+
+.gazification_2_block_1:hover .gazification_2_block_1_number,
+.gazification_2_block_2:hover .gazification_2_block_1_number,
+.gazification_2_block_3:hover .gazification_2_block_1_number,
+.gazification_2_block_4:hover .gazification_2_block_1_number,
+.gazification_2_block_5:hover .gazification_2_block_1_number,
+.gazification_2_block_6:hover .gazification_2_block_1_number {
+    color: white;
+}
+
+
+.gazification_2_block_1:hover .gazification_2_block_1_img_1,
+.gazification_2_block_2:hover .gazification_2_block_1_img_2,
+.gazification_2_block_2:hover .gazification_2_block_1_img_3,
+.gazification_2_block_2:hover .gazification_2_block_1_img_4,
+.gazification_2_block_2:hover .gazification_2_block_1_img_5,
+.gazification_2_block_2:hover .gazification_2_block_1_img_6 {
+    filter: grayscale(1) brightness(1000%);
+}
+
+
+/*.gazification_2_block_6:hover .gazification_2_block_1_text_1{*/
+/*    color: white;*/
+/*}*/
+
+.gazification_2_block_1_text_1 {
+    color: black;
+    margin-top: 63px;
+    margin-left: 11px;
+    font-size: 13px;
+    font-family: "Cera Pro Regular", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+}
+
+.gazification_2_block_1_text_1 span {
+    color: black;
+    margin-left: -12px;
+    margin-top: 5px;
+    font-size: 11px;
+    font-family: "Cera Pro Regular", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    position: absolute;
+}
+
+.gazification_2_block_1_text_2 {
+    color: black;
+    margin-left: 9px;
+    font-size: 12px;
+    font-family: "Cera Pro Light", sans-serif;
+    margin-top: 7px;
+}
+
+
+.gazification_2_block_1_number {
+    width: 37px;
+    height: 37px;
+    font-family: "Cera Pro Regular", sans-serif;
+    font-size: 30px;
+    color: black;
+    margin-left: 170px;
+    margin-top: -22px;
+    overflow: hidden;
+}
+
+.gazification_2_block_1_text_3 {
+    color: black;
+    position: absolute;
+    font-size: 15px;
+    font-family: "Cera Pro Medium", sans-serif;
+    margin-left: 185px;
+    margin-top: -7px;
+}
+
+.gazification_2_block_2_text_3 {
+    color: black;
+    position: absolute;
+    font-size: 15px;
+    font-family: "Cera Pro Medium", sans-serif;
+    margin-left: 185px;
+    margin-top: -7px;
+}
+
+.gazification_2_block_3_text_3 {
+    color: black;
+    position: absolute;
+    font-size: 15px;
+    font-family: "Cera Pro Medium", sans-serif;
+    margin-left: 185px;
+    margin-top: -7px;
+}
+
+.gazification_2_block_4_text_3 {
+    color: black;
+    position: absolute;
+    font-size: 15px;
+    font-family: "Cera Pro Medium", sans-serif;
+    margin-left: 185px;
+    margin-top: -1px;
+}
+
+.gazification_2_block_5_text_3 {
+    color: black;
+    position: absolute;
+    font-size: 15px;
+    font-family: "Cera Pro Medium", sans-serif;
+    margin-left: 185px;
+    margin-top: -1px;
+}
+
+.gazification_2_block_6_text_3 {
+    color: black;
+    position: absolute;
+    font-size: 15px;
+    font-family: "Cera Pro Medium", sans-serif;
+    margin-left: 185px;
+    margin-top: -1px;
+}
+
+.gazification_2_block_2 {
+    position: absolute;
+    width: 220px;
+    height: 181px;
+    margin-left: 1030px;
+    margin-top: 268px;
+}
+
+.gazification_2_block_3 {
+    position: absolute;
+    width: 222px;
+    height: 181px;
+    margin-left: 1250px;
+    margin-top: 268px;
+}
+
+.gazification_2_block_4 {
+    position: absolute;
+    width: 218px;
+    height: 188px;
+    margin-left: 811px;
+    margin-top: 450px;
+
+}
+
+.gazification_2_block_5 {
+    position: absolute;
+    width: 220px;
+    height: 188px;
+    margin-left: 1030px;
+    margin-top: 450px;
+}
+
+.gazification_2_block_6 {
+    position: absolute;
+    width: 222px;
+    height: 188px;
+    margin-left: 1251px;
+    margin-top: 450px;
+}
+
+}
+
+
+.gazification_uslugi {
+    width: 1258px;
+    height: auto;
+    position: absolute;
+    margin-top: 1665px;
+    display: flex;
+    margin-left: 148px;
+
+
+.gazification_uslugi_title {
+    color: black;
+    font-size: 48px;
+    font-family: "Cera Pro bold", sans-serif;
+    position: absolute;
+    margin-top: -407px;
+    margin-left: 666px;
+}
+
+.gazification_body_uslugi {
+    position: absolute;
+    font-size: 44px;
+    margin-left: 551px;
+}
+
+
+.gazification_body_uslugi_box1 {
+    width: 262px;
+    height: 185px;
+    background-color: white;
+    position: absolute;
+    border-radius: 0px 0px 6px 6px;
+    margin-left: 185px;
+    margin-top: -203px;
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.1);
+    transition: transform 0.1s ease; /* Добавил анимацию */
+}
+
+
+.gazification_body_box1_image {
+    width: 262px;
+    height: 125px;
+    align-items: center;
+    border-radius: 6px 6px 0 0;
+    margin-left: 0px;
+    margin-top: -124px;
+    position: absolute;
+    z-index: 1;
+    /*animation: unrotate 20s linear infinite;*/
+}
+
+.gazification_body_uslugi_box_title_1 {
+    margin-top: 15px;
+    width: 244px;
+    margin-left: 11px;
+    font-size: 17px;
+    font-weight: 700;
+    font-family: "Cera Pro Bold", serif;
+    position: absolute;
+    color: #000000;
+    line-height: 1; /* Уменьшаем расстояние между строками */
+}
+
+.gazification_body_text {
+    font-size: 12px;
+    color: #000000;
+    font-family: "Cera Pro Regular", serif;
+    margin-top: 77px;
+    margin-left: 11px;
+    width: 236px;
+
+}
+
+.gazification_body_price {
+    position: absolute;
+    margin-top: 55px;
+    margin-left: 15px;
+    letter-spacing: 0.5px;
+    font-size: 15px;
+    font-weight: 900;
+    font-family: "Cera Pro Bold", serif;
+    color: #0003ff;
+}
+
+
+.gazification_body_uslugi_box2 {
+    width: 262px;
+    height: 185px;
+    background-color: white;
+    position: absolute;
+    border-radius: 0px 0px 6px 6px;
+    margin-left: 481px;
+    margin-top: -203px;
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.1);
+    transition: transform 0.1s ease; /* Добавил анимацию */
+}
+
+
+.gazification_body_box2_image {
+    width: 262px;
+    height: 125px;
+    align-items: center;
+    border-radius: 8px 8px 0 0;
+    margin-left: 0px;
+    margin-top: -125px;
+    position: absolute;
+    z-index: 1;
+    /*animation: unrotate 20s linear infinite;*/
+}
+
+.gazification_body_uslugi_box_title_2 {
+    margin-top: 15px;
+    width: 244px;
+    margin-left: 11px;
+    font-size: 17px;
+    font-weight: 700;
+    font-family: "Cera Pro Bold", serif;
+    position: absolute;
+    color: #000000;
+    line-height: 1; /* Уменьшаем расстояние между строками */
+}
+
+.gazification_body_text2 {
+    font-size: 11px;
+    color: #000000;
+    font-family: "Cera Pro Regular", serif;
+    margin-top: 77px;
+    margin-left: 11px;
+    width: 236px;
+
+}
+
+.gazification_body_price2 {
+    position: absolute;
+    margin-top: 55px;
+    margin-left: 15px;
+    letter-spacing: 0.5px;
+    font-size: 15px;
+    font-weight: 900;
+    font-family: "Cera Pro Bold", serif;
+    color: #0003ff;
+}
+
+
+.ambilight {
+    filter: url(#ambilight);
+}
+
+.gazification_body_uslugi_box3 {
+    width: 262px;
+    height: 185px;
+    background-color: white;
+    position: absolute;
+    border-radius: 0px 0px 6px 6px;
+    margin-left: 777px;
+    margin-top: -203px;
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.1);
+    transition: transform 0.1s ease; /* Добавил анимацию */
+}
+
+
+.gazification_body_box3_image {
+    width: 262px;
+    height: 125px;
+    align-items: center;
+    border-radius: 8px 8px 0 0;
+    margin-left: 0px;
+    margin-top: -125px;
+    position: absolute;
+    z-index: 1;
+    /*animation: unrotate 20s linear infinite;*/
+}
+
+.gazification_body_uslugi_box_title_3 {
+    margin-top: 15px;
+    width: 244px;
+    margin-left: 11px;
+    font-size: 17px;
+    font-weight: 700;
+    font-family: "Cera Pro Bold", serif;
+    position: absolute;
+    color: #000000;
+    line-height: 1; /* Уменьшаем расстояние между строками */
+}
+
+.gazification_body_text3 {
+    font-size: 11px;
+    color: #000000;
+    font-family: "Cera Pro Regular", serif;
+    margin-top: 77px;
+    margin-left: 11px;
+    width: 236px;
+
+}
+
+.gazification_body_price3 {
+    position: absolute;
+    margin-top: 55px;
+    margin-left: 15px;
+    letter-spacing: 0.5px;
+    font-size: 15px;
+    font-weight: 900;
+    font-family: "Cera Pro Bold", serif;
+    color: #0003ff;
+}
+
+
+.gazification_body_uslugi_box4 {
+    width: 262px;
+    height: 185px;
+    background-color: white;
+    position: absolute;
+    border-radius: 0px 0px 8px 8px;
+    margin-left: 1073px;
+    margin-top: -203px;
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.1);
+    transition: transform 0.1s ease; /* Добавил анимацию */
+}
+
+
+.gazification_body_box4_image {
+    width: 262px;
+    height: 125px;
+    align-items: center;
+    border-radius: 8px 8px 0 0;
+    margin-left: 0px;
+    margin-top: -125px;
+    position: absolute;
+    z-index: 1;
+    /*animation: unrotate 20s linear infinite;*/
+}
+
+.gazification_body_uslugi_box_title_4 {
+    margin-top: 15px;
+    width: 244px;
+    margin-left: 11px;
+    font-size: 17px;
+    font-weight: 700;
+    font-family: "Cera Pro Bold", serif;
+    position: absolute;
+    color: #000000;
+    line-height: 1; /* Уменьшаем расстояние между строками */
+}
+
+.gazification_body_text4 {
+    font-size: 11px;
+    color: #000000;
+    font-family: "Cera Pro Regular", serif;
+    margin-top: 77px;
+    margin-left: 11px;
+    width: 236px;
+
+}
+
+.gazification_body_price4 {
+    position: absolute;
+    margin-top: 55px;
+    margin-left: 22px;
+    letter-spacing: 0.5px;
+    font-size: 15px;
+    font-weight: normal;
+    font-family: "Cera Pro Bold", serif;
+    color: #0003ff;
+}
+
+
+.gazification_body_uslugi_box5 {
+    width: 262px;
+    height: 185px;
+    background-color: white;
+    position: absolute;
+    border-radius: 0px 0px 6px 6px;
+    margin-left: 185px;
+    margin-top: 140px;
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.1);
+    transition: transform 0.1s ease; /* Добавил анимацию */
+}
+
+
+.gazification_body_box5_image {
+    width: 262px;
+    height: 125px;
+    align-items: center;
+    border-radius: 8px 8px 0 0;
+    margin-left: 0px;
+    margin-top: -125px;
+    position: absolute;
+    z-index: 1;
+    /*animation: unrotate 20s linear infinite;*/
+}
+
+.gazification_body_uslugi_box_title_5 {
+    margin-top: 15px;
+    width: 244px;
+    margin-left: 11px;
+    font-size: 17px;
+    font-weight: 700;
+    font-family: "Cera Pro Bold", serif;
+    position: absolute;
+    color: #000000;
+    line-height: 1; /* Уменьшаем расстояние между строками */
+}
+
+.gazification_body_text5 {
+    font-size: 11px;
+    color: #000000;
+    font-family: "Cera Pro Regular", serif;
+    margin-top: 81px;
+    margin-left: 11px;
+    width: 236px;
+
+}
+
+.gazification_body_price5 {
+    position: absolute;
+    margin-top: 33px;
+    margin-left: 11px;
+    letter-spacing: 0.5px;
+    font-size: 15px;
+    font-weight: 900;
+    font-family: "Cera Pro Bold", serif;
+    color: #0003ff;
+}
+
+
+.gazification_body_uslugi_box6 {
+    width: 262px;
+    height: 185px;
+    background-color: white;
+    position: absolute;
+    border-radius: 0px 0px 6px 6px;
+    margin-left: 481px;
+    margin-top: 140px;
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.1);
+    transition: transform 0.1s ease; /* Добавил анимацию */
+}
+
+
+.gazification_body_box6_image {
+    width: 262px;
+    height: 125px;
+    align-items: center;
+    border-radius: 8px 8px 0 0;
+    margin-left: 0px;
+    margin-top: -125px;
+    position: absolute;
+    z-index: 1;
+    /*animation: unrotate 20s linear infinite;*/
+}
+
+.gazification_body_uslugi_box_title_6 {
+    margin-top: 15px;
+    width: 245px;
+    margin-left: 11px;
+    font-size: 17px;
+    font-weight: 700;
+    font-family: "Cera Pro Bold", serif;
+    position: absolute;
+    color: #000000;
+    line-height: 1; /* Уменьшаем расстояние между строками */
+}
+
+.gazification_body_text6 {
+    font-size: 11px;
+    color: #000000;
+    font-family: "Cera Pro Regular", serif;
+    margin-top: 77px;
+    margin-left: 11px;
+    width: 236px;
+
+}
+
+.gazification_body_price6 {
+    position: absolute;
+    margin-top: 55px;
+    margin-left: 11px;
+    letter-spacing: 0.5px;
+    font-size: 15px;
+    font-weight: 900;
+    font-family: "Cera Pro Bold", serif;
+    color: #0003ff;
+}
+
+
+.gazification_body_uslugi_box7 {
+    width: 262px;
+    height: 185px;
+    background-color: white;
+    position: absolute;
+    border-radius: 0px 0px 8px 8px;
+    margin-left: 777px;
+    margin-top: 140px;
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.1);
+    transition: transform 0.1s ease; /* Добавил анимацию */
+}
+
+
+.gazification_body_box7_image {
+    width: 262px;
+    height: 125px;
+    align-items: center;
+    border-radius: 8px 8px 0 0;
+    margin-left: 0px;
+    margin-top: -125px;
+    position: absolute;
+    z-index: 1;
+    /*animation: unrotate 20s linear infinite;*/
+}
+
+.gazification_body_uslugi_box_title_7 {
+    margin-top: 15px;
+    width: 244px;
+    margin-left: 11px;
+    font-size: 17px;
+    font-weight: 700;
+    font-family: "Cera Pro Bold", serif;
+    position: absolute;
+    color: #000000;
+    line-height: 1; /* Уменьшаем расстояние между строками */
+}
+
+.gazification_body_text7 {
+    font-size: 11px;
+    color: #000000;
+    font-family: a_FuturaOrtoLt, serif;
+    margin-top: 81px;
+    margin-left: 11px;
+    width: 236px;
+
+}
+
+.gazification_body_price7 {
+    position: absolute;
+    margin-top: 55px;
+    margin-left: 11px;
+    letter-spacing: 0.5px;
+    font-size: 15px;
+    font-weight: 900;
+    font-family: "Cera Pro Bold", serif;
+    color: #0003ff;
+}
+
+
+.gazification_body_uslugi_box8 {
+    width: 262px;
+    height: 185px;
+    background-color: white;
+    position: absolute;
+    border-radius: 0px 0px 8px 8px;
+    margin-left: 1073px;
+    margin-top: 140px;
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.1);
+    transition: transform 0.1s ease; /* Добавил анимацию */
+}
+
+
+.gazification_body_box8_image {
+    width: 262px;
+    height: 125px;
+    align-items: center;
+    border-radius: 8px 8px 0 0;
+    margin-left: 0px;
+    margin-top: -125px;
+    position: absolute;
+    z-index: 1;
+    /*animation: unrotate 20s linear infinite;*/
+}
+
+.gazification_body_uslugi_box_title_8 {
+    margin-top: 15px;
+    width: 244px;
+    margin-left: 15px;
+    font-size: 17px;
+    font-weight: 700;
+    font-family: a_FuturaOrtoBold, serif;
+    position: absolute;
+    color: #000000;
+    line-height: 1; /* Уменьшаем расстояние между строками */
+}
+
+.gazification_body_text8 {
+    font-size: 11px;
+    color: #000000;
+    font-family: "Cera Pro Regular", serif;
+    margin-top: 77px;
+    margin-left: 15px;
+    width: 236px;
+
+}
+
+.gazification_body_price8 {
+    position: absolute;
+    margin-top: 55px;
+    margin-left: 15px;
+    letter-spacing: 0.5px;
+    font-size: 15px;
+    font-weight: 900;
+    font-family: "Cera Pro Bold", serif;
+    color: #0003ff;
+}
+
+.gazification_body_uslugi_box1:hover {
+    transform: scale(1.01); /* При наведении карточка немного увеличивается */
+}
+
+.gazification_body_uslugi_box2:hover {
+    transform: scale(1.01); /* При наведении карточка немного увеличивается */
+}
+
+.gazification_body_uslugi_box3:hover {
+    transform: scale(1.01); /* При наведении карточка немного увеличивается */
+}
+
+.gazification_body_uslugi_box4:hover {
+    transform: scale(1.01); /* При наведении карточка немного увеличивается */
+}
+
+.gazification_body_uslugi_box5:hover {
+    transform: scale(1.01); /* При наведении карточка немного увеличивается */
+}
+
+.gazification_body_uslugi_box6:hover {
+    transform: scale(1.01); /* При наведении карточка немного увеличивается */
+}
+
+.gazification_body_uslugi_box7:hover {
+    transform: scale(1.01); /* При наведении карточка немного увеличивается */
+}
+
+.gazification_body_uslugi_box8:hover {
+    transform: scale(1.01); /* При наведении карточка немного увеличивается */
+}
+
+
+/*   BOX ANIMATION      */
+
+
+.gazification_body_uslugi_box1:hover {
+    -webkit-filter: brightness(80%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.gazification_body_uslugi_box2:hover {
+    -webkit-filter: brightness(80%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.gazification_body_uslugi_box3:hover {
+    -webkit-filter: brightness(80%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.gazification_body_uslugi_box4:hover {
+    -webkit-filter: brightness(80%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.gazification_body_uslugi_box5:hover {
+    -webkit-filter: brightness(80%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.gazification_body_uslugi_box6:hover {
+    -webkit-filter: brightness(80%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.gazification_body_uslugi_box7:hover {
+    -webkit-filter: brightness(80%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.gazification_body_uslugi_box8:hover {
+    -webkit-filter: brightness(80%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+
+.gazification_body_uslugi_box1:hover {
+    filter: url(#ambilight);
+}
+
+.gazification_body_uslugi_box2:hover {
+    filter: url(#ambilight);
+}
+
+.gazification_body_uslugi_box3:hover {
+    filter: url(#ambilight);
+}
+
+.gazification_body_uslugi_box4:hover {
+    filter: url(#ambilight);
+}
+
+.gazification_body_uslugi_box5:hover {
+    filter: url(#ambilight);
+}
+
+.gazification_body_uslugi_box6:hover {
+    filter: url(#ambilight);
+}
+
+.gazification_body_uslugi_box7:hover {
+    filter: url(#ambilight);
+}
+
+
+.gazification_body_uslugi_box8:hover {
+    filter: url(#ambilight);
+}
+
+}
+
+
+.gazification_pdf {
+    width: 1860px;
+    position: absolute;
+    height: 325px;
+    background-color: rgba(246, 245, 245, 0.97);
+    margin-left: -148px;
+    margin-top: 384px;
+
+
+.gazification_pdf_title {
+    color: black;
+    position: absolute;
+    font-family: "Cera Pro bold", sans-serif;
+    font-size: 35px;
+    margin-left: 792px;
+}
+
+.gazification_pdf_box {
+
+}
+
+.gazification_pdf_box_1 {
+    margin-left: 325px;
+}
+
+.gazification_pdf_box_img {
+    position: absolute;
+    width: 59px;
+    margin-top: 96px;
+    margin-left: -7px;
+}
+
+.gazification_pdf_box_img2 {
+    position: absolute;
+    width: 59px;
+    margin-top: 96px;
+    margin-left: 222px;
+}
+
+.gazification_pdf_box_img3 {
+    position: absolute;
+    width: 59px;
+    margin-top: 96px;
+    margin-left: 451px;
+}
+
+.gazification_pdf_box_img4 {
+    position: absolute;
+    width: 59px;
+    margin-top: 96px;
+    margin-left: 680px;
+}
+
+.gazification_pdf_box_img5 {
+    position: absolute;
+    width: 59px;
+    margin-top: 96px;
+    margin-left: 910px;
+}
+
+.gazification_pdf_box_img6 {
+    position: absolute;
+    width: 59px;
+    margin-top: 96px;
+    margin-left: 1139px;
+}
+
+.gazification_pdf_box_title_1 {
+    color: black;
+    position: absolute;
+    margin-top: 166px;
+    margin-left: -63px;
+    font-size: 10px;
+    font-family: "Cera Pro Regular", sans-serif;
+    width: 170px;
+    text-align: center;
+}
+
+.gazification_pdf_box_title_2 {
+    color: black;
+    position: absolute;
+    margin-top: 166px;
+    margin-left: 170px;
+    font-size: 10px;
+    font-family: "Cera Pro Regular", sans-serif;
+    width: 170px;
+    text-align: center;
+}
+
+
+.gazification_pdf_box_title_3 {
+    color: black;
+    position: absolute;
+    margin-top: 166px;
+    margin-left: 396px;
+    font-size: 10px;
+    font-family: "Cera Pro Regular", sans-serif;
+    width: 170px;
+    text-align: center;
+}
+
+
+.gazification_pdf_box_title_4 {
+    color: black;
+    position: absolute;
+    margin-top: 166px;
+    margin-left: 621px;
+    font-size: 10px;
+    font-family: "Cera Pro Regular", sans-serif;
+    width: 170px;
+    text-align: center;
+}
+
+
+.gazification_pdf_box_title_5 {
+    color: black;
+    position: absolute;
+    margin-top: 166px;
+    margin-left: 851px;
+    font-size: 10px;
+    font-family: "Cera Pro Regular", sans-serif;
+    width: 170px;
+    text-align: center;
+}
+
+
+.gazification_pdf_box_title_6 {
+    color: black;
+    position: absolute;
+    margin-top: 166px;
+    margin-left: 1084px;
+    font-size: 10px;
+    font-family: "Cera Pro Regular", sans-serif;
+    width: 170px;
+    text-align: center;
+}
+
+}
+
+
+.gazification_faq {
+    width: 1850px;
+    height: 666px;
+    position: absolute;
+    margin-top: 2368px;
+    background-color: #ffffff;
+
+
+.gazification_faq_title {
+    color: black;
+    position: absolute;
+    font-size: 35px;
+    font-family: "Cera Pro bold", sans-serif;
+    margin-left: 680px;
+    margin-top: 37px;
+}
+
+.gazification_faq_block {
+    position: absolute;
+    margin-top: -58px;
+}
+
+.gazification_faq_block_1 {
+    width: 636px;
+    height: 74px;
+    margin-left: 740px;
+    margin-top: 180px;
+    color: black;
+    border-radius: 15px;
+}
+
+.gazification_faq_block_1:after {
+    content: "";
+    border: 1px #cecccc solid;
+    width: 721px;
+    position: absolute;
+    margin-top: -59px;
+}
+
+.gazification_faq_block_1:before {
+    content: "";
+    border: 1px #cecccc solid;
+    width: 721px;
+    position: absolute;
+    margin-top: 38px;
+}
+
+.faq_1 {
+
+}
+
+.faq_1:after {
+    margin-top: -149px;
+}
+
+.faq_1:before {
+    margin-top: 125px;
+    transition: opacity 0.3s ease, margin-top 0.5s ease;
+}
+
+.gazification_faq_block_1_title {
+    font-size: 17px;
+    font-family: "Cera Pro Medium", sans-serif;
+
+}
+
+.gazification_faq_block_1_title_strela1 {
+    position: absolute;
+    margin-top: -38px;
+    margin-left: 673px;
+    width: 11px;
+    height: 11px;
+    transform: rotate(135deg);
+}
+
+.strela-digris {
+    transform: rotate(90deg);
+    transition: transform 0.5s ease;
+}
+
+
+.gazification_faq_block_1_text {
+    animation: plav 1.3s ease;
+}
+
+.gazification_faq_block_2 {
+    width: 636px;
+    height: 74px;
+    margin-left: 740px;
+    margin-top: -37px;
+    color: black;
+    border-radius: 15px;
+}
+
+.gazification_faq_block_2:before {
+    content: "";
+    border: 1px #cecccc solid;
+    width: 721px;
+    position: absolute;
+    margin-top: 38px;
+}
+
+.faq_2 {
+
+}
+
+.faq_2:before {
+    margin-top: 217px;
+    transition: opacity 0.3s ease, margin-top 0.5s ease;
+}
+
+.gazification_faq_block_2_title {
+    font-size: 17px;
+    font-family: "Cera Pro Medium", sans-serif;
+
+}
+
+.gazification_faq_block_2_title_strela1 {
+    position: absolute;
+    margin-top: -38px;
+    margin-left: 673px;
+    width: 11px;
+    height: 11px;
+    transform: rotate(135deg);
+}
+
+.strela-digris_2 {
+    transform: rotate(90deg);
+    transition: transform 0.5s ease;
+}
+
+.faq_2_2 {
+    margin-top: 74px;
+}
+
+.gazification_faq_block_2_text {
+    animation: plav 1.3s ease;
+}
+
+.gazification_faq_block_3 {
+    width: 636px;
+    height: 74px;
+    margin-left: 740px;
+    margin-top: -37px;
+    color: black;
+    border-radius: 15px;
+}
+
+.gazification_faq_block_3:before {
+    content: "";
+    border: 1px #cecccc solid;
+    width: 721px;
+    position: absolute;
+    margin-top: 38px;
+}
+
+.faq_3:before {
+    margin-top: 121px;
+    transition: opacity 0.3s ease, margin-top 0.5s ease;
+}
+
+.gazification_faq_block_3_title {
+    font-size: 20px;
+    font-family: "Cera Pro Medium", sans-serif;
+
+}
+
+.gazification_faq_block_3_title_strela1 {
+    position: absolute;
+    margin-top: -38px;
+    margin-left: 673px;
+    width: 11px;
+    height: 11px;
+    transform: rotate(135deg);
+}
+
+.strela-digris_3 {
+    transform: rotate(90deg);
+    transition: transform 0.5s ease;
+}
+
+.faq_3_3 {
+    margin-top: 158px;
+}
+
+.gazification_faq_block_3_text {
+    animation: plav 1.3s ease;
+}
+
+.gazification_faq_block_4 {
+    width: 636px;
+    height: 74px;
+    margin-left: 740px;
+    margin-top: -37px;
+    color: black;
+    border-radius: 15px;
+}
+
+.gazification_faq_block_4:before {
+    content: "";
+    border: 1px #cecccc solid;
+    width: 721px;
+    position: absolute;
+    margin-top: 38px;
+}
+
+.faq_4:before {
+    margin-top: 125px;
+    transition: opacity 0.3s ease, margin-top 0.5s ease;
+}
+
+.gazification_faq_block_4_title {
+    font-size: 20px;
+    font-family: "Cera Pro Medium", sans-serif;
+
+}
+
+.gazification_faq_block_4_title_strela1 {
+    position: absolute;
+    margin-top: -38px;
+    margin-left: 673px;
+    width: 11px;
+    height: 11px;
+    transform: rotate(135deg);
+}
+
+.strela-digris_4 {
+    transform: rotate(90deg);
+    transition: transform 0.5s ease;
+}
+
+.faq_4_4 {
+    margin-top: 59px;
+}
+
+.gazification_faq_block_4_text {
+    animation: plav 1.3s ease;
+}
+
+
+.gazification_faq_block_5 {
+    width: 636px;
+    height: 74px;
+    margin-left: 740px;
+    margin-top: -37px;
+    color: black;
+    border-radius: 15px;
+}
+
+.gazification_faq_block_5:before {
+    content: "";
+    border: 1px #cecccc solid;
+    width: 721px;
+    position: absolute;
+    margin-top: 38px;
+}
+
+
+.faq_5:before {
+    margin-top: 151px;
+    transition: opacity 0.3s ease, margin-top 0.5s ease;
+}
+
+.gazification_faq_block_5_title {
+    font-size: 17px;
+    font-family: "Cera Pro Medium", sans-serif;
+
+}
+
+.gazification_faq_block_5_title_strela1 {
+    position: absolute;
+    margin-top: -38px;
+    margin-left: 673px;
+    width: 11px;
+    height: 11px;
+    transform: rotate(135deg);
+}
+
+.strela-digris_5 {
+    transform: rotate(90deg);
+    transition: transform 0.5s ease;
+}
+
+.faq_5_5 {
+    margin-top: 59px;
+}
+
+.gazification_faq_block_5_text {
+    animation: plav 1.3s ease;
+}
+
+@keyframes plav {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.gazification_faq_block_6 {
+    width: 636px;
+    height: 74px;
+    margin-left: 740px;
+    margin-top: -37px;
+    color: black;
+    border-radius: 15px;
+}
+
+.gazification_faq_block_6:before {
+    content: "";
+    border: 1px #cecccc solid;
+    width: 721px;
+    position: absolute;
+    margin-top: 38px;
+}
+
+
+.faq_6:before {
+    margin-top: 111px;
+    transition: opacity 0.3s ease, margin-top 0.5s ease;
+}
+
+.gazification_faq_block_6_title {
+    font-size: 17px;
+    font-family: "Cera Pro Medium", sans-serif;
+
+}
+
+.gazification_faq_block_6_title_strela1 {
+    position: absolute;
+    margin-top: -38px;
+    margin-left: 673px;
+    width: 11px;
+    height: 11px;
+    transform: rotate(135deg);
+}
+
+.strela-digris_6 {
+    transform: rotate(90deg);
+    transition: transform 0.5s ease;
+}
+
+.faq_6_6 {
+    margin-top: 89px;
+}
+
+.gazification_faq_block_6_text {
+    animation: plav 1.3s ease;
+}
+
+@keyframes plav {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.gazification_faq_block_7 {
+    width: 636px;
+    height: 74px;
+    margin-left: 740px;
+    margin-top: -37px;
+    color: black;
+    border-radius: 15px;
+}
+
+.gazification_faq_block_7:before {
+    content: "";
+    border: 1px #cecccc solid;
+    width: 721px;
+    position: absolute;
+    margin-top: 38px;
+}
+
+.faq_7:before {
+    margin-top: 145px;
+    transition: opacity 0.3s ease, margin-top 0.5s ease;
+}
+
+.gazification_faq_block_7_title {
+    font-size: 17px;
+    font-family: "Cera Pro Medium", sans-serif;
+
+}
+
+.gazification_faq_block_7_title_strela1 {
+    position: absolute;
+    margin-top: -38px;
+    margin-left: 673px;
+    width: 11px;
+    height: 11px;
+    transform: rotate(135deg);
+}
+
+.strela-digris_7 {
+    transform: rotate(90deg);
+    transition: transform 0.5s ease;
+}
+
+.faq_7_7 {
+    margin-top: 50px;
+}
+
+.gazification_faq_block_7_text {
+    animation: plav 1.3s ease;
+}
+
+@keyframes plav {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.gazification_faq_block_8 {
+    width: 636px;
+    height: 74px;
+    margin-left: 740px;
+    margin-top: -37px;
+    color: black;
+    border-radius: 15px;
+}
+
+.gazification_faq_block_8:before {
+    content: "";
+    border: 1px #cecccc solid;
+    width: 721px;
+    position: absolute;
+    margin-top: 38px;
+}
+
+.faq_8:before {
+    margin-top: 150px;
+    transition: opacity 0.3s ease, margin-top 0.5s ease;
+}
+
+.gazification_faq_block_8_title {
+    font-size: 17px;
+    font-family: "Cera Pro Medium", sans-serif;
+
+}
+
+.gazification_faq_block_8_title_strela1 {
+    position: absolute;
+    margin-top: -38px;
+    margin-left: 673px;
+    width: 11px;
+    height: 11px;
+    transform: rotate(135deg);
+}
+
+.strela-digris_8 {
+    transform: rotate(90deg);
+    transition: transform 0.5s ease;
+}
+
+.faq_8_8 {
+    margin-top: 80px;
+}
+
+.gazification_faq_block_8_text {
+    animation: plav 1.3s ease;
+}
+
+@keyframes plav {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+.gazification_faq_block_9 {
+    width: 636px;
+    height: 74px;
+    margin-left: 740px;
+    margin-top: -37px;
+    color: black;
+    border-radius: 15px;
+}
+
+.gazification_faq_block_9:before {
+    content: "";
+    border: 1px #cecccc solid;
+    width: 721px;
+    position: absolute;
+    margin-top: 38px;
+}
+
+.faq_9:before {
+    margin-top: 100px;
+    transition: opacity 0.3s ease, margin-top 0.5s ease;
+}
+
+.gazification_faq_block_9_title {
+    font-size: 17px;
+    font-family: "Cera Pro Medium", sans-serif;
+
+}
+
+.gazification_faq_block_9_title_strela1 {
+    position: absolute;
+    margin-top: -38px;
+    margin-left: 673px;
+    width: 11px;
+    height: 11px;
+    transform: rotate(135deg);
+}
+
+.strela-digris_9 {
+    transform: rotate(90deg);
+    transition: transform 0.5s ease;
+}
+
+.faq_9_9 {
+    margin-top: 90px;
+}
+
+.gazification_faq_block_9_text {
+    animation: plav 1.3s ease;
+}
+
+@keyframes plav {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+}
+
+
+.gazification_footer {
+    position: absolute;
+    width: 1850px;
+    height: 222px;
+    background-color: #2c2b2b;
+    margin-top: 3143px;
+
+
+.gazification_footer_1 {
+
+}
+
+.gazification_footer_1_img {
+    width: 177px;
+    height: 36px;
+    margin-left: 810px;
+    margin-top: 33px;
+    position: absolute;
+}
+
+.gazification_footer_2_img {
+    margin-left: 176px;
+    margin-top: 51px;
+    position: absolute;
+}
+
+.gazification_footer_1_text {
+    width: 229px;
+    margin-left: 370px;
+    margin-top: 31px;
+    text-align: center;
+    font-size: 11px;
+    color: white;
+    position: absolute;
+}
+
+.gazification_footer_1_text:after {
+    position: absolute;
+    border: 1px grey solid;
+    width: 999px;
+    content: '';
+    margin-top: 66px;
+    margin-left: -200px;
+}
+
+
+.gazification_footer_2 {
+    position: absolute;
+    margin-left: 415px;
+    margin-top: 96px;
+}
+
+.gazification_footer_2_text_1 {
+    font-size: 15px;
+    color: white;
+
+}
+
+
+/*.gazification_footer_2_text_1:after{*/
+/*	border-bottom: dotted 5px white;*/
+/*    width: 1000px;*/
+/*    position: absolute;*/
+/*    content: '';*/
+/*    !*height: 1px;*!*/
+/*    margin-top: -80px;*/
+/*    margin-left: -500px;*/
+/*}*/
+
+
+.gazification_footer_2_text_2 {
+    font-size: 13px;
+    font-family: "Cera Pro Regular", sans-serif;
+    color: white;
+    opacity: 0.5;
+}
+
+.gazification_footer_2_text_3 {
+    font-size: 13px;
+    font-family: "Cera Pro Regular", sans-serif;
+    margin-top: -7px;
+    opacity: 0.5;
+}
+
+
+.gazification_footer_4 {
+    width: 222px;
+    position: absolute;
+    margin-left: 725px;
+    margin-top: 96px;
+}
+
+.gazification_footer_5 {
+    width: 222px;
+    position: absolute;
+    margin-left: 947px;
+    margin-top: 96px;
+}
+
+.gazification_footer_5:before {
+    position: absolute;
+    border: 1px grey solid;
+    width: 1017px;
+    content: '';
+    margin-top: -7px;
+    margin-left: -529px;
+}
+
+.gazification_footer_6 {
+    width: 222px;
+    position: absolute;
+    margin-left: 1302px;
+    margin-top: 96px;
+}
+
+.gazification_footer_7 {
+    width: 222px;
+    position: absolute;
+    margin-left: 518px;
+    margin-top: -55px;
+}
+
+.gazification_footer_2_text_5 {
+    font-size: 13px;
+    font-family: "Cera Pro Regular", sans-serif;
+    color: white;
+    margin-left: 2px;
+}
+
+.gazification_footer_2_text_4 {
+    font-size: 13px;
+    font-family: "Cera Pro Regular", sans-serif;
+    margin-top: 29px;
+    position: absolute;
+    margin-left: -88px;
+    color: white;
+    opacity: 0.5;
+}
+
+.gazification_footer_7 {
+    width: 222px;
+    position: absolute;
+    margin-left: 1117px;
+    margin-top: 96px;
+}
+
+.gazification_footer_2_text_11 {
+    opacity: 0.5;
+    font-size: 13px;
+    font-family: "Cera Pro Regular", sans-serif;
+}
+
+.gazification_footer_2_text_21 {
+    opacity: 0.5;
+    font-size: 13px;
+    margin-top: -7px;
+    font-family: "Cera Pro Regular", sans-serif;
+}
+
+}
+    }
+}
+
+
+@media (min-width: 1290px) and (max-width: 1370px) {
+    .custom-zoom-page_gazification {
+        zoom: 51.9%;
+    }
+}
+
+@media (min-width: 1371px) and (max-width: 1440px) {
+    .custom-zoom-page_gazification {
+        zoom: 54.9%;
+    }
+}
+
+@media (min-width: 1520px) and (max-width: 1600px) {
+    .custom-zoom-page_gazification {
+        zoom: 61.4%;
+    }
+}
+
+@media (min-width: 1600px) and (max-width: 1700px) {
+    .custom-zoom-page_gazification {
+        zoom: 64.4%;
+    }
+}
+
+@media (min-width: 1840px) and (max-width: 1920px) {
+    .custom-zoom-page_gazification {
+        zoom: 74.2%;
+    }
+}
+
+@media (min-width: 1921px) and (max-width: 2250px) {
+    .custom-zoom-page_gazification {
+        zoom: 88.1%;
+    }
+}
+
+
+
+    .Gazification {
+        max-width: 2500px;
+        height: auto;
+        display: flex;
+        position: absolute;
+        top: 7px; /* Прикрепить шапку к верху экрана */
+        /* Дополнительные стили для вашей шапки */
+        font-family: "Cera Pro Light", sans-serif;
+    }
+
+
+    .gazification_for {
+        width: 2500px;
+        position: absolute;
+                background: linear-gradient(to right, #6383F9, #8DB2FB 15%);
+        height: 360px;
+        margin-top: 620px;
+        z-index: 2;
+    }
+
+    .gazification_for_block {
+        position: absolute;
+        width: 2000px;
+        margin-top: 20px;
+        margin-left: 245px;
+        height: 280px;
+    }
+
+    .gazification_for_img1 {
+        position: absolute;
+        width: 2071px;
+        margin-left: -20px;
+        margin-top: 60px;
+        z-index: 4;
+        content: '';
+        border: 0.1px white solid;
+        opacity: 0.6;
+    }
+
+    .gazification_for_img2 {
+        position: absolute;
+        height: 283px;
+        margin-left: 980px;
+        margin-top: 10px;
+        z-index: 4;
+        content: '';
+        border: 1px white solid;
+        opacity: 0.6;
+    }
+
+    .gazification_for_img3 {
+        position: absolute;
+        height: 330px;
+        margin-left: 180px;
+        margin-top: 10px;
+        z-index: 4;
+        content: '';
+        border: 1px white solid;
+        opacity: 0.6;
+    }
+
+    .gazification_for_img4 {
+        position: absolute;
+        height: 330px;
+        margin-left: 140px;
+        margin-top: 10px;
+        z-index: 4;
+        content: '';
+        border: 1px white solid;
+        opacity: 0.6;
+    }
+
+    .gazification_for_img5 {
+        position: absolute;
+        height: 330px;
+        margin-left: 1800px;
+        margin-top: 10px;
+        z-index: 4;
+        content: '';
+        border: 1px white solid;
+        opacity: 0.6;
+    }
+
+    .gazification_for_img6 {
+        position: absolute;
+        height: 330px;
+        margin-left: 1840px;
+        margin-top: 10px;
+        z-index: 4;
+        content: '';
+        border: 1px white solid;
+        opacity: 0.6;
+    }
+
+    .gazification_for_block_org {
+        position: absolute;
+
+    }
+
+    .gazification_for_block_org_title {
+        position: absolute;
+        color: white;
+        font-size: 28px;
+        font-family: "Cera Pro Regular", sans-serif;
+        margin-left: 260px;
+        width: 350px;
+        margin-top: 5px;
+
+    }
+
+    .gazification_for_block_org_block {
+        position: absolute;
+        margin-top: 100px;
+        margin-left: 260px;
+    }
+
+
+    .gazification_for_block_org_block p {
+        display: flex;
+        color: white;
+        width: 532px;
+        margin-bottom: -15px; /* Расстояние между параграфами */
+        font-size: 18px;
+        font-family: "Cera Pro Regular", sans-serif;
+    }
+
+    /* Убрать margin у последнего параграфа, чтобы не было дополнительного пространства после него */
+    .gazification_for_block_org_block p:last-child {
+        margin-bottom: 0;
+    }
+
+    .gazification_for_block_org_text_1 {
+        position: absolute;
+        margin-top: -30px;
+    }
+
+    .gazification_for_block_org_text_2 {
+        margin-top: 1px;
+    }
+
+    /*.gazification_for_block_org_text_3{*/
+    /*}*/
+    /*.gazification_for_block_org_text_4{*/
+    /*}*/
+    /*.gazification_for_block_org_text_5{*/
+    /*}*/
+    /*.gazification_for_block_org_text_6{*/
+    /*}*/
+    /*.gazification_for_block_org_text_7{*/
+    /*}*/
+    /*.gazification_for_block_org_text_8{*/
+    /*}*/
+    .gazification_for_block_ur {
+        width: 1040px;
+        height: 340px;
+        margin-left: 1010px;
+        position: absolute;
+        margin-top: -20px;
+    }
+
+
+    .gazification_for_block_ur_title {
+        position: absolute;
+        color: white;
+        font-size: 28px;
+        font-family: "Cera Pro Regular", sans-serif;
+        margin-left: 50px;
+        width: 350px;
+        margin-top: 25px;
+
+    }
+
+    .gazification_for_block_ur_block {
+        position: absolute;
+        margin-top: 120px;
+        margin-left: 50px;
+        width: 1040px;
+        height: 500px;
+    }
+
+
+    .gazification_for_block_ur_block p {
+        display: flex;
+        color: white;
+        width: 532px;
+        margin-bottom: -15px; /* Расстояние между параграфами */
+        font-size: 18px;
+        font-family: "Cera Pro Regular", sans-serif;
+    }
+
+    /* Убрать margin у последнего параграфа, чтобы не было дополнительного пространства после него */
+    .gazification_for_block_ur_block p:last-child {
+        margin-bottom: 0;
+    }
+
+    .gazification_for_block_ur_text_1 {
+        position: absolute;
+        margin-top: -30px;
+    }
+
+    .gazification_for_block_ur_text_2 {
+        position: absolute;
+        margin-top: 0px;
+    }
+
+    .gazification_for_block_ur_text_3 {
+        position: absolute;
+        margin-top: 31px;
+    }
+
+    .gazification_for_block_ur_text_4 {
+        position: absolute;
+        margin-top: 61px;
+    }
+
+
+    .gazification_1 {
+        width: 2500px;
+        position: absolute;
+        background-color: #ffffff;
+        height: 640px;
+        margin-top: -10px;
+        z-index: 0;
+    }
+
+    .gazification_1_title {
+        position: absolute;
+        margin-left: 530px;
+        margin-top: 230px;
+        color: black;
+        font-size: 48px;
+        font-family: "Cera Pro Bold", sans-serif;
+        z-index: 1;
+    }
+
+    .gazification_1_text {
+        position: absolute;
+        margin-left: 530px;
+        margin-top: 350px;
+        color: black;
+        width: 900px;
+        font-size: 28px;
+        font-family: "Cera Pro Medium", sans-serif;
+        z-index: 1;
+    }
+
+    .gazification_1_img {
+        width: 700px;
+        margin-left: 1400px;
+        margin-top: 130px;
+        position: absolute;
+        z-index: 0;
+    }
+
+    .gazification_fon_img {
+        width: 2465px;
+        height: 630px;
+        z-index: -1;
+
+    }
+
+
+    .gazification_2 {
+        position: absolute;
+        width: 2500px;
+        height: 705px;
+        background-color: rgba(246, 245, 245, 0.97);
+        margin-top: 980px;
+        z-index: 6;
+    }
+
+    .gazification_2_block_1_img_1 {
+        position: absolute;
+        width: 35px;
+        margin-left: 20px;
+        margin-top: 19px;
+    }
+
+    .gazification_2_block_1_img_2 {
+        position: absolute;
+        margin-left: 20px;
+        margin-top: 22px;
+        width: 80px;
+    }
+
+    .gazification_2_block_1_img_3 {
+        position: absolute;
+        width: 50px;
+        margin-left: 20px;
+        margin-top: 18px;
+    }
+
+    .gazification_2_block_1_img_4 {
+        position: absolute;
+        width: 45px;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+
+    .gazification_2_block_1_img_5 {
+        position: absolute;
+        width: 35px;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+
+    .gazification_2_block_1_img_6 {
+        position: absolute;
+        width: 45px;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+
+    .gazification_2_title_1 {
+        color: black;
+        position: absolute;
+        margin-left: 500px;
+        font-size: 28px;
+        font-family: "Cera Pro Medium", sans-serif;
+        width: 500px;
+        margin-top: 280px;
+        z-index: 5;
+        line-height: 28px;
+    }
+
+    .gazification_2_title_text {
+        color: black;
+        width: 350px;
+        position: absolute;
+        font-size: 16px;
+        margin-left: 500px;
+        margin-top: 380px;
+        z-index: 5;
+    }
+
+    .gazification_2_block {
+        position: absolute;
+        margin-top: -220px;
+    }
+
+    .gazification_2_block_img_1 {
+        position: absolute;
+        margin-left: 385px;
+        height: 740px;
+        width: 0px;
+        margin-top: 220px;
+        border: 1px grey solid;
+        opacity: 0.6;
+    }
+
+    .gazification_2_block_img_2 {
+        position: absolute;
+        margin-left: 425px;
+        height: 697px;
+        width: 0px;
+        margin-top: 220px;
+        border: 1px grey solid;
+        opacity: 0.6;
+    }
+
+    .gazification_2_block_img_3 {
+        position: absolute;
+        margin-left: 2045px;
+        height: 697px;
+        width: 0px;
+        margin-top: 220px;
+        border: 1px grey solid;
+        opacity: 0.6;
+    }
+
+    .gazification_2_block_img_4 {
+        position: absolute;
+        margin-left: 2085px;
+        height: 677px;
+        width: 0px;
+        margin-top: 220px;
+        border: 1px grey solid;
+        opacity: 0.6;
+    }
+
+    .gazification_2_block_img_5 {
+        position: absolute;
+        width: 2071px;
+        margin-left: 225px;
+        margin-top: 361px;
+        z-index: 4;
+        content: '';
+        border: 0.1px grey solid;
+        opacity: 0.6;
+    }
+
+    .gazification_2_block_img_6 {
+        position: absolute;
+        width: 2071px;
+        margin-left: 225px;
+        margin-top: 862px;
+        z-index: 4;
+        content: '';
+        border: 0.1px grey solid;
+        opacity: 0.6;
+    }
+
+    .gazification_2_block_img_7 {
+        position: absolute;
+        margin-left: 1095px;
+        height: 635px;
+        width: 0px;
+        margin-top: 280px;
+        border: 1px grey solid;
+        opacity: 0.6;
+    }
+
+    .gazification_2_block_img_8 {
+        position: absolute;
+        margin-left: 1990px;
+        height: 615px;
+        width: 0px;
+        margin-top: 280px;
+        border: 1px grey solid;
+        opacity: 0.6;
+    }
+
+    .gazification_2_block_img_9 {
+        position: absolute;
+        margin-left: 1390px;
+        height: 615px;
+        width: 0px;
+        margin-top: 280px;
+        border: 1px grey solid;
+        opacity: 0.6;
+    }
+
+    .gazification_2_block_img_10 {
+        position: absolute;
+        margin-left: 1689px;
+        height: 635px;
+        width: 0px;
+        margin-top: 280px;
+        border: 1px grey solid;
+        opacity: 0.6;
+    }
+
+    .gazification_2_block_img_11 {
+        position: absolute;
+        margin-left: 1079px;
+        width: 920px;
+        margin-top: 607px;
+        border: 1px grey solid;
+        opacity: 0.6;
+    }
+
+    .gazification_2_block_img_12 {
+        position: absolute;
+        margin-left: 1085px;
+        width: 20px;
+        margin-top: 361px;
+        border: 1px grey solid;
+        opacity: 0.6;
+        transform: rotate(135deg);
+    }
+
+    .gazification_2_block_img_13 {
+        position: absolute;
+        margin-left: 1085px;
+        width: 20px;
+        margin-top: 862px;
+        border: 1px grey solid;
+        opacity: 0.6;
+        transform: rotate(135deg);
+    }
+
+    .gazification_2_block_img_14 {
+        position: absolute;
+        margin-left: 1980px;
+        width: 20px;
+        margin-top: 862px;
+        border: 1px grey solid;
+        opacity: 0.6;
+        transform: rotate(135deg);
+    }
+
+    .gazification_2_block_img_15 {
+        position: absolute;
+        margin-left: 1980px;
+        width: 20px;
+        margin-top: 361px;
+        border: 1px grey solid;
+        opacity: 0.6;
+        transform: rotate(135deg);
+    }
+
+    .gazification_2_block_1 {
+        position: absolute;
+        width: 295px;
+        height: 245px;
+        margin-left: 1096px;
+        margin-top: 362px;
+        z-index: 5;
+        /*        background: linear-gradient( 135deg, rgba(79, 243, 6, 0.4), rgba(61, 164, 49, 0.6), rgba(45, 140, 117, 0.6), rgb(12, 106, 227, 0.6), rgba(0,55,251, 0.6));*/
+        /*-webkit-mask-image: url("https://raw.githubusercontent.com/robin-dela/css-mask-animation/master/img/urban-sprite.png");*/
+        /*mask-image: url("https://raw.githubusercontent.com/robin-dela/css-mask-animation/master/img/urban-sprite.png");*/
+        /*-webkit-mask-size: 3000% 100%;*/
+        /*mask-size: 3000% 100%;*/
+        /*-webkit-animation: ani2 0.7s steps(29) forwards;*/
+        /*animation: ani2 0.7s steps(29) forwards;*/
+    }
+
+    /*.gazification_2_block_1:hover {*/
+    /*  -webkit-animation: ani 0.7s steps(29) forwards;*/
+    /*  animation: ani 0.7s steps(29) forwards;*/
+    /*}*/
+    /*@keyframes ani {*/
+    /*  100% {*/
+    /*    -webkit-mask-position: 100% 100%;*/
+    /*    mask-position: 100% 100%;*/
+    /*  }*/
+    /*}*/
+    /*@keyframes ani2 {*/
+    /*  100% {*/
+    /*    -webkit-mask-position: 0% 0%;*/
+    /*    mask-position: 0% 0%;*/
+    /*  }*/
+    /*}*/
+    .transportir_1 {
+        position: absolute;
+        margin-left: -600px;
+        margin-top: -160px;
+        width: 1200px;
+        transform-origin: center center;
+        transition: transform 3s;
+        z-index: 9999;
+    }
+
+    .transportir_2 {
+        position: absolute;
+        margin-left: -600px;
+        margin-top: -160px;
+        width: 1200px;
+        transform-origin: center center;
+        transition: transform 3s;
+        z-index: 9999;
+    }
+
+
+    .gazification_2_block_1:hover,
+    .gazification_2_block_2:hover,
+    .gazification_2_block_3:hover,
+    .gazification_2_block_4:hover,
+    .gazification_2_block_5:hover,
+    .gazification_2_block_6:hover {
+        background: linear-gradient(135deg, rgba(79, 243, 6, 0.4), rgba(61, 164, 49, 0.6), rgba(45, 140, 117, 0.6), rgb(12, 106, 227, 0.6), rgba(0, 55, 251, 0.6));
+        transition: transform 1s;
+    }
+
+
+    .gazification_2_block_1:hover .gazification_2_block_1_text_1,
+    .gazification_2_block_1:hover .gazification_2_block_1_text_3,
+    .gazification_2_block_2:hover .gazification_2_block_1_text_1,
+    .gazification_2_block_2:hover .gazification_2_block_2_text_3,
+    .gazification_2_block_3:hover .gazification_2_block_1_text_1,
+    .gazification_2_block_3:hover .gazification_2_block_3_text_3,
+    .gazification_2_block_4:hover .gazification_2_block_1_text_1,
+    .gazification_2_block_4:hover .gazification_2_block_4_text_3,
+    .gazification_2_block_5:hover .gazification_2_block_1_text_1,
+    .gazification_2_block_5:hover .gazification_2_block_5_text_3,
+    .gazification_2_block_6:hover .gazification_2_block_1_text_1,
+    .gazification_2_block_6:hover .gazification_2_block_6_text_3 {
+        color: white;
+    }
+
+    .gazification_2_block_1:hover .gazification_2_block_1_text_2,
+    .gazification_2_block_2:hover .gazification_2_block_1_text_2,
+    .gazification_2_block_3:hover .gazification_2_block_1_text_2,
+    .gazification_2_block_4:hover .gazification_2_block_1_text_2,
+    .gazification_2_block_5:hover .gazification_2_block_1_text_2,
+    .gazification_2_block_6:hover .gazification_2_block_1_text_2 {
+        color: white;
+    }
+
+    .gazification_2_block_1:hover .gazification_2_block_1_number,
+    .gazification_2_block_2:hover .gazification_2_block_1_number,
+    .gazification_2_block_3:hover .gazification_2_block_1_number,
+    .gazification_2_block_4:hover .gazification_2_block_1_number,
+    .gazification_2_block_5:hover .gazification_2_block_1_number,
+    .gazification_2_block_6:hover .gazification_2_block_1_number {
+        color: white;
+    }
+
+
+    .gazification_2_block_1:hover .gazification_2_block_1_img_1,
+    .gazification_2_block_2:hover .gazification_2_block_1_img_2,
+    .gazification_2_block_2:hover .gazification_2_block_1_img_3,
+    .gazification_2_block_2:hover .gazification_2_block_1_img_4,
+    .gazification_2_block_2:hover .gazification_2_block_1_img_5,
+    .gazification_2_block_2:hover .gazification_2_block_1_img_6 {
+        filter: grayscale(1) brightness(1000%);
+    }
+
+
+    /*.gazification_2_block_6:hover .gazification_2_block_1_text_1{*/
+    /*    color: white;*/
+    /*}*/
+    .gazification_2_block_1_text_1 {
+        color: black;
+        margin-top: 85px;
+        margin-left: 15px;
+        font-size: 18px;
+        font-family: "Cera Pro Regular", sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 0.6px;
+    }
+
+    .gazification_2_block_1_text_1 span {
+        color: black;
+        margin-left: -14px;
+        margin-top: 6px;
+        font-size: 15px;
+        font-family: "Cera Pro Regular", sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 0.6px;
+        position: absolute;
+    }
+
+    .gazification_2_block_1_text_2 {
+        color: black;
+        margin-left: 13px;
+        font-size: 16px;
+        font-family: "Cera Pro Light", sans-serif;
+        margin-top: 10px;
+    }
+
+
+    .gazification_2_block_1_number {
+        width: 50px;
+        height: 50px;
+        font-family: "Cera Pro Regular", sans-serif;
+        font-size: 40px;
+        color: black;
+        margin-left: 230px;
+        margin-top: -30px;
+        overflow: hidden;
+    }
+
+    .gazification_2_block_1_text_3 {
+        color: black;
+        position: absolute;
+        font-size: 20px;
+        font-family: "Cera Pro Medium", sans-serif;
+        margin-left: 250px;
+        margin-top: -10px;
+    }
+
+    .gazification_2_block_2_text_3 {
+        color: black;
+        position: absolute;
+        font-size: 20px;
+        font-family: "Cera Pro Medium", sans-serif;
+        margin-left: 250px;
+        margin-top: -10px;
+    }
+
+    .gazification_2_block_3_text_3 {
+        color: black;
+        position: absolute;
+        font-size: 20px;
+        font-family: "Cera Pro Medium", sans-serif;
+        margin-left: 250px;
+        margin-top: -10px;
+    }
+
+    .gazification_2_block_4_text_3 {
+        color: black;
+        position: absolute;
+        font-size: 20px;
+        font-family: "Cera Pro Medium", sans-serif;
+        margin-left: 250px;
+        margin-top: -1px;
+    }
+
+    .gazification_2_block_5_text_3 {
+        color: black;
+        position: absolute;
+        font-size: 20px;
+        font-family: "Cera Pro Medium", sans-serif;
+        margin-left: 250px;
+        margin-top: -1px;
+    }
+
+    .gazification_2_block_6_text_3 {
+        color: black;
+        position: absolute;
+        font-size: 20px;
+        font-family: "Cera Pro Medium", sans-serif;
+        margin-left: 250px;
+        margin-top: -1px;
+    }
+
+    .gazification_2_block_2 {
+        position: absolute;
+        width: 298px;
+        height: 245px;
+        margin-left: 1392px;
+        margin-top: 362px;
+    }
+
+    .gazification_2_block_3 {
+        position: absolute;
+        width: 300px;
+        height: 245px;
+        margin-left: 1690px;
+        margin-top: 362px;
+    }
+
+    .gazification_2_block_4 {
+        position: absolute;
+        width: 295px;
+        height: 255px;
+        margin-left: 1096px;
+        margin-top: 607px;
+
+    }
+
+    .gazification_2_block_5 {
+        position: absolute;
+        width: 298px;
+        height: 255px;
+        margin-left: 1392px;
+        margin-top: 607px;
+    }
+
+    .gazification_2_block_6 {
+        position: absolute;
+        width: 300px;
+        height: 254px;
+        margin-left: 1691px;
+        margin-top: 607px;
+    }
+
+
+    .gazification_uslugi {
+        width: 1700px;
+        height: auto;
+        position: absolute;
+        margin-top: 2250px;
+        display: flex;
+        margin-left: 200px;
+    }
+
+    .gazification_uslugi_title {
+        color: black;
+        font-size: 48px;
+        font-family: "Cera Pro bold", sans-serif;
+        position: absolute;
+        margin-top: -550px;
+        margin-left: 900px;
+    }
+
+    .gazification_body_uslugi {
+        position: absolute;
+        font-size: 60px;
+        margin-left: 745px;
+    }
+
+
+    .gazification_body_uslugi_box1 {
+        width: 355px;
+        height: 250px;
+        background-color: white;
+        position: absolute;
+        border-radius: 0px 0px 8px 8px;
+        margin-left: 250px;
+        margin-top: -275px;
+        box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.1);
+        transition: transform 0.1s ease;
+
+/* Добавил анимацию */
+
+
+.gazification_body_box1_image {
+    width: 355px;
+    height: 170px;
+    align-items: center;
+    /*border-radius: 8px 8px 0 0;*/
+    margin-left: 0px;
+    margin-top: -168px;
+    position: absolute;
+    z-index: 1;
+    border-radius: 8px 8px 0px 0px;
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.1);
+    /*animation: unrotate 20s linear infinite;*/
+}
+
+.gazification_body_uslugi_box_title_1 {
+    margin-top: 20px;
+    width: 330px;
+    margin-left: 15px;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "Cera Pro Bold", serif;
+    position: absolute;
+    color: #000000;
+    line-height: 1; /* Уменьшаем расстояние между строками */
+}
+
+.gazification_body_text {
+    font-size: 16px;
+    color: #000000;
+    font-family: "Cera Pro Regular", serif;
+    margin-top: 125px;
+    margin-left: 15px;
+    width: 320px;
+
+}
+
+.gazification_body_price {
+    position: absolute;
+    margin-top: 95px;
+    margin-left: 15px;
+    letter-spacing: 0.5px;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: "Cera Pro Bold", serif;
+    color: #0003ff;
+}
+
+}
+
+    .gazification_body_uslugi_box2 {
+        width: 355px;
+        height: 250px;
+        background-color: white;
+        position: absolute;
+        border-radius: 0px 0px 8px 8px;
+        margin-left: 650px;
+        margin-top: -275px;
+        box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.1);
+        transition: transform 0.1s ease;
+
+/* Добавил анимацию */
+
+
+.gazification_body_box2_image {
+    width: 355px;
+    height: 170px;
+    align-items: center;
+    margin-left: 0px;
+    margin-top: -170px;
+    position: absolute;
+    z-index: 1;
+    border-radius: 8px 8px 0px 0px;
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.1);
+    /*animation: unrotate 20s linear infinite;*/
+}
+
+.gazification_body_uslugi_box_title_2 {
+    margin-top: 20px;
+    width: 330px;
+    margin-left: 15px;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "Cera Pro Bold", serif;
+    position: absolute;
+    color: #000000;
+    line-height: 1; /* Уменьшаем расстояние между строками */
+}
+
+.gazification_body_text2 {
+    font-size: 16px;
+    color: #000000;
+    font-family: "Cera Pro Regular", serif;
+    margin-top: 125px;
+    margin-left: 15px;
+    width: 320px;
+
+}
+
+.gazification_body_price2 {
+    position: absolute;
+    margin-top: 95px;
+    margin-left: 15px;
+    letter-spacing: 0.5px;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: "Cera Pro Bold", serif;
+    color: #0003ff;
+}
+
+
+.ambilight {
+    filter: url(#ambilight);
+}
+
+}
+    .gazification_body_uslugi_box3 {
+        width: 355px;
+        height: 250px;
+        background-color: white;
+        position: absolute;
+        border-radius: 0px 0px 8px 8px;
+        margin-left: 1050px;
+        margin-top: -275px;
+        box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.1);
+        transition: transform 0.1s ease;
+
+/* Добавил анимацию */
+
+
+.gazification_body_box3_image {
+    width: 355px;
+    height: 170px;
+    align-items: center;
+    margin-left: 0px;
+    margin-top: -170px;
+    position: absolute;
+    z-index: 1;
+    border-radius: 8px 8px 0px 0px;
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.1);
+    /*animation: unrotate 20s linear infinite;*/
+}
+
+.gazification_body_uslugi_box_title_3 {
+    margin-top: 20px;
+    width: 330px;
+    margin-left: 15px;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "Cera Pro Bold", serif;
+    position: absolute;
+    color: #000000;
+    line-height: 1; /* Уменьшаем расстояние между строками */
+}
+
+.gazification_body_text3 {
+    font-size: 16px;
+    color: #000000;
+    font-family: "Cera Pro Regular", serif;
+    margin-top: 125px;
+    margin-left: 15px;
+    width: 320px;
+
+}
+
+.gazification_body_price3 {
+    position: absolute;
+    margin-top: 95px;
+    margin-left: 20px;
+    letter-spacing: 0.5px;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: "Cera Pro Bold", serif;
+    color: #0003ff;
+}
+
+}
+    .gazification_body_uslugi_box4 {
+        width: 355px;
+        height: 250px;
+        background-color: white;
+        position: absolute;
+        border-radius: 0px 0px 8px 8px;
+        margin-left: 1450px;
+        margin-top: -275px;
+        box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.1);
+        transition: transform 0.1s ease;
+
+/* Добавил анимацию */
+
+
+.gazification_body_box4_image {
+    width: 355px;
+    height: 170px;
+    align-items: center;
+    border-radius: 8px 8px 0 0;
+    margin-left: 0px;
+    margin-top: -170px;
+    position: absolute;
+    z-index: 1;
+    /*animation: unrotate 20s linear infinite;*/
+}
+
+.gazification_body_uslugi_box_title_4 {
+    margin-top: 20px;
+    width: 330px;
+    margin-left: 15px;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "Cera Pro Bold", serif;
+    position: absolute;
+    color: #000000;
+    line-height: 1; /* Уменьшаем расстояние между строками */
+}
+
+.gazification_body_text4 {
+    font-size: 16px;
+    color: #000000;
+    font-family: "Cera Pro Regular", serif;
+    margin-top: 125px;
+    margin-left: 15px;
+    width: 320px;
+
+}
+
+.gazification_body_price4 {
+    position: absolute;
+    margin-top: 95px;
+    margin-left: 15px;
+    letter-spacing: 0.5px;
+    font-size: 20px;
+    font-weight: normal;
+    font-family: "Cera Pro Bold", serif;
+    color: #0003ff;
+}
+
+}
+
+    .gazification_body_uslugi_box5 {
+        width: 355px;
+        height: 250px;
+        background-color: white;
+        position: absolute;
+        border-radius: 0px 0px 8px 8px;
+        margin-left: 250px;
+        margin-top: 190px;
+        box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.1);
+        transition: transform 0.1s ease;
+
+/* Добавил анимацию */
+
+
+.gazification_body_box5_image {
+    width: 355px;
+    height: 170px;
+    align-items: center;
+    border-radius: 8px 8px 0 0;
+    margin-left: 0px;
+    margin-top: -170px;
+    position: absolute;
+    z-index: 1;
+    /*animation: unrotate 20s linear infinite;*/
+}
+
+.gazification_body_uslugi_box_title_5 {
+    margin-top: 20px;
+    width: 330px;
+    margin-left: 15px;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "Cera Pro Bold", serif;
+    position: absolute;
+    color: #000000;
+    line-height: 1; /* Уменьшаем расстояние между строками */
+}
+
+.gazification_body_text5 {
+    font-size: 16px;
+    color: #000000;
+    font-family: "Cera Pro Regular", serif;
+    margin-top: 105px;
+    margin-left: 15px;
+    width: 320px;
+
+}
+
+.gazification_body_price5 {
+    position: absolute;
+    margin-top: 75px;
+    margin-left: 15px;
+    letter-spacing: 0.5px;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: "Cera Pro Bold", serif;
+    color: #0003ff;
+}
+
+}
+.gazification_body_uslugi_box6 {
+    width: 355px;
+    height: 250px;
+    background-color: white;
+    position: absolute;
+    border-radius: 0px 0px 8px 8px;
+    margin-left: 650px;
+    margin-top: 190px;
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.1);
+    transition: transform 0.1s ease;
+
+/* Добавил анимацию */
+
+
+.gazification_body_box6_image {
+    width: 355px;
+    height: 170px;
+    align-items: center;
+    border-radius: 8px 8px 0 0;
+    margin-left: 0px;
+    margin-top: -170px;
+    position: absolute;
+    z-index: 1;
+    /*animation: unrotate 20s linear infinite;*/
+}
+
+.gazification_body_uslugi_box_title_6 {
+    margin-top: 20px;
+    width: 330px;
+    margin-left: 15px;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "Cera Pro Bold", serif;
+    position: absolute;
+    color: #000000;
+    line-height: 1; /* Уменьшаем расстояние между строками */
+}
+
+.gazification_body_text6 {
+    font-size: 16px;
+    color: #000000;
+    font-family: "Cera Pro Regular", serif;
+    margin-top: 105px;
+    margin-left: 15px;
+    width: 320px;
+
+}
+
+.gazification_body_price6 {
+    position: absolute;
+    margin-top: 75px;
+    margin-left: 15px;
+    letter-spacing: 0.5px;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: "Cera Pro Bold", serif;
+    color: #0003ff;
+}
+
+}
+
+    .gazification_body_uslugi_box7 {
+        width: 355px;
+        height: 250px;
+        background-color: white;
+        position: absolute;
+        border-radius: 0px 0px 8px 8px;
+        margin-left: 1050px;
+        margin-top: 190px;
+        box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.1);
+        transition: transform 0.1s ease;
+
+/* Добавил анимацию */
+
+
+.gazification_body_box7_image {
+    width: 355px;
+    height: 170px;
+    align-items: center;
+    border-radius: 8px 8px 0 0;
+    margin-left: 0px;
+    margin-top: -170px;
+    position: absolute;
+    z-index: 1;
+    /*animation: unrotate 20s linear infinite;*/
+}
+
+.gazification_body_uslugi_box_title_7 {
+    margin-top: 20px;
+    width: 330px;
+    margin-left: 15px;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "Cera Pro Bold", serif;
+    position: absolute;
+    color: #000000;
+    line-height: 1; /* Уменьшаем расстояние между строками */
+}
+
+.gazification_body_text7 {
+    font-size: 16px;
+    color: #000000;
+    font-family: "Cera Pro Regular", serif;
+    margin-top: 105px;
+    margin-left: 15px;
+    width: 320px;
+
+}
+
+.gazification_body_price7 {
+    position: absolute;
+    margin-top: 75px;
+    margin-left: 15px;
+    letter-spacing: 0.5px;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: "Cera Pro Bold", serif;
+    color: #0003ff;
+}
+
+}
+
+    .gazification_body_uslugi_box8 {
+        width: 355px;
+        height: 250px;
+        background-color: white;
+        position: absolute;
+        border-radius: 0px 0px 8px 8px;
+        margin-left: 1450px;
+        margin-top: 190px;
+        box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.1);
+        transition: transform 0.1s ease;
+
+/* Добавил анимацию */
+
+
+.gazification_body_box8_image {
+    width: 355px;
+    height: 170px;
+    align-items: center;
+    border-radius: 8px 8px 0 0;
+    margin-left: 0px;
+    margin-top: -170px;
+    position: absolute;
+    z-index: 1;
+    /*animation: unrotate 20s linear infinite;*/
+}
+
+.gazification_body_uslugi_box_title_8 {
+    margin-top: 20px;
+    width: 330px;
+    margin-left: 20px;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "Cera Pro Bold", serif;
+    position: absolute;
+    color: #000000;
+    line-height: 1; /* Уменьшаем расстояние между строками */
+}
+
+.gazification_body_text8 {
+    font-size: 16px;
+    color: #000000;
+    font-family: "Cera Pro Regular", serif;
+    margin-top: 105px;
+    margin-left: 20px;
+    width: 320px;
+
+}
+
+.gazification_body_price8 {
+    position: absolute;
+    margin-top: 75px;
+    margin-left: 20px;
+    letter-spacing: 0.5px;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: "Cera Pro Bold", serif;
+    color: #0003ff;
+}
+
+}
+    .gazification_body_uslugi_box1:hover {
+        transform: scale(1.01); /* При наведении карточка немного увеличивается */
+    }
+
+    .gazification_body_uslugi_box2:hover {
+        transform: scale(1.01); /* При наведении карточка немного увеличивается */
+    }
+
+    .gazification_body_uslugi_box3:hover {
+        transform: scale(1.01); /* При наведении карточка немного увеличивается */
+    }
+
+    .gazification_body_uslugi_box4:hover {
+        transform: scale(1.01); /* При наведении карточка немного увеличивается */
+    }
+
+    .gazification_body_uslugi_box5:hover {
+        transform: scale(1.01); /* При наведении карточка немного увеличивается */
+    }
+
+    .gazification_body_uslugi_box6:hover {
+        transform: scale(1.01); /* При наведении карточка немного увеличивается */
+    }
+
+    .gazification_body_uslugi_box7:hover {
+        transform: scale(1.01); /* При наведении карточка немного увеличивается */
+    }
+
+    .gazification_body_uslugi_box8:hover {
+        transform: scale(1.01); /* При наведении карточка немного увеличивается */
+    }
+
+
+    /*   BOX ANIMATION      */
+    .gazification_body_uslugi_box1:hover {
+        -webkit-filter: brightness(80%);
+        -webkit-transition: all 1s ease;
+        -moz-transition: all 1s ease;
+        -o-transition: all 1s ease;
+        -ms-transition: all 1s ease;
+        transition: all 1s ease;
+    }
+
+    .gazification_body_uslugi_box2:hover {
+        -webkit-filter: brightness(80%);
+        -webkit-transition: all 1s ease;
+        -moz-transition: all 1s ease;
+        -o-transition: all 1s ease;
+        -ms-transition: all 1s ease;
+        transition: all 1s ease;
+    }
+
+    .gazification_body_uslugi_box3:hover {
+        -webkit-filter: brightness(80%);
+        -webkit-transition: all 1s ease;
+        -moz-transition: all 1s ease;
+        -o-transition: all 1s ease;
+        -ms-transition: all 1s ease;
+        transition: all 1s ease;
+    }
+
+    .gazification_body_uslugi_box4:hover {
+        -webkit-filter: brightness(80%);
+        -webkit-transition: all 1s ease;
+        -moz-transition: all 1s ease;
+        -o-transition: all 1s ease;
+        -ms-transition: all 1s ease;
+        transition: all 1s ease;
+    }
+
+    .gazification_body_uslugi_box5:hover {
+        -webkit-filter: brightness(80%);
+        -webkit-transition: all 1s ease;
+        -moz-transition: all 1s ease;
+        -o-transition: all 1s ease;
+        -ms-transition: all 1s ease;
+        transition: all 1s ease;
+    }
+
+    .gazification_body_uslugi_box6:hover {
+        -webkit-filter: brightness(80%);
+        -webkit-transition: all 1s ease;
+        -moz-transition: all 1s ease;
+        -o-transition: all 1s ease;
+        -ms-transition: all 1s ease;
+        transition: all 1s ease;
+    }
+
+    .gazification_body_uslugi_box7:hover {
+        -webkit-filter: brightness(80%);
+        -webkit-transition: all 1s ease;
+        -moz-transition: all 1s ease;
+        -o-transition: all 1s ease;
+        -ms-transition: all 1s ease;
+        transition: all 1s ease;
+    }
+
+    .gazification_body_uslugi_box8:hover {
+        -webkit-filter: brightness(80%);
+        -webkit-transition: all 1s ease;
+        -moz-transition: all 1s ease;
+        -o-transition: all 1s ease;
+        -ms-transition: all 1s ease;
+        transition: all 1s ease;
+    }
+
+
+    .gazification_body_uslugi_box1:hover {
+        filter: url(#ambilight);
+    }
+
+    .gazification_body_uslugi_box2:hover {
+        filter: url(#ambilight);
+    }
+
+    .gazification_body_uslugi_box3:hover {
+        filter: url(#ambilight);
+    }
+
+    .gazification_body_uslugi_box4:hover {
+        filter: url(#ambilight);
+    }
+
+    .gazification_body_uslugi_box5:hover {
+        filter: url(#ambilight);
+    }
+
+    .gazification_body_uslugi_box6:hover {
+        filter: url(#ambilight);
+    }
+
+    .gazification_body_uslugi_box7:hover {
+        filter: url(#ambilight);
+    }
+
+
+        .gazification_body_uslugi_box8:hover {
+        filter: url(#ambilight);
+    }
+
+
+    .gazification_pdf {
+        width: 2500px;
+        position: absolute;
+        height: 440px;
+        background-color: rgba(246, 245, 245, 0.97);
+        margin-left: -200px;
+        margin-top: 520px;
+    }
+
+    .gazification_pdf_title {
+        color: black;
+        position: absolute;
+        font-family: "Cera Pro bold", sans-serif;
+        font-size: 48px;
+        margin-left: 1070px;
+    }
+
+    .gazification_pdf_box {
+
+    }
+
+    .gazification_pdf_box_1 {
+        margin-left: 440px;
+    }
+
+    .gazification_pdf_box_img {
+        position: absolute;
+        width: 80px;
+        margin-top: 130px;
+        margin-left: -10px;
+    }
+
+    .gazification_pdf_box_img2 {
+        position: absolute;
+        width: 80px;
+        margin-top: 130px;
+        margin-left: 300px;
+    }
+
+    .gazification_pdf_box_img3 {
+        position: absolute;
+        width: 80px;
+        margin-top: 130px;
+        margin-left: 610px;
+    }
+
+    .gazification_pdf_box_img4 {
+        position: absolute;
+        width: 80px;
+        margin-top: 130px;
+        margin-left: 920px;
+    }
+
+    .gazification_pdf_box_img5 {
+        position: absolute;
+        width: 80px;
+        margin-top: 130px;
+        margin-left: 1230px;
+    }
+
+    .gazification_pdf_box_img6 {
+        position: absolute;
+        width: 80px;
+        margin-top: 130px;
+        margin-left: 1540px;
+    }
+
+    .gazification_pdf_box_title_1 {
+        color: black;
+        position: absolute;
+        margin-top: 225px;
+        margin-left: -85px;
+        font-size: 14px;
+        font-family: "Cera Pro Regular", sans-serif;
+        width: 230px;
+        text-align: center;
+    }
+
+    .gazification_pdf_box_title_2 {
+        color: black;
+        position: absolute;
+        margin-top: 225px;
+        margin-left: 230px;
+        font-size: 14px;
+        font-family: "Cera Pro Regular", sans-serif;
+        width: 230px;
+        text-align: center;
+    }
+
+
+    .gazification_pdf_box_title_3 {
+        color: black;
+        position: absolute;
+        margin-top: 225px;
+        margin-left: 535px;
+        font-size: 14px;
+        font-family: "Cera Pro Regular", sans-serif;
+        width: 230px;
+        text-align: center;
+    }
+
+
+    .gazification_pdf_box_title_4 {
+        color: black;
+        position: absolute;
+        margin-top: 225px;
+        margin-left: 840px;
+        font-size: 14px;
+        font-family: "Cera Pro Regular", sans-serif;
+        width: 230px;
+        text-align: center;
+    }
+
+
+    .gazification_pdf_box_title_5 {
+        color: black;
+        position: absolute;
+        margin-top: 225px;
+        margin-left: 1150px;
+        font-size: 14px;
+        font-family: "Cera Pro Regular", sans-serif;
+        width: 230px;
+        text-align: center;
+    }
+
+
+    .gazification_pdf_box_title_6 {
+        color: black;
+        position: absolute;
+        margin-top: 225px;
+        margin-left: 1465px;
+        font-size: 14px;
+        font-family: "Cera Pro Regular", sans-serif;
+        width: 230px;
+        text-align: center;
+    }
+
+
+    .gazification_pdf_box_text_1 {
+
+    }
+
+    .gazification_pdf_box_upload {
+
+    }
+
+
+    .gazification_faq {
+        width: 2500px;
+        height: 900px;
+        position: absolute;
+        margin-top: 3200px;
+        background-color: #ffffff;
+    }
+
+    .gazification_faq_title {
+        color: black;
+        position: absolute;
+        font-size: 48px;
+        font-family: "Cera Pro bold", sans-serif;
+        margin-left: 920px;
+        margin-top: 50px;
+    }
+
+    .gazification_faq_block {
+        position: absolute;
+        margin-top: -25px;
+    }
+
+    .gazification_faq_block_1 {
+        width: 860px;
+        height: 100px;
+        margin-left: 1000px;
+        margin-top: 180px;
+        color: black;
+        border-radius: 20px;
+    }
+
+    .gazification_faq_block_1:after {
+        content: "";
+        border: 1px #cecccc solid;
+        width: 975px;
+        position: absolute;
+        margin-top: -80px;
+    }
+
+    .gazification_faq_block_1:before {
+        content: "";
+        border: 1px #cecccc solid;
+        width: 975px;
+        position: absolute;
+        margin-top: 52px;
+    }
+
+    .faq_1 {
+
+    }
+
+    .faq_1:after {
+       margin-top: -170px;
+    }
+
+    .faq_1:before {
+        margin-top: 150px;
+        transition: opacity 0.3s ease, margin-top 0.5s ease;
+    }
+
+    .gazification_faq_block_1_title {
+        font-size: 24px;
+        font-family: "Cera Pro Medium", sans-serif;
+
+    }
+
+    .gazification_faq_block_1_title_strela1 {
+        position: absolute;
+        margin-top: -52px;
+        margin-left: 910px;
+        width: 15px;
+        height: 15px;
+        transform: rotate(135deg);
+    }
+
+    .strela-digris {
+        transform: rotate(90deg);
+        transition: transform 0.5s ease;
+    }
+
+
+    .gazification_faq_block_1_text {
+        animation: plav 1.3s ease;
+    }
+
+    .gazification_faq_block_2 {
+        width: 860px;
+        height: 100px;
+        margin-left: 1000px;
+        margin-top: -50px;
+        color: black;
+        border-radius: 20px;
+    }
+
+    .gazification_faq_block_2:before {
+        content: "";
+        border: 1px #cecccc solid;
+        width: 975px;
+        position: absolute;
+        margin-top: 52px;
+    }
+
+    .faq_2 {
+    }
+
+    .faq_2:before {
+        margin-top: 240px;
+        transition: opacity 0.3s ease, margin-top 0.5s ease;
+    }
+
+    .gazification_faq_block_2_title {
+        font-size: 24px;
+        font-family: "Cera Pro Medium", sans-serif;
+
+    }
+
+    .gazification_faq_block_2_title_strela1 {
+        position: absolute;
+        margin-top: -52px;
+        margin-left: 910px;
+        width: 15px;
+        height: 15px;
+        transform: rotate(135deg);
+    }
+
+    .strela-digris_2 {
+        transform: rotate(90deg);
+        transition: transform 0.5s ease;
+    }
+
+    .faq_2_2 {
+        margin-top: 70px;
+    }
+
+    .gazification_faq_block_2_text {
+        animation: plav 1.3s ease;
+    }
+
+    .gazification_faq_block_3 {
+        width: 860px;
+        height: 100px;
+        margin-left: 1000px;
+        margin-top: -50px;
+        color: black;
+        border-radius: 20px;
+    }
+
+    .gazification_faq_block_3:before {
+        content: "";
+        border: 1px #cecccc solid;
+        width: 975px;
+        position: absolute;
+        margin-top: 52px;
+    }
+
+
+    .faq_3 {
+
+    }
+
+    .faq_3:before {
+        margin-top: 150px;
+        transition: opacity 0.3s ease, margin-top 0.5s ease;
+    }
+
+    .gazification_faq_block_3_title {
+        font-size: 28px;
+        font-family: "Cera Pro Medium", sans-serif;
+
+    }
+
+    .gazification_faq_block_3_title_strela1 {
+        position: absolute;
+        margin-top: -52px;
+        margin-left: 910px;
+        width: 15px;
+        height: 15px;
+        transform: rotate(135deg);
+    }
+
+    .strela-digris_3 {
+        transform: rotate(90deg);
+        transition: transform 0.5s ease;
+    }
+
+    .faq_3_3 {
+        margin-top: 150px;
+    }
+
+    .gazification_faq_block_3_text {
+        animation: plav 1.3s ease;
+    }
+
+    .gazification_faq_block_4 {
+        width: 860px;
+        height: 100px;
+        margin-left: 1000px;
+        margin-top: -50px;
+        color: black;
+        border-radius: 20px;
+    }
+
+    .gazification_faq_block_4:before {
+        content: "";
+        border: 1px #cecccc solid;
+        width: 975px;
+        position: absolute;
+        margin-top: 52px;
+    }
+
+
+    .faq_4 {
+
+    }
+
+    .faq_4:before {
+        margin-top: 150px;
+        transition: opacity 0.3s ease, margin-top 0.5s ease;
+    }
+
+    .gazification_faq_block_4_title {
+        font-size: 28px;
+        font-family: "Cera Pro Medium", sans-serif;
+
+    }
+
+    .gazification_faq_block_4_title_strela1 {
+        position: absolute;
+        margin-top: -52px;
+        margin-left: 910px;
+        width: 15px;
+        height: 15px;
+        transform: rotate(135deg);
+    }
+
+    .strela-digris_4 {
+        transform: rotate(90deg);
+        transition: transform 0.5s ease;
+    }
+
+    .faq_4_4 {
+        margin-top: 80px;
+    }
+
+    .gazification_faq_block_4_text {
+        animation: plav 1.3s ease;
+    }
+
+
+    .gazification_faq_block_5 {
+        width: 860px;
+        height: 100px;
+        margin-left: 1000px;
+        margin-top: -50px;
+        color: black;
+        border-radius: 20px;
+    }
+
+    .gazification_faq_block_5:before {
+        content: "";
+        border: 1px #cecccc solid;
+        width: 975px;
+        position: absolute;
+        margin-top: 52px;
+    }
+
+
+    .faq_5 {
+    }
+
+    .faq_5:before {
+        margin-top: 170px;
+        transition: opacity 0.3s ease, margin-top 0.5s ease;
+    }
+
+    .gazification_faq_block_5_title {
+        font-size: 24px;
+        font-family: "Cera Pro Medium", sans-serif;
+
+    }
+
+    .gazification_faq_block_5_title_strela1 {
+        position: absolute;
+        margin-top: -52px;
+        margin-left: 910px;
+        width: 15px;
+        height: 15px;
+        transform: rotate(135deg);
+    }
+
+    .strela-digris_5 {
+        transform: rotate(90deg);
+        transition: transform 0.5s ease;
+    }
+
+    .faq_5_5 {
+        margin-top: 80px;
+    }
+
+    .gazification_faq_block_5_text {
+        animation: plav 1.3s ease;
+    }
+
+    @keyframes plav {
+        0% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+    .gazification_faq_block_6 {
+        width: 860px;
+        height: 100px;
+        margin-left: 1000px;
+        margin-top: -50px;
+        color: black;
+        border-radius: 20px;
+    }
+
+    .gazification_faq_block_6:before {
+        content: "";
+        border: 1px #cecccc solid;
+        width: 975px;
+        position: absolute;
+        margin-top: 52px;
+    }
+
+
+    .faq_6 {
+    }
+
+    .faq_6:before {
+        margin-top: 150px;
+        transition: opacity 0.3s ease, margin-top 0.5s ease;
+    }
+
+    .gazification_faq_block_6_title {
+        font-size: 24px;
+        font-family: "Cera Pro Medium", sans-serif;
+
+    }
+
+    .gazification_faq_block_6_title_strela1 {
+        position: absolute;
+        margin-top: -52px;
+        margin-left: 910px;
+        width: 15px;
+        height: 15px;
+        transform: rotate(135deg);
+    }
+
+    .strela-digris_6 {
+        transform: rotate(90deg);
+        transition: transform 0.5s ease;
+    }
+
+    .faq_6_6 {
+        margin-top: 80px;
+    }
+
+    .gazification_faq_block_6_text {
+        animation: plav 1.3s ease;
+    }
+
+    @keyframes plav {
+        0% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+    .gazification_faq_block_7 {
+        width: 860px;
+        height: 100px;
+        margin-left: 1000px;
+        margin-top: -50px;
+        color: black;
+        border-radius: 20px;
+    }
+
+    .gazification_faq_block_7:before {
+        content: "";
+        border: 1px #cecccc solid;
+        width: 975px;
+        position: absolute;
+        margin-top: 52px;
+    }
+
+
+    .faq_7 {
+    }
+
+    .faq_7:before {
+        margin-top: 170px;
+        transition: opacity 0.3s ease, margin-top 0.5s ease;
+    }
+
+    .gazification_faq_block_7_title {
+        font-size: 24px;
+        font-family: "Cera Pro Medium", sans-serif;
+
+    }
+
+    .gazification_faq_block_7_title_strela1 {
+        position: absolute;
+        margin-top: -52px;
+        margin-left: 910px;
+        width: 15px;
+        height: 15px;
+        transform: rotate(135deg);
+    }
+
+    .strela-digris_7 {
+        transform: rotate(90deg);
+        transition: transform 0.5s ease;
+    }
+
+    .faq_7_7 {
+        margin-top: 80px;
+    }
+
+    .gazification_faq_block_7_text {
+        animation: plav 1.3s ease;
+    }
+
+    @keyframes plav {
+        0% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+    .gazification_faq_block_8 {
+        width: 860px;
+        height: 100px;
+        margin-left: 1000px;
+        margin-top: -50px;
+        color: black;
+        border-radius: 20px;
+    }
+
+    .gazification_faq_block_8:before {
+        content: "";
+        border: 1px #cecccc solid;
+        width: 975px;
+        position: absolute;
+        margin-top: 52px;
+    }
+
+
+    .faq_8 {
+    }
+
+    .faq_8:before {
+        margin-top: 170px;
+        transition: opacity 0.3s ease, margin-top 0.5s ease;
+    }
+
+    .gazification_faq_block_8_title {
+        font-size: 24px;
+        font-family: "Cera Pro Medium", sans-serif;
+
+    }
+
+    .gazification_faq_block_8_title_strela1 {
+        position: absolute;
+        margin-top: -52px;
+        margin-left: 910px;
+        width: 15px;
+        height: 15px;
+        transform: rotate(135deg);
+    }
+
+    .strela-digris_8 {
+        transform: rotate(90deg);
+        transition: transform 0.5s ease;
+    }
+
+    .faq_8_8 {
+        margin-top: 80px;
+    }
+
+    .gazification_faq_block_8_text {
+        animation: plav 1.3s ease;
+    }
+
+    @keyframes plav {
+        0% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+
+    .gazification_faq_block_9 {
+        width: 860px;
+        height: 100px;
+        margin-left: 1000px;
+        margin-top: -50px;
+        color: black;
+        border-radius: 20px;
+    }
+
+    .gazification_faq_block_9:before {
+        content: "";
+        border: 1px #cecccc solid;
+        width: 975px;
+        position: absolute;
+        margin-top: 52px;
+    }
+
+
+    .faq_9 {
+    }
+
+    .faq_9:before {
+        margin-top: 120px;
+        transition: opacity 0.3s ease, margin-top 0.5s ease;
+    }
+
+    .gazification_faq_block_9_title {
+        font-size: 24px;
+        font-family: "Cera Pro Medium", sans-serif;
+
+    }
+
+    .gazification_faq_block_9_title_strela1 {
+        position: absolute;
+        margin-top: -52px;
+        margin-left: 910px;
+        width: 15px;
+        height: 15px;
+        transform: rotate(135deg);
+    }
+
+    .strela-digris_9 {
+        transform: rotate(90deg);
+        transition: transform 0.5s ease;
+    }
+
+    .faq_9_9 {
+        margin-top: 80px;
+    }
+
+    .gazification_faq_block_9_text {
+        animation: plav 1.3s ease;
+    }
+
+    @keyframes plav {
+        0% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+
+
+
+
+
+
+    .gazification_footer {
+        position: absolute;
+        width: 2500px;
+        height: 300px;
+        background-color: #2c2b2b;
+        margin-top: 4080px;
+    }
+
+    .gazification_footer_1 {
+
+    }
+
+.gazification_footer_1_img{
+        width: 240px;
+    height: 49px;
+    margin-left: 1135px;
+    margin-top: 45px;
+    position: absolute;
+}
+
+.gazification_footer_2_img{
+    margin-left: 531px;
+    margin-top: 70px;
+    position: absolute;
+}
+
+    .gazification_footer_1_text {
+        width: 310px;
+        margin-left: 500px;
+        margin-top: 40px;
+        text-align: center;
+        font-size: 16px;
+        color: white;
+        position: absolute;
+    }
+
+    .gazification_footer_1_text:after {
+        position: absolute;
+        border: 1px grey solid;
+        width: 1350px;
+        content: '';
+        margin-top: 90px;
+        margin-left: -270px;
+    }
+
+
+    .gazification_footer_2 {
+        position: absolute;
+        margin-left: 560px;
+        margin-top: 130px;
+    }
+
+    .gazification_footer_2_text_1 {
+        font-size: 21px;
+        color: white;
+
+    }
+
+
+    /*.gazification_footer_2_text_1:after{*/
+    /*	border-bottom: dotted 5px white;*/
+    /*    width: 1000px;*/
+    /*    position: absolute;*/
+    /*    content: '';*/
+    /*    !*height: 1px;*!*/
+    /*    margin-top: -80px;*/
+    /*    margin-left: -500px;*/
+    /*}*/
+    .gazification_footer_2_text_2 {
+        font-size: 18px;
+        font-family: "Cera Pro Regular", sans-serif;
+        color: white;
+        opacity: 0.5;
+    }
+
+    .gazification_footer_2_text_3 {
+        font-size: 18px;
+        font-family: "Cera Pro Regular", sans-serif;
+        margin-top: -10px;
+        opacity: 0.5;
+    }
+
+
+    .gazification_footer_4 {
+        width: 300px;
+        position: absolute;
+        margin-left: 980px;
+        margin-top: 130px;
+    }
+
+    .gazification_footer_5 {
+        width: 300px;
+        position: absolute;
+        margin-left: 1280px;
+        margin-top: 130px;
+    }
+
+    .gazification_footer_5:before {
+        position: absolute;
+        border: 1px grey solid;
+        width: 1375px;
+        content: '';
+        margin-top: -10px;
+        margin-left: -715px;
+    }
+
+    .gazification_footer_6 {
+        width: 300px;
+        position: absolute;
+        margin-left: 1760px;
+        margin-top: 130px;
+    }
+
+    .gazification_footer_7 {
+        width: 300px;
+        position: absolute;
+        margin-left: 700px;
+        margin-top: -75px;
+    }
+
+    .gazification_footer_2_text_5 {
+        font-size: 18px;
+        font-family: "Cera Pro Regular", sans-serif;
+        color: white;
+        margin-left: 2px;
+    }
+
+    .gazification_footer_2_text_4 {
+        font-size: 18px;
+        font-family: "Cera Pro Regular", sans-serif;
+        margin-top: 40px;
+        position: absolute;
+        margin-left: -119px;
+        color: white;
+        opacity: 0.5;
+    }
+
+    .gazification_footer_7 {
+        width: 300px;
+        position: absolute;
+        margin-left: 1510px;
+        margin-top: 130px;
+    }
+
+    .gazification_footer_2_text_11 {
+        opacity: 0.5;
+        font-size: 18px;
+        font-family: "Cera Pro Regular", sans-serif;
+    }
+
+    .gazification_footer_2_text_21 {
+        opacity: 0.5;
+        font-size: 18px;
+        margin-top: -10px;
+        font-family: "Cera Pro Regular", sans-serif;
+    }
+
+    .footer-shot_1_1{
+    margin-top: 4120px;
+}
+
+.footer-shot_2_1{
+    margin-top: 4200px;
+}
+
+.footer-shot_3_1{
+    margin-top: 4150px;
+}
+
+.footer-shot_4_1{
+    margin-top: 4150px;
+}
+
+.footer-shot_5_1{
+    margin-top: 4150px;
+}
+
+.footer-shot_6_1{
+    margin-top: 4150px;
+}
+
+.footer-shot_7_1{
+    margin-top: 4150px;
+}
+
+.footer-shot_8_1{
+    margin-top: 4150px;
+}
+
+.footer-shot_9_1{
+    margin-top: 4150px;
+}

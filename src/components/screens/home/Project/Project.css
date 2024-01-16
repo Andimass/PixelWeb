@@ -1,0 +1,657 @@
+@import '/fonts.css';
+
+
+@media (min-width: 1800px) and (max-width: 1920px) {
+    .project_b {
+      zoom: 73.85%;
+      background-color: black;
+        max-height: 920px;
+          overflow: hidden;
+    }
+}
+.Project {
+  width: 2512px;
+  position: absolute;
+  top: 0px;
+  background-color: black;
+  height: 1316px;
+  z-index: 2;
+}
+
+.project_spec {
+  position: absolute;
+  width: 2495px;
+  margin-top: 30px;
+}
+
+.project_spec_title {
+  margin-left: 120px;
+  font-size: 50px;
+  text-transform: uppercase;
+  font-family: "Cera Pro Bold", sans-serif;
+}
+
+.project_spec_title span{
+  font-size: 50px;
+  text-transform: uppercase;
+  font-family: "Cera Pro Bold", sans-serif;
+  margin-top: 60px;
+  position: absolute;
+  margin-left: -635px;
+  background: linear-gradient(45deg, gold, deeppink);
+
+  /* Использование фона только для текста */
+  -webkit-background-clip: text;
+  background-clip: text;
+
+  /* Делаем цвет текста прозрачным, чтобы был виден только фон */
+  color: transparent;
+
+  /* Применяем обрезку к тексту */
+  -webkit-clip-path: inset(0px round 10px);
+  clip-path: inset(0px round 10px);
+  animation: borderAnimation 2s infinite;
+}
+
+@keyframes borderAnimation {
+    0% {
+        filter: hue-rotate(0deg);
+    }
+    100% {
+        filter: hue-rorate(360deg);
+    }
+}
+
+.project_spec_1{
+  position: absolute;
+  width: 2512px;
+  border-top: 1px white solid;
+  border-bottom: 1px white solid;
+  height: 225px;
+  margin-top: 50px;
+  overflow: hidden;
+}
+
+.project_spec_1_bgc{
+    width: 1000px;
+    height: 225px;
+    margin-top: -200px;
+    
+}
+
+.project_spec_1_1{
+  text-align: center;
+  font-family: "Cera Pro Bold", sans-serif;
+  font-weight: 400;
+  font-size: 50px;
+  margin-top: 75px;
+  text-transform: uppercase;
+    background: linear-gradient(to right, #101091, #2f2fcb, #5d5def);
+
+  /* Использование фона только для текста */
+  -webkit-background-clip: text;
+  background-clip: text;
+
+  /* Делаем цвет текста прозрачным, чтобы был виден только фон */
+  color: transparent;
+
+  /* Применяем обрезку к тексту */
+  -webkit-clip-path: inset(0px round 10px);
+  clip-path: inset(0px round 10px);
+}
+
+.project_spec_1_2 {
+  text-align: center;
+  font-family: "Cera Pro Bold", sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  margin-top: -180px;
+  text-transform: uppercase;
+  width: 1000px;
+  margin-left: 750px;
+  position: absolute;
+}
+
+.project_spec_1_3 {
+  text-align: center;
+  font-family: "Cera Pro Bold", sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  margin-top: -140px;
+  text-transform: uppercase;
+  width: 1000px;
+  margin-left: 750px;
+  position: absolute;
+}
+
+.project_spec_1_buttom {
+  text-align: center;
+  font-family: "Cera Pro Bold", sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  margin-top: -110px;
+  text-transform: uppercase;
+  margin-left: 1780px;
+  border-color: black;
+  background-color: black;
+  position: absolute;
+}
+
+.project_spec_1_buttom:hover {
+  border: none;
+  border-color: black;
+}
+
+.project_spec_1_buttom:focus {
+    outline: none;
+    background-color: inherit;
+}
+
+.project_spec_1_img_1{
+  width: 600px;
+  position: absolute;
+}
+
+.project_spec_1_img_2{
+  width: 600px;
+  height: auto;
+  margin-left: 1911px;
+  position: absolute;
+}
+
+.project_spec_1:hover .project_spec_1_1{
+    transform: translateY(-200%);
+    transition: transform 0.2s ease-in-out;
+}
+
+.project_spec_1:not(hover) .project_spec_1_1{
+    transform: translateY(0%);
+    transition: transform 0.2s ease-in-out;
+}
+
+.project_spec_1:hover .project_spec_1_2{
+    transform: translateY(0%);
+    transition: transform 0.2s ease-in-out;
+}
+
+.project_spec_1:not(hover) .project_spec_1_2{
+    transform: translateY(-140%);
+    transition: transform 0.2s ease-in-out;
+}
+
+.project_spec_1:hover .project_spec_1_buttom{
+  display: block;
+}
+
+.project_spec_1:not(hover) .project_spec_1_buttom{
+  display: none;
+}
+
+.project_spec_1:hover .project_spec_1_3{
+    transform: translateY(0%);
+    transition: transform 0.2s ease-in-out;
+}
+
+.project_spec_1:not(hover) .project_spec_1_3{
+    transform: translateY(-340%);
+    transition: transform 0.2s ease-in-out;
+}
+
+.project_spec_1:hover .project_spec_1_img_1{
+    transform: translateY(-30%);
+    transition: transform 0.2s ease-in-out;
+}
+
+.project_spec_1:not(hover) .project_spec_1_img_1{
+    transform: translateY(-340%);
+    transition: transform 0.2s ease-in-out;
+}
+
+.project_spec_1:hover .project_spec_1_img_2{
+    transform: translateY(-30%);
+    transition: transform 0.2s ease-in-out;
+}
+
+.project_spec_1:not(hover) .project_spec_1_img_2{
+    transform: translateY(-340%);
+    transition: transform 0.2s ease-in-out;
+}
+
+.project_spec_1:hover .project_spec_1_bgc{
+    animation: bgc 0.5s forwards;
+    background: linear-gradient(to right, #1e1e6c, #37379b, #5050b0);
+}
+
+.project_spec_1:not(hover) .project_spec_1_bgc{
+    animation: bgc2 0.8s forwards;
+    background: linear-gradient(to right, #02022c, #0505a2, #5353f8);
+}
+
+.project_spec_2{
+  position: absolute;
+  width: 2512px;
+  border-top: 1px white solid;
+  border-bottom: 1px white solid;
+  height: 225px;
+  margin-top: 275px;
+  overflow: hidden;
+}
+
+.project_spec_2_2{
+  text-align: center;
+  font-family: "Cera Pro Bold", sans-serif;
+  font-weight: 400;
+  font-size: 50px;
+  margin-top: 75px;
+  text-transform: uppercase;
+  background: linear-gradient(to right, #85087a, #bb13c7, #fc02f0);
+
+  /* Использование фона только для текста */
+  -webkit-background-clip: text;
+  background-clip: text;
+
+  /* Делаем цвет текста прозрачным, чтобы был виден только фон */
+  color: transparent;
+
+  /* Применяем обрезку к тексту */
+  -webkit-clip-path: inset(0px round 10px);
+  clip-path: inset(0px round 10px);
+}
+
+.project_spec_2_bgc{
+    width: 2511px;
+    height: 225px;
+    margin-top: -200px;
+}
+
+.project_spec_2_img_2{
+  width: 600px;
+  height: auto;
+  margin-left: 1911px;
+  position: absolute;
+margin-top: -285px;
+}
+
+.project_spec_2_img_1{
+  width: 600px;
+  height: auto;
+  position: absolute;
+margin-top: -285px;
+}
+
+.project_spec_2_3 {
+  text-align: center;
+  font-family: "Cera Pro Bold", sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  margin-top: -180px;
+  text-transform: uppercase;
+  width: 1000px;
+  margin-left: 750px;
+  position: absolute;
+}
+
+@keyframes bgc {
+
+    0% {
+        width: 0px;
+    }
+
+    100%{
+        width: 2511px;
+    }
+}
+
+@keyframes bgc2 {
+
+    0% {
+        width: 2511px;
+    }
+
+    100%{
+        width: 0px;
+    }
+}
+
+.project_spec_2:hover .project_spec_2_bgc{
+    animation: bgc 0.5s forwards;
+  background: linear-gradient(to right, #3f0367, #560480, #57049d);
+}
+
+.project_spec_2:not(hover) .project_spec_2_bgc{
+    animation: bgc2 0.8s forwards;
+  background: linear-gradient(to right, #3f0367, #560480, #57049d);
+}
+
+.project_spec_2:hover .project_spec_2_2{
+    color: white;
+    transition: color 1s;
+}
+
+.project_spec_2:not(hover) .project_spec_2_2{
+    text-transform: uppercase;
+  background: linear-gradient(to right, #8e08c7, #ae2ae5, #d64cee);
+
+  /* Использование фона только для текста */
+  -webkit-background-clip: text;
+  background-clip: text;
+
+  /* Делаем цвет текста прозрачным, чтобы был виден только фон */
+  color: transparent;
+    transition: color 1s;
+}
+
+.project_spec_2:hover .project_spec_2_3{
+    transform: translateY(0%);
+    transition: transform 0.2s ease-in-out;
+}
+
+.project_spec_2:not(hover) .project_spec_2_3{
+    transform: translateY(-140%);
+    transition: transform 0.2s ease-in-out;
+}
+
+.project_spec_2:hover .project_spec_2_2{
+    transform: translateY(-200%);
+    transition: transform 0.2s ease-in-out;
+}
+
+.project_spec_2:not(hover) .project_spec_2_2{
+    transform: translateY(0%);
+    transition: transform 0.2s ease-in-out;
+}
+
+.project_spec_2:hover .project_spec_2_img_1{
+    transform: translateY(-20%);
+    transition: transform 0.2s ease-in-out;
+}
+
+.project_spec_2:not(hover) .project_spec_2_img_1{
+    transform: translateY(200%);
+    transition: transform 0.2s ease-in-out;
+}
+
+.project_spec_2:hover .project_spec_2_img_2{
+    transform: translateY(0%);
+    transition: transform 0.2s ease-in-out;
+}
+
+.project_spec_2:not(hover) .project_spec_2_img_2{
+    transform: translateY(200%);
+    transition: transform 0.2s ease-in-out;
+}
+
+.project_spec_3{
+  position: absolute;
+  width: 2512px;
+  border-top: 1px white solid;
+  border-bottom: 1px white solid;
+  height: 225px;
+  margin-top: 500px;
+  overflow: hidden;
+}
+
+.project_spec_3_3{
+  text-align: center;
+  font-family: "Cera Pro Bold", sans-serif;
+  font-weight: 400;
+  font-size: 50px;
+  margin-top: 75px;
+  text-transform: uppercase;
+  background: linear-gradient(to right, #85087a, #bb13c7, #fc02f0);
+
+  /* Использование фона только для текста */
+  -webkit-background-clip: text;
+  background-clip: text;
+
+  /* Делаем цвет текста прозрачным, чтобы был виден только фон */
+  color: transparent;
+
+  /* Применяем обрезку к тексту */
+  -webkit-clip-path: inset(0px round 10px);
+  clip-path: inset(0px round 10px);
+}
+
+.project_spec_3_bgc{
+    width: 2511px;
+    height: 325px;
+    margin-top: -241px;
+  background: linear-gradient(to right, #3f0367, #560480, #57049d);
+}
+
+.project_spec_3_4 {
+  text-align: center;
+  font-family: "Cera Pro Bold", sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  margin-top: -180px;
+  text-transform: uppercase;
+  width: 1000px;
+  margin-left: 750px;
+  position: absolute;
+}
+
+.project_spec_3_img_2{
+  width: 600px;
+  height: auto;
+  margin-left: 1911px;
+  position: absolute;
+margin-top: -285px;
+}
+
+.project_spec_3_img_1{
+  width: 600px;
+  height: auto;
+  position: absolute;
+margin-top: -285px;
+}
+
+.project_spec_3:hover .project_spec_3_bgc{
+    animation: bgc 0.5s forwards;
+  background: linear-gradient(to right, #600367, #8e0598, #bd05cb);
+}
+
+.project_spec_3:not(hover) .project_spec_3_bgc{
+    animation: bgc2 0.8s forwards;
+  background: linear-gradient(to right, #600367, #8e0598, #bd05cb);
+}
+
+.project_spec_3:hover .project_spec_3_3{
+    color: white;
+    transition: color 1s;
+}
+
+.project_spec_3:not(hover) .project_spec_3_3{
+    text-transform: uppercase;
+  background: linear-gradient(to right, #600367, #8e0598, #bd05cb, #bd05cb, #bd05cb);
+
+  /* Использование фона только для текста */
+  -webkit-background-clip: text;
+  background-clip: text;
+
+  /* Делаем цвет текста прозрачным, чтобы был виден только фон */
+  color: transparent;
+    transition: color 1s;
+}
+
+.project_spec_3:hover .project_spec_3_3{
+    transform: translateY(-200%);
+    transition: transform 0.2s ease-in-out;
+}
+
+.project_spec_3:not(hover) .project_spec_3_3{
+    transform: translateY(0%);
+    transition: transform 0.2s ease-in-out;
+}
+
+.project_spec_3:hover .project_spec_3_3{
+    transform: translateY(-200%);
+    transition: transform 0.2s ease-in-out;
+}
+
+.project_spec_3:not(hover) .project_spec_3_3{
+    transform: translateY(0%);
+    transition: transform 0.2s ease-in-out;
+}
+
+.project_spec_3:hover .project_spec_3_4{
+    transform: translateY(0%);
+    transition: transform 0.2s ease-in-out;
+}
+
+.project_spec_3:not(hover) .project_spec_3_4{
+    transform: translateY(-200%);
+    transition: transform 0.2s ease-in-out;
+}
+
+.project_spec_3:hover .project_spec_3_img_1{
+    transform: translateY(-45%);
+    transition: transform 0.2s ease-in-out;
+}
+
+.project_spec_3:not(hover) .project_spec_3_img_1{
+    transform: translateY(200%);
+    transition: transform 0.2s ease-in-out;
+}
+
+.project_spec_3:hover .project_spec_3_img_2{
+    transform: translateY(-35%);
+    transition: transform 0.2s ease-in-out;
+}
+
+.project_spec_3:not(hover) .project_spec_3_img_2{
+    transform: translateY(200%);
+    transition: transform 0.2s ease-in-out;
+}
+
+.project_spec_4{
+  position: absolute;
+  width: 2512px;
+  border-top: 1px white solid;
+  border-bottom: 1px white solid;
+  height: 225px;
+  margin-top: 725px;
+  overflow: hidden;
+}
+
+.project_spec_4_4{
+  text-align: center;
+  font-family: "Cera Pro Bold", sans-serif;
+  font-weight: 400;
+  font-size: 50px;
+  margin-top: 75px;
+  text-transform: uppercase;
+}
+
+.project_spec_4_5 {
+  text-align: center;
+  font-family: "Cera Pro Bold", sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  margin-top: -180px;
+  text-transform: uppercase;
+  width: 1000px;
+  margin-left: 750px;
+  position: absolute;
+}
+
+.project_spec_4_bgc{
+    width: 2511px;
+    height: 325px;
+    margin-top: -241px;
+}
+
+.project_spec_4_img_2{
+  width: 600px;
+  height: auto;
+  margin-left: 1911px;
+  position: absolute;
+margin-top: -285px;
+}
+
+.project_spec_4_img_1{
+  width: 600px;
+  height: auto;
+  position: absolute;
+margin-top: -285px;
+}
+
+.project_spec_4:hover .project_spec_4_4{
+    transform: translateY(-200%);
+    transition: transform 0.2s ease-in-out;
+}
+
+.project_spec_4:not(hover) .project_spec_4_4{
+    transform: translateY(0%);
+    transition: transform 0.2s ease-in-out;
+}
+
+.project_spec_4:hover .project_spec_4_4{
+    transform: translateY(-200%);
+    transition: transform 0.2s ease-in-out;
+}
+
+.project_spec_4:not(hover) .project_spec_4_4{
+    transform: translateY(0%);
+    transition: transform 0.2s ease-in-out;
+}
+
+.project_spec_4:hover .project_spec_4_5{
+    transform: translateY(0%);
+    transition: transform 0.2s ease-in-out;
+}
+
+.project_spec_4:not(hover) .project_spec_4_5{
+    transform: translateY(-200%);
+    transition: transform 0.2s ease-in-out;
+}
+
+.project_spec_4:hover .project_spec_4_bgc{
+    animation: bgc 0.5s forwards;
+  background: linear-gradient(to right, #032c5b, #04458d, #056fe5);
+}
+
+.project_spec_4:not(hover) .project_spec_4_bgc{
+    animation: bgc2 0.8s forwards;
+  background: linear-gradient(to right, #03254d, #04458d, #056fe5);
+}
+
+.project_spec_3:hover .project_spec_3_3{
+    color: white;
+    transition: color 1s;
+}
+
+.project_spec_4:not(hover) .project_spec_4_4{
+    text-transform: uppercase;
+  background: linear-gradient(to right, #044793, #0559b7, #056fe5);
+
+  /* Использование фона только для текста */
+  -webkit-background-clip: text;
+  background-clip: text;
+
+  /* Делаем цвет текста прозрачным, чтобы был виден только фон */
+  color: transparent;
+    transition: color 1s;
+}
+
+.project_spec_4:hover .project_spec_4_img_1{
+    transform: translateY(-35%);
+    transition: transform 0.2s ease-in-out;
+}
+
+.project_spec_4:not(hover) .project_spec_4_img_1{
+    transform: translateY(200%);
+    transition: transform 0.2s ease-in-out;
+}
+
+.project_spec_4:hover .project_spec_4_img_2{
+    transform: translateY(-35%);
+    transition: transform 0.2s ease-in-out;
+}
+
+.project_spec_4:not(hover) .project_spec_4_img_2{
+    transform: translateY(200%);
+    transition: transform 0.2s ease-in-out;
+}
+
+

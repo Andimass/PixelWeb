@@ -1,0 +1,832 @@
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import {Routes, Route} from 'react-router-dom'
+import Header from "./components/screens/home/Header/Header.jsx";
+import One_Block from "./components/screens/home/one_block/Geo.jsx";
+import Two_Block from "./components/screens/home/two_block/two_block.jsx";
+import './index.css';
+
+function App() {
+  return (
+   ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+      <Header />
+      <One_Block />
+      <Two_Block />
+  </React.StrictMode>,
+))
+}
+
+export default App
+
+
+
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import App from './App'
+import './index.css'
+import { BrowserRouter} from 'react-router-dom'
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+   <BrowserRouter>
+    <App />
+   </BrowserRouter>
+  </React.StrictMode>
+);
+
+
+<input className={`menu_glav ${activeHandler === 4 ? 'menu_opacity' : ''}`} type="image" src='/public/Menu-img.png' onClick={() => handleClick(4)} alt=''/>
+        {activeHandler === 4 && (
+            <div className='menu_supply_activate'>
+                <p className='menu_supply_activate_close' onClick={handleCloseClick}>Закрыть</p>
+                <div className='menu_opacity_bgc'></div>
+                <div className='menu_supply_activate_LI'>
+                    <li className='menu_supply_activate_li'><a href="/">Главная</a></li>
+                    <li className='menu_supply_activate_li'><a href="/uslugi">Услуги</a></li>
+                    <li className='menu_supply_activate_li'><a href="/project">Проекты</a></li>
+                    <li className='menu_supply_activate_li'><a href="/about">О кампании</a></li>
+                    <li className='menu_supply_activate_li'><a href="/contacts">Контакты</a></li>
+                    <li className='menu_supply_activate_li_callback'><a href='#'>Связаться с нами</a></li>
+                </div>
+                <p className='menu_supply_activate_city'>г.Краснодар</p>
+                <p className='menu_supply_activate_number'>+7 (918) 495-34-20</p>
+            </div>
+        )}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   <div className='cadastr_uslugi'>
+                <div className={`cadastr_body_uslugi_box1 ${activeHandler === 1 ? 'blue-background' : ''}`}>
+                    <h2 className='cadastr_body_uslugi_box_title'>Межевание земельного участка</h2>
+                    <img className='cadastr_body_box1_image' src='/public/cadastr1.jpg'/>
+                    <p className='cadastr_body_price'>от 10.000 руб.</p>
+                    <p className='cadastr_body_text'>Установление границ и меток на участке для определения его площади и правовых ограничений.</p>
+                    <input className={`cadastr_body_uslugi_box_strela1 ${activeHandler === 1 ? 'strela-digris': ''}`} type="image" onClick={() => handleClick(1)} alt=''/>
+                    {activeHandler === 1 && (
+                    <div className='dop_1'>
+
+
+                    </div>
+                  )}
+                </div>
+
+
+               <div className={`cadastr_body_uslugi_box2 ${activeHandler === 2 ? 'blue-background' : '' }`}>
+                    <h2 className='cadastr_body_uslugi_box_title'>Технический план ОКС</h2>
+                    <img className='cadastr_body_box2_image' src='/public/cadastr2.jpg'/>
+                    <p className='cadastr_body_price2'>от 10.000 руб.</p>
+                    <p className='cadastr_body_text2'>Составление документа характеристик и параметров строительных объектов с целью регистрации и учета в соответствии с законодательством</p>
+                    <input className={`cadastr_body_uslugi_box_strela2 ${activeHandler === 2 ? 'strela-digris' : ''}`} type="image" onClick={() => handleClick(2)} alt=''/>
+                    {activeHandler === 2 && (
+                    <div className='dop_2'>
+
+
+                    </div>
+                  )}
+                </div>
+
+
+               <div className={`cadastr_body_uslugi_box3 ${activeHandler === 3 ? 'blue-background' : ''}`}>
+                   <h2 className='cadastr_body_uslugi_box_title'>Акт обследования</h2>
+                   <img className='cadastr_body_box3_image' src='/public/cadastr3.jpg'/>
+                   <p className='cadastr_body_price3'>от 10.000 руб.</p>
+                    <p className='cadastr_body_text3'>Документальное подтверждение результатов осмотра объекта или территории с указанием выявленных характеристик, состояния или проблем</p>
+                    <input className={`cadastr_body_uslugi_box_strela3 ${activeHandler === 3 ? 'strela-digris' : ''}`} type="image" onClick={() => handleClick(3)} alt=''/>
+                    {activeHandler === 3 && (
+                    <div className='dop_3'>
+
+
+                    </div>
+                  )}
+                </div>
+
+               <div className={`cadastr_body_uslugi_box4 ${activeHandler === 5 ? 'blue-background' : ''}`}>
+                   <h2 className='cadastr_body_uslugi_box_title'>Формирование з/у и схема на КПТ</h2>
+                   <img className='cadastr_body_box4_image' src='/public/cadastr4.jpg'/>
+                   <p className='cadastr_body_price4'>от 10.000 руб.</p>
+                    <p className='cadastr_body_text4'>Услуги геодезической обработки и документирования земельных участков и их расположения на кадастровой карте</p>
+                    <input className={`cadastr_body_uslugi_box_strela3 ${activeHandler === 5 ? 'strela-digris' : ''}`} type="image" onClick={() => handleClick(5)} alt=''/>
+                    {activeHandler === 5 && (
+                    <div className='dop_4'>
+
+
+                    </div>
+                  )}
+                </div>
+
+               <div className={`cadastr_body_uslugi_box5 ${activeHandler === 6 ? 'blue-background' : ''}`}>
+                   <h2 className='cadastr_body_uslugi_box_title'>Исправление кадастровых ошибок</h2>
+                   <img className='cadastr_body_box5_image' src='/public/cadastr5.jpg'/>
+                   <p className='cadastr_body_price5'>от 10.000 руб.</p>
+                    <p className='cadastr_body_text5'>Коррекция и исправление недочетов или неточностей в кадастровых данных и документах для обеспечения их точности и актуальности</p>
+                    <input className={`cadastr_body_uslugi_box_strela3 ${activeHandler === 6 ? 'strela-digris' : ''}`} type="image" onClick={() => handleClick(6)} alt=''/>
+                    {activeHandler === 6 && (
+                    <div className='dop_5'>
+
+
+                    </div>
+                  )}
+                </div>
+
+               <div className={`cadastr_body_uslugi_box6 ${activeHandler === 7 ? 'blue-background' : ''}`}>
+                   <h2 className='cadastr_body_uslugi_box_title'>Межевание для выдела с/х долей</h2>
+                   <img className='cadastr_body_box6_image' src='/public/cadastr6.jpg'/>
+                   <p className='cadastr_body_price6'>от 10.000 руб.</p>
+                    <p className='cadastr_body_text6'>Определение и оформление отдельных участков земли для с/x использования с соблюдением законодательных норм и требований</p>
+                    <input className={`cadastr_body_uslugi_box_strela3 ${activeHandler === 7 ? 'strela-digris' : ''}`} type="image" onClick={() => handleClick(7)} alt=''/>
+                    {activeHandler === 7 && (
+                    <div className='dop_6'>
+
+
+                    </div>
+                  )}
+                </div>
+
+                              <div className={`cadastr_body_uslugi_box7 ${activeHandler === 8 ? 'blue-background' : ''}`}>
+                   <h2 className='cadastr_body_uslugi_box_title'>Снижение кадастровой стоимости</h2>
+                   <img className='cadastr_body_box7_image' src='/public/cadastr7.jpg'/>
+                   <p className='cadastr_body_price7'>от 10.000 руб.</p>
+                    <p className='cadastr_body_text7'>Уменьшение оценочной стоимости недвижимости или земельного участка, для снижения налоговых и иных финансовых обременений</p>
+                    <input className={`gaz_body_uslugi_box_strela3 ${activeHandler === 7 ? 'strela-digris' : ''}`} type="image" onClick={() => handleClick(7)} alt=''/>
+                    {activeHandler === 7 && (
+                    <div className='dop_6'>
+
+
+                    </div>
+                  )}
+                </div>
+
+                              <div className={`cadastr_body_uslugi_box8 ${activeHandler === 9 ? 'blue-background' : ''}`}>
+                   <h2 className='cadastr_body_uslugi_box_title'>Строительно-планировочное задание (СПЗ) </h2>
+                   <img className='cadastr_body_box8_image' src='/public/cadastr8.jpg'/>
+                   <p className='cadastr_body_price8'>от 10.000 руб.</p>
+                    <p className='cadastr_body_text8'>Определение назначения земли, допустимые строительные работы и параметры объектов, которые могут быть построены на участке</p>
+                    <input className={`cadastr_body_uslugi_box_strela3 ${activeHandler === 7 ? 'strela-digris' : ''}`} type="image" onClick={() => handleClick(7)} alt=''/>
+                    {activeHandler === 7 && (
+                    <div className='dop_6'>
+
+
+                    </div>
+                  )}
+                </div>
+
+               <div className={`cadastr_body_uslugi_box9 ${activeHandler === 10 ? 'blue-background' : ''}`}>
+                   <h2 className='cadastr_body_uslugi_box_title9'>Уведомление о планах строительста и реконстукции</h2>
+                   <img className='cadastr_body_box9_image' src='/public/cadastr9.jpg'/>
+                   <p className='cadastr_body_price9'>от 10.000 руб.</p>
+                    <p className='cadastr_body_text9'>Уведомление о намерении начать строительные или реконструкционные работы на конкретном земельном участке</p>
+                    <input className={`cadastr_body_uslugi_box_strela3 ${activeHandler === 5 ? 'strela-digris' : ''}`} type="image" onClick={() => handleClick(5)} alt=''/>
+                    {activeHandler === 5 && (
+                    <div className='dop_4'>
+
+
+                    </div>
+                  )}
+                </div>
+
+               <div className={`cadastr_body_uslugi_box10 ${activeHandler === 11 ? 'blue-background' : ''}`}>
+                   <h2 className='cadastr_body_uslugi_box_title'>Разрешение на строительство</h2>
+                   <img className='cadastr_body_box10_image' src='/public/cadastr10.jpg'/>
+                   <p className='cadastr_body_price10'>от 10.000 руб.</p>
+                    <p className='cadastr_body_text10'>Официальное разрешение, которое позволяет начать и завершить строительные работы на определенном земельном участке</p>
+                    <input className={`cadastr_body_uslugi_box_strela3 ${activeHandler === 6 ? 'strela-digris' : ''}`} type="image" onClick={() => handleClick(6)} alt=''/>
+                    {activeHandler === 6 && (
+                    <div className='dop_5'>
+
+
+                    </div>
+                  )}
+                </div>
+
+               <div className={`cadastr_body_uslugi_box11 ${activeHandler === 12 ? 'blue-background' : ''}`}>
+                   <h2 className='cadastr_body_uslugi_box_title'>Как узаконить гараж (Гаражная амнистия)</h2>
+                   <img className='cadastr_body_box11_image' src='/public/cadastr11.jpg'/>
+                   <p className='cadastr_body_price11'>от 10.000 руб.</p>
+                    <p className='cadastr_body_text11'>Подготовка документов и требований для законного признания гаража, обеспечивая его соответствие строительным и земельным нормативам</p>
+                    <input className={`cadastr_body_uslugi_box_strela3 ${activeHandler === 7 ? 'strela-digris' : ''}`} type="image" onClick={() => handleClick(7)} alt=''/>
+                    {activeHandler === 7 && (
+                    <div className='dop_6'>
+
+
+                    </div>
+                  )}
+                </div>
+
+                              <div className={`cadastr_body_uslugi_box12 ${activeHandler === 13 ? 'blue-background' : ''}`}>
+                   <h2 className='cadastr_body_uslugi_box_title'>Схема расположения земельного участка на КПТ</h2>
+                   <img className='cadastr_body_box12_image' src='/public/cadastr12.jpg'/>
+                   <p className='cadastr_body_price12'>от 10.000 руб.</p>
+                    <p className='cadastr_body_text12'>Создание планов и документации, точно определяющих местоположение и границы земельного участка на кадастровой карте</p>
+                    <input className={`gaz_body_uslugi_box_strela3 ${activeHandler === 7 ? 'strela-digris' : ''}`} type="image" onClick={() => handleClick(7)} alt=''/>
+                    {activeHandler === 7 && (
+                    <div className='dop_6'>
+
+
+                    </div>
+                  )}
+                </div>
+
+
+
+// function rotateCircles() {
+//     document.querySelectorAll('.header_circle_three_color').forEach(circle => {
+//         circle.style.transform += `rotate(${+60}deg)`;
+//         if (circle.style.transform === `rotate(${60}deg)`) {
+//             circle.style.transform = `rotate(${0}deg)`
+//         }
+//     });
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;jcnrj yflhjxbk rfr ,elnj lhjxth
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                .cadastr_uslugi{
+    width: 380px;
+    height: auto;
+    position: absolute;
+    margin-top: 500px;
+    display: flex;
+    margin-left: -170px;
+}
+
+.cadastr_body_uslugi_box1{
+   width: 340px;
+   height: 174px;
+   background-color: #343437;
+   position: absolute;
+   margin-top: -520px;
+   margin-left: 192px;
+   border-radius: 20px 20px 20px 20px;
+    -webkit-filter: brightness(100%);
+}
+
+
+.cadastr_body_box1_image{
+    width: 116px;
+    height: 174px;
+    align-items: center;
+    border-radius: 20px 0 0 20px;
+    position: absolute;
+    /*animation: unrotate 20s linear infinite;*/
+}
+
+.cadastr_body_uslugi_box_title{
+    margin-top: 15px;
+    width: 200px;
+    margin-left: 130px;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: a_FuturaOrtoBold, serif;
+    position: absolute;
+        color: #ffffff;
+        line-height: 1; /* Уменьшаем расстояние между строками */
+}
+
+.cadastr_body_text{
+    font-size: 10px;
+    color: white;
+        font-family: a_FuturaOrtoLt, serif;
+    margin-top: 70px;
+    margin-left: 130px;
+    width: 149px;
+
+}
+
+.cadastr_body_price{
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 130px;
+    letter-spacing: 0.5px;
+    font-size: 10px;
+    font-weight: 900;
+    font-family: a_FuturaOrtoBold, serif;
+    color: white;
+}
+
+.cadastr_body_uslugi_box2{
+   width: 340px;
+   height: 174px;
+   background-color: #343437;
+   position: absolute;
+   margin-top: -320px;
+   margin-left: 192px;
+   border-radius: 20px 20px 20px 20px;
+    -webkit-filter: brightness(100%);
+}
+
+
+.cadastr_body_box2_image{
+    width: 116px;
+    height: 174px;
+    align-items: center;
+    border-radius: 20px 0 0 20px;
+    position: absolute;
+    /*animation: unrotate 20s linear infinite;*/
+}
+
+.cadastr_body_text2{
+    font-size: 10px;
+    color: white;
+        font-family: a_FuturaOrtoLt, serif;
+    margin-top: 50px;
+    margin-left: 130px;
+    width: 149px;
+
+}
+
+.cadastr_body_price2{
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 130px;
+    letter-spacing: 0.5px;
+    font-size: 10px;
+    font-weight: 900;
+    font-family: a_FuturaOrtoBold, serif;
+    color: white;
+}
+
+.cadastr_body_uslugi_box3{
+   width: 340px;
+   height: 174px;
+   background-color: #343437;
+   position: absolute;
+   margin-top: -120px;
+   margin-left: 192px;
+   border-radius: 20px 20px 20px 20px;
+    -webkit-filter: brightness(100%);
+}
+
+
+.cadastr_body_box3_image{
+    width: 116px;
+    height: 174px;
+    align-items: center;
+    border-radius: 20px 0 0 20px;
+    position: absolute;
+    /*animation: unrotate 20s linear infinite;*/
+}
+
+.cadastr_body_text3{
+    font-size: 10px;
+    color: white;
+        font-family: a_FuturaOrtoLt, serif;
+    margin-top: 45px;
+    margin-left: 130px;
+    width: 149px;
+
+}
+
+.cadastr_body_price3{
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 130px;
+    letter-spacing: 0.5px;
+    font-size: 10px;
+    font-weight: 900;
+    font-family: a_FuturaOrtoBold, serif;
+    color: white;
+}
+
+.cadastr_body_uslugi_box4{
+   width: 340px;
+   height: 174px;
+   background-color: #343437;
+   position: absolute;
+   margin-top: 75px;
+   margin-left: 192px;
+   border-radius: 20px 20px 20px 20px;
+    -webkit-filter: brightness(100%);
+}
+
+
+.cadastr_body_box4_image{
+    width: 116px;
+    height: 174px;
+    align-items: center;
+    border-radius: 20px 0 0 20px;
+    position: absolute;
+    /*animation: unrotate 20s linear infinite;*/
+}
+
+.cadastr_body_text4{
+    font-size: 10px;
+    color: white;
+        font-family: a_FuturaOrtoLt, serif;
+    margin-top: 60px;
+    margin-left: 130px;
+    width: 149px;
+
+}
+
+.cadastr_body_price4{
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 130px;
+    letter-spacing: 0.5px;
+    font-size: 10px;
+    font-weight: 900;
+    font-family: a_FuturaOrtoBold, serif;
+    color: white;
+}
+
+.cadastr_body_uslugi_box5{
+   width: 340px;
+   height: 174px;
+   background-color: #343437;
+   position: absolute;
+   margin-top: 270px;
+   margin-left: 192px;
+   border-radius: 20px 20px 20px 20px;
+    -webkit-filter: brightness(100%);
+}
+
+
+.cadastr_body_box5_image{
+    width: 116px;
+    height: 174px;
+    align-items: center;
+    border-radius: 20px 0 0 20px;
+    position: absolute;
+    /*animation: unrotate 20s linear infinite;*/
+}
+
+.cadastr_body_text5{
+    font-size: 10px;
+    color: white;
+        font-family: a_FuturaOrtoLt, serif;
+    margin-top: 70px;
+    margin-left: 130px;
+    width: 149px;
+
+}
+
+.cadastr_body_price5{
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 130px;
+    letter-spacing: 0.5px;
+    font-size: 10px;
+    font-weight: 900;
+    font-family: a_FuturaOrtoBold, serif;
+    color: white;
+}
+
+.cadastr_body_uslugi_box6{
+   width: 340px;
+   height: 174px;
+   background-color: #343437;
+   position: absolute;
+   margin-top: 465px;
+   margin-left: 192px;
+   border-radius: 20px 20px 20px 20px;
+    -webkit-filter: brightness(100%);
+}
+
+
+.cadastr_body_box6_image{
+    width: 116px;
+    height: 174px;
+    align-items: center;
+    border-radius: 20px 0 0 20px;
+    position: absolute;
+    /*animation: unrotate 20s linear infinite;*/
+}
+
+.cadastr_body_text6{
+    font-size: 10px;
+    color: white;
+        font-family: a_FuturaOrtoLt, serif;
+    margin-top: 57px;
+    margin-left: 130px;
+    width: 149px;
+
+}
+
+.cadastr_body_price6{
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 130px;
+    letter-spacing: 0.5px;
+    font-size: 10px;
+    font-weight: 900;
+    font-family: a_FuturaOrtoBold, serif;
+    color: white;
+}
+
+.cadastr_body_uslugi_box7{
+   width: 340px;
+   height: 174px;
+   background-color: #343437;
+   position: absolute;
+   margin-top: 675px;
+   margin-left: 192px;
+   border-radius: 20px 20px 20px 20px;
+    -webkit-filter: brightness(100%);
+}
+
+
+.cadastr_body_box7_image{
+    width: 116px;
+    height: 174px;
+    align-items: center;
+    border-radius: 20px 0 0 20px;
+    position: absolute;
+    /*animation: unrotate 20s linear infinite;*/
+}
+
+.cadastr_body_text7{
+    font-size: 10px;
+    color: white;
+        font-family: a_FuturaOrtoLt, serif;
+    margin-top: 60px;
+    margin-left: 130px;
+    width: 149px;
+
+}
+
+.cadastr_body_price7{
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 130px;
+    letter-spacing: 0.5px;
+    font-size: 10px;
+    font-weight: 900;
+    font-family: a_FuturaOrtoBold, serif;
+    color: white;
+}
+
+.cadastr_body_uslugi_box8{
+   width: 340px;
+   height: 174px;
+   background-color: #343437;
+   position: absolute;
+   margin-top: 875px;
+   margin-left: 192px;
+   border-radius: 20px 20px 20px 20px;
+    -webkit-filter: brightness(100%);
+}
+
+
+.cadastr_body_box8_image{
+    width: 116px;
+    height: 174px;
+    align-items: center;
+    border-radius: 20px 0 0 20px;
+    position: absolute;
+    /*animation: unrotate 20s linear infinite;*/
+}
+
+.cadastr_body_text8{
+    font-size: 10px;
+    color: white;
+        font-family: a_FuturaOrtoLt, serif;
+    margin-top: 60px;
+    margin-left: 130px;
+    width: 149px;
+
+}
+
+.cadastr_body_price8{
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 130px;
+    letter-spacing: 0.5px;
+    font-size: 10px;
+    font-weight: 900;
+    font-family: a_FuturaOrtoBold, serif;
+    color: white;
+}
+
+
+.cadastr_body_uslugi_box9{
+   width: 340px;
+   height: 174px;
+   background-color: #343437;
+   position: absolute;
+   margin-top: 1075px;
+   margin-left: 192px;
+   border-radius: 20px 20px 20px 20px;
+    -webkit-filter: brightness(100%);
+}
+
+
+.cadastr_body_box9_image{
+    width: 116px;
+    height: 174px;
+    align-items: center;
+    border-radius: 20px 0 0 20px;
+    position: absolute;
+    /*animation: unrotate 20s linear infinite;*/
+}
+
+.cadastr_body_uslugi_box_title9{
+    margin-top: 10px;
+    width: 160px;
+    margin-left: 127px;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: a_FuturaOrtoBold, serif;
+    position: absolute;
+        color: #ffffff;
+        line-height: 1; /* Уменьшаем расстояние между строками */
+}
+
+.cadastr_body_text9{
+    font-size: 10px;
+    color: white;
+        font-family: a_FuturaOrtoLt, serif;
+    margin-top: 70px;
+    margin-left: 130px;
+    width: 149px;
+
+}
+
+.cadastr_body_price9{
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 130px;
+    letter-spacing: 0.5px;
+    font-size: 10px;
+    font-weight: 900;
+    font-family: a_FuturaOrtoBold, serif;
+    color: white;
+}
+
+.cadastr_body_uslugi_box10{
+   width: 340px;
+   height: 174px;
+   background-color: #343437;
+   position: absolute;
+   margin-top: 1275px;
+   margin-left: 192px;
+   border-radius: 20px 20px 20px 20px;
+    -webkit-filter: brightness(100%);
+}
+
+
+.cadastr_body_box10_image{
+    width: 116px;
+    height: 174px;
+    align-items: center;
+    border-radius: 20px 0 0 20px;
+    position: absolute;
+    /*animation: unrotate 20s linear infinite;*/
+}
+
+.cadastr_body_text10{
+    font-size: 10px;
+    color: white;
+        font-family: a_FuturaOrtoLt, serif;
+    margin-top: 70px;
+    margin-left: 130px;
+    width: 149px;
+
+}
+
+.cadastr_body_price10{
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 130px;
+    letter-spacing: 0.5px;
+    font-size: 10px;
+    font-weight: 900;
+    font-family: a_FuturaOrtoBold, serif;
+    color: white;
+}
+
+.cadastr_body_uslugi_box11{
+   width: 340px;
+   height: 174px;
+   background-color: #343437;
+   position: absolute;
+   margin-top: 1475px;
+   margin-left: 192px;
+   border-radius: 20px 20px 20px 20px;
+    -webkit-filter: brightness(100%);
+}
+
+
+.cadastr_body_box11_image{
+    width: 116px;
+    height: 174px;
+    align-items: center;
+    border-radius: 20px 0 0 20px;
+    position: absolute;
+    /*animation: unrotate 20s linear infinite;*/
+}
+
+.cadastr_body_text11{
+    font-size: 10px;
+    color: white;
+        font-family: a_FuturaOrtoLt, serif;
+    margin-top: 60px;
+    margin-left: 130px;
+    width: 149px;
+
+}
+
+.cadastr_body_price11{
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 130px;
+    letter-spacing: 0.5px;
+    font-size: 10px;
+    font-weight: 900;
+    font-family: a_FuturaOrtoBold, serif;
+    color: white;
+}
+
+.cadastr_body_uslugi_box12{
+   width: 340px;
+   height: 174px;
+   background-color: #343437;
+   position: absolute;
+   margin-top: 1675px;
+   margin-left: 192px;
+   border-radius: 20px 20px 20px 20px;
+    -webkit-filter: brightness(100%);
+}
+
+
+.cadastr_body_box12_image{
+    width: 116px;
+    height: 174px;
+    align-items: center;
+    border-radius: 20px 0 0 20px;
+    position: absolute;
+    /*animation: unrotate 20s linear infinite;*/
+}
+
+.cadastr_body_text12{
+    font-size: 10px;
+    color: white;
+        font-family: a_FuturaOrtoLt, serif;
+    margin-top: 60px;
+    margin-left: 130px;
+    width: 149px;
+
+}
+
+.cadastr_body_price12{
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 130px;
+    letter-spacing: 0.5px;
+    font-size: 10px;
+    font-weight: 900;
+    font-family: a_FuturaOrtoBold, serif;
+    color: white;
+}
+

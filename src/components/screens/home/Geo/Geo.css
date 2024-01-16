@@ -1,0 +1,1341 @@
+@import '/fonts.css';
+
+@media (max-width: 500px) {
+
+.Power_Supply {
+    max-width: 380px;
+    height: auto;
+    display: flex;
+    position: absolute;
+    top: 7px; /* Прикрепить шапку к верху экрана */
+    /* Дополнительные стили для вашей шапки */
+    background-color: #242424;
+    font-family: 'a_FuturaOrtoLt', Arial, sans-serif;
+
+    .supply_header {
+        width: 380px;
+        display: flex;
+        position: absolute;
+    }
+
+    .logo-supply {
+        position: fixed;
+        max-width: 24px; /* Установите желаемую ширину для логотипа */
+        max-height: 18px;
+        margin-left: 25px;
+        margin-top: 15px;
+    }
+
+    .menu_supply {
+        position: fixed;
+        max-width: 25px; /* Установите желаемую ширину для логотипа */
+        max-height: 18px;
+        margin-left: 330px;
+        margin-top: 15px;
+        z-index: 500;
+    }
+
+
+    .supply_body {
+        width: 380px;
+        height: auto;
+        margin-top: 10px;
+        position: absolute;
+    }
+
+    .supply_title {
+        text-align: center;
+        width: 260px;
+        height: 90px;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 900;
+        margin-left: 65px;
+        font-family: a_FuturaOrtoBold, serif;
+        letter-spacing: 2.35px;
+        position: absolute;
+        z-index: 499;
+        margin-top: 35px;
+        color: #FFFFFF;
+    }
+
+    .geo_span {
+        display: block; /* Сделаем внутренний span блочным элементом */
+        margin-top: 20px; /* Уменьшаем отступ сверху для второй строки */
+    }
+
+    .geo_bgc {
+        width: 390px;
+        height: 720px;
+        opacity: 0.5;
+        -webkit-filter: brightness(15%);
+    }
+
+    .geo_uslugi {
+        width: 380px;
+        height: auto;
+        position: absolute;
+        margin-top: 620px;
+        display: flex;
+        margin-left: -170px;
+    }
+
+    .geo_body_uslugi_box1 {
+        width: 340px;
+        height: 174px;
+        background-color: #343437;
+        position: absolute;
+        margin-top: -520px;
+        margin-left: 192px;
+        border-radius: 20px 20px 20px 20px;
+        -webkit-filter: brightness(100%);
+    }
+
+
+    .geo_body_box1_image {
+        width: 116px;
+        height: 174px;
+        align-items: center;
+        border-radius: 20px 0 0 20px;
+        position: absolute;
+        /*animation: unrotate 20s linear infinite;*/
+    }
+
+    .geo_body_uslugi_box_title {
+        margin-top: 15px;
+        width: 200px;
+        margin-left: 130px;
+        font-size: 15px;
+        font-weight: 700;
+        font-family: a_FuturaOrtoBold, serif;
+        position: absolute;
+        color: #ffffff;
+        line-height: 1; /* Уменьшаем расстояние между строками */
+    }
+
+    .geo_body_text {
+        font-size: 10px;
+        color: white;
+        font-family: a_FuturaOrtoLt, serif;
+        margin-top: 60px;
+        margin-left: 130px;
+        width: 149px;
+
+    }
+
+    .geo_body_price {
+        position: absolute;
+        margin-top: 150px;
+        margin-left: 130px;
+        letter-spacing: 0.5px;
+        font-size: 10px;
+        font-weight: 900;
+        font-family: a_FuturaOrtoBold, serif;
+        color: white;
+    }
+
+    .geo_body_uslugi_box2 {
+        width: 340px;
+        height: 174px;
+        background-color: #343437;
+        position: absolute;
+        margin-top: -320px;
+        margin-left: 192px;
+        border-radius: 20px 20px 20px 20px;
+        -webkit-filter: brightness(100%);
+    }
+
+
+    .geo_body_box2_image {
+        width: 116px;
+        height: 174px;
+        align-items: center;
+        border-radius: 20px 0 0 20px;
+        position: absolute;
+        /*animation: unrotate 20s linear infinite;*/
+    }
+
+    .geo_body_text2 {
+        font-size: 10px;
+        color: white;
+        font-family: a_FuturaOrtoLt, serif;
+        margin-top: 55px;
+        margin-left: 130px;
+        width: 149px;
+
+    }
+
+    .geo_body_price2 {
+        position: absolute;
+        margin-top: 150px;
+        margin-left: 130px;
+        letter-spacing: 0.5px;
+        font-size: 10px;
+        font-weight: 900;
+        font-family: a_FuturaOrtoBold, serif;
+        color: white;
+    }
+
+    .geo_body_uslugi_box3 {
+        width: 340px;
+        height: 174px;
+        background-color: #343437;
+        position: absolute;
+        margin-top: -120px;
+        margin-left: 192px;
+        border-radius: 20px 20px 20px 20px;
+        -webkit-filter: brightness(100%);
+    }
+
+
+    .geo_body_box3_image {
+        width: 116px;
+        height: 174px;
+        align-items: center;
+        border-radius: 20px 0 0 20px;
+        position: absolute;
+        /*animation: unrotate 20s linear infinite;*/
+    }
+
+    .geo_body_text3 {
+        font-size: 10px;
+        color: white;
+        font-family: a_FuturaOrtoLt, serif;
+        margin-top: 60px;
+        margin-left: 130px;
+        width: 149px;
+
+    }
+
+    .geo_body_price3 {
+        position: absolute;
+        margin-top: 150px;
+        margin-left: 130px;
+        letter-spacing: 0.5px;
+        font-size: 10px;
+        font-weight: 900;
+        font-family: a_FuturaOrtoBold, serif;
+        color: white;
+    }
+
+    .geo_body_uslugi_box4 {
+        width: 340px;
+        height: 174px;
+        background-color: #343437;
+        position: absolute;
+        margin-top: 75px;
+        margin-left: 192px;
+        border-radius: 20px 20px 20px 20px;
+        -webkit-filter: brightness(100%);
+    }
+
+
+    .geo_body_box4_image {
+        width: 116px;
+        height: 174px;
+        align-items: center;
+        border-radius: 20px 0 0 20px;
+        position: absolute;
+        /*animation: unrotate 20s linear infinite;*/
+    }
+
+    .geo_body_text4 {
+        font-size: 10px;
+        color: white;
+        font-family: a_FuturaOrtoLt, serif;
+        margin-top: 60px;
+        margin-left: 130px;
+        width: 149px;
+
+    }
+
+    .geo_body_price4 {
+        position: absolute;
+        margin-top: 150px;
+        margin-left: 130px;
+        letter-spacing: 0.5px;
+        font-size: 10px;
+        font-weight: 900;
+        font-family: a_FuturaOrtoBold, serif;
+        color: white;
+    }
+
+    .geo_body_uslugi_box5 {
+        width: 340px;
+        height: 174px;
+        background-color: #343437;
+        position: absolute;
+        margin-top: 270px;
+        margin-left: 192px;
+        border-radius: 20px 20px 20px 20px;
+        -webkit-filter: brightness(100%);
+    }
+
+
+    .geo_body_box5_image {
+        width: 116px;
+        height: 174px;
+        align-items: center;
+        border-radius: 20px 0 0 20px;
+        position: absolute;
+        /*animation: unrotate 20s linear infinite;*/
+    }
+
+    .geo_body_text5 {
+        font-size: 10px;
+        color: white;
+        font-family: a_FuturaOrtoLt, serif;
+        margin-top: 70px;
+        margin-left: 130px;
+        width: 149px;
+
+    }
+
+    .geo_body_price5 {
+        position: absolute;
+        margin-top: 150px;
+        margin-left: 130px;
+        letter-spacing: 0.5px;
+        font-size: 10px;
+        font-weight: 900;
+        font-family: a_FuturaOrtoBold, serif;
+        color: white;
+    }
+
+    .geo_body_uslugi_box6 {
+        width: 340px;
+        height: 174px;
+        background-color: #343437;
+        position: absolute;
+        margin-top: 465px;
+        margin-left: 192px;
+        border-radius: 20px 20px 20px 20px;
+        -webkit-filter: brightness(100%);
+    }
+
+
+    .geo_body_box6_image {
+        width: 116px;
+        height: 174px;
+        align-items: center;
+        border-radius: 20px 0 0 20px;
+        position: absolute;
+        /*animation: unrotate 20s linear infinite;*/
+    }
+
+    .geo_body_text6 {
+        font-size: 10px;
+        color: white;
+        font-family: a_FuturaOrtoLt, serif;
+        margin-top: 57px;
+        margin-left: 130px;
+        width: 149px;
+
+    }
+
+    .geo_body_price6 {
+        position: absolute;
+        margin-top: 150px;
+        margin-left: 130px;
+        letter-spacing: 0.5px;
+        font-size: 10px;
+        font-weight: 900;
+        font-family: a_FuturaOrtoBold, serif;
+        color: white;
+    }
+
+    .geo_body_uslugi_box7 {
+        width: 340px;
+        height: 174px;
+        background-color: #343437;
+        position: absolute;
+        margin-top: 675px;
+        margin-left: 192px;
+        border-radius: 20px 20px 20px 20px;
+        -webkit-filter: brightness(100%);
+    }
+
+
+    .geo_body_box7_image {
+        width: 116px;
+        height: 174px;
+        align-items: center;
+        border-radius: 20px 0 0 20px;
+        position: absolute;
+        /*animation: unrotate 20s linear infinite;*/
+    }
+
+    .geo_body_text7 {
+        font-size: 10px;
+        color: white;
+        font-family: a_FuturaOrtoLt, serif;
+        margin-top: 60px;
+        margin-left: 130px;
+        width: 149px;
+
+    }
+
+    .geo_body_price7 {
+        position: absolute;
+        margin-top: 150px;
+        margin-left: 130px;
+        letter-spacing: 0.5px;
+        font-size: 10px;
+        font-weight: 900;
+        font-family: a_FuturaOrtoBold, serif;
+        color: white;
+    }
+
+    .geo_body_uslugi_box8 {
+        width: 340px;
+        height: 174px;
+        background-color: #343437;
+        position: absolute;
+        margin-top: 875px;
+        margin-left: 192px;
+        border-radius: 20px 20px 20px 20px;
+        -webkit-filter: brightness(100%);
+    }
+
+
+    .geo_body_box8_image {
+        width: 116px;
+        height: 174px;
+        align-items: center;
+        border-radius: 20px 0 0 20px;
+        position: absolute;
+        /*animation: unrotate 20s linear infinite;*/
+    }
+
+    .geo_body_text8 {
+        font-size: 10px;
+        color: white;
+        font-family: a_FuturaOrtoLt, serif;
+        margin-top: 60px;
+        margin-left: 130px;
+        width: 149px;
+
+    }
+
+    .geo_body_price8 {
+        position: absolute;
+        margin-top: 150px;
+        margin-left: 130px;
+        letter-spacing: 0.5px;
+        font-size: 10px;
+        font-weight: 900;
+        font-family: a_FuturaOrtoBold, serif;
+        color: white;
+    }
+
+    .supply_footer {
+        background-color: #ffffff;
+        position: relative;
+        bottom: 0;
+        width: 500px;
+        height: 50px; /* Высота блока "footer" */
+        margin-top: 1000px;
+        margin-left: -100px;
+        overflow: hidden;
+    }
+
+    .supply_footer {
+        background-color: white;
+        position: absolute;
+        bottom: 0;
+        width: 390px;
+        height: 50px; /* Высота блока "footer" */
+        top: 90px;
+        margin-left: 175px;
+    }
+
+    .supply_footer_logo {
+        position: absolute;
+        width: 25px;
+        height: 22px;
+        margin-left: 20px;
+        margin-top: 14px;
+        z-index: 999;
+    }
+
+    .supply_footer_logo2 {
+        position: absolute;
+        margin-left: 500px;
+        width: 240px;
+        margin-top: 1045px;
+    }
+
+    .supply_footer_s {
+        opacity: 0;
+    }
+
+    .supply_footer_source {
+        opacity: 0;
+    }
+
+    .supply_footer_source a {
+        opacity: 0;
+    }
+
+    .supply_footer_callback {
+        opacity: 0;
+    }
+
+    .supply_black_line {
+        opacity: 0;
+    }
+
+    .menu_supply_activate {
+        background-color: #232325; /* Чуть прозрачный фон для эффекта размытия */
+        position: fixed;
+        top: 0;
+        left: -1px;
+        width: 390px;
+        height: 1000px;
+        z-index: 999; /* Убедитесь, что z-index больше, чем у других элементов */
+        display: flex;
+        opacity: 1;
+        pointer-events: auto; /* Включаем события мыши и сенсорных устройств */
+        animation: slideRight 1s ease forwards;
+
+    .menu_supply_activate_city {
+        margin-top: 650px;
+        margin-left: -140px;
+        font-size: 20px;
+    }
+
+    .menu_supply_activate_number {
+        margin-top: 710px;
+        margin-left: -155px;
+        font-size: 20px;
+        width: 300px;
+    }
+
+
+}
+
+
+.menu_supply_activate_close {
+    border: 1px solid #FFF; /* Add your desired border color and width */
+    padding: 5px 10px;
+    border-radius: 45px;
+    height: 30px;
+    position: absolute;
+    font-size: 18px;
+    margin-left: 280px;
+    margin-top: 20px;
+}
+
+.menu_supply_activate_LI {
+    margin-top: 200px;
+    margin-left: 90px;
+    font-size: 24px;
+    text-decoration: none;
+    width: 190px;
+    list-style-type: none;
+    text-align: center;
+}
+
+.menu_supply_activate_li {
+    margin-top: 15px;
+    text-decoration: none;
+    color: white;
+    animation: slideIn 1s ease-out forwards;
+    opacity: 0;
+    margin-left: 40px;
+}
+
+.menu_supply_activate_li a {
+    color: white;
+}
+
+.menu_supply_activate_li_callback {
+    width: 230px;
+    margin-top: 180px;
+    text-decoration: none;
+    position: relative; /* Добавим позиционирование для создания линии под текстом */
+    color: white;
+    margin-left: 1px;
+    opacity: 0;
+}
+
+a::after {
+    display: block;
+    content: ""; /*контента в данном блоке не будет поэтому в кавычках ничего не ставим*/
+    height: 2px; /*задаём высоту линии*/
+    width: 0; /*задаём начальную ширину элемента (линии)*/
+    background-color: #FFF; /*цвет фона элемента*/
+    transition: width 0.4s ease-in-out;
+}
+
+
+/* Добавляем анимацию при наведении на элемент li */
+.menu_supply_activate_li a:hover:after,
+.menu_supply_activate_li_callback a:hover:after,
+.menu_supply_activate_li_callback a:focus:after,
+.menu_supply_activate_li a:focus:after {
+    width: 100%;
+}
+
+.menu_supply_activate_li a:hover {
+    color: white;
+}
+
+.menu_supply_activate_li_callback a:hover {
+    color: white;
+}
+
+.menu_supply_activate_li_callback a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.menu_opacity_bgc {
+    opacity: 90%;
+    position: absolute;
+    background-color: #232325;
+    width: 390px;
+    height: 1350px;
+    animation: slideLEft 1.5s ease forwards;
+}
+
+
+}
+}
+
+
+@media (min-width: 1080px) and (max-width: 1920px) {
+
+   .Power_Supply{
+    max-width: 1920px;
+    height: auto;
+    display: flex;
+    position: absolute;
+    top: 7px; /* Прикрепить шапку к верху экрана */
+    /* Дополнительные стили для вашей шапки */
+    background-color: #242424;
+    font-family: 'a_FuturaOrtoLt', Arial, sans-serif;
+
+    .supply_header{
+    width: 1920px;
+    display: flex;
+    position: absolute;
+}
+
+    .logo-supply{
+    position: fixed;
+    max-width: 45px; /* Установите желаемую ширину для логотипа */
+    max-height: 45px;
+    margin-left: 38px;
+    margin-top: 25px;
+}
+
+    .menu_supply{
+    position: fixed;
+    max-width: 45px; /* Установите желаемую ширину для логотипа */
+    max-height: 45px;
+    margin-left: 1780px;
+    margin-top: 25px;
+    z-index: 500;
+}
+
+.supply_body{
+    width: 1920px;
+    height: auto;
+    margin-top: 100px;
+    position: absolute;
+}
+
+.supply_title{
+    text-align: center;
+    width: 1000px;
+    height: 210px;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 900;
+    margin-left: 383px;
+    font-family: a_FuturaOrtoBold, serif;
+    letter-spacing: 2.35px;
+    position: absolute;
+    z-index: 499;
+    margin-top: 35px;
+    color: #FFFFFF;
+    justify-content: center;
+    align-items: center;
+     overflow: hidden; /* Ограничиваем видимую область контейнера */
+}
+
+.geo_span{
+    display: block; /* Сделаем внутренний span блочным элементом */
+    margin-top: -100px; /* Уменьшаем отступ сверху для второй строки */
+}
+
+.geo_bgc{
+    width: 1920px;
+    height: 1720px;
+    opacity: 0.5;
+    -webkit-filter: brightness(15%);
+}
+
+
+.geo_uslugi{
+    width: 1920px;
+    height: auto;
+    position: absolute;
+    margin-top: 482px;
+    display: flex;
+    margin-left: 50px;
+}
+
+.geo_body_uslugi_box1{
+   width: 268px;
+   height: 340px;
+   background-color: #343437;
+   position: absolute;
+   margin-top: -500px;
+   margin-left: 192px;
+   border-radius: 20px 20px 20px 20px;
+    -webkit-filter: brightness(100%);
+}
+
+
+.geo_body_box1_image{
+    width: 268px;
+    height: 134px;
+    align-items: center;
+    border-radius: 20px 20px 0 0;
+    position: absolute;
+    /*animation: unrotate 20s linear infinite;*/
+}
+
+.geo_body_uslugi_box_title{
+    margin-top: 153px;
+    width: 253px;
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: a_FuturaOrtoBold, serif;
+    position: absolute;
+        color: #ffffff;
+        line-height: 1; /* Уменьшаем расстояние между строками */
+}
+
+.geo_body_text{
+    font-size: 15px;
+    color: white;
+        font-family: a_FuturaOrtoLt, serif;
+    margin-top: 200px;
+    margin-left: 12px;
+    width: 260px;
+
+}
+
+.geo_body_price{
+    position: absolute;
+    margin-top: 310px;
+    margin-left: 15px;
+    letter-spacing: 0.5px;
+    font-size: 15px;
+    font-weight: 900;
+    font-family: a_FuturaOrtoBold, serif;
+    color: white;
+}
+
+
+.geo_body_uslugi_box2{
+   width: 268px;
+   height: 340px;
+   background-color: #343437;
+   position: absolute;
+   border-radius: 20px 20px 20px 20px;
+   margin-top: -500px;
+   margin-left: 520px;
+
+}
+
+.geo_body_box2_image{
+    width: 268px;
+    height: 134px;
+    align-items: center;
+    border-radius: 20px 20px 0 0;
+    margin-left: 1px;
+    margin-top: 1px;
+    position: absolute;
+    z-index: 1;
+    /*animation: unrotate 20s linear infinite;*/
+}
+
+.geo_body_text2{
+    font-size: 15px;
+    color: white;
+        font-family: a_FuturaOrtoLt, serif;
+    margin-top: 195px;
+    margin-left: 12px;
+    width: 255px;
+
+}
+
+.geo_body_price2{
+    position: absolute;
+    margin-top: 310px;
+    margin-left: 15px;
+    letter-spacing: 0.5px;
+    font-size: 15px;
+    font-weight: 900;
+    font-family: a_FuturaOrtoBold, serif;
+    color: white;
+}
+
+.geo_body_uslugi_box3{
+  width: 268px;
+   height: 340px;
+    background-color: #343437;
+   position: absolute;
+   border-radius: 20px 20px 20px 20px;
+   margin-top: -500px;
+   margin-left: 850px;
+}
+
+.geo_body_box3_image{
+    width: 268px;
+    height: 134px;
+    align-items: center;
+    border-radius: 20px 20px 0 0;
+    margin-left: 1px;
+    margin-top: 1px;
+    position: absolute;
+    z-index: 1;
+    /*animation: unrotate 20s linear infinite;*/
+}
+
+.geo_body_text3{
+    font-size: 15px;
+    color: white;
+    font-family: a_FuturaOrtoLt, serif;
+    margin-top: 195px;
+    margin-left: 12px;
+    width: 255px;
+}
+
+.geo_body_price3{
+    position: absolute;
+    margin-top: 310px;
+    margin-left: 15px;
+    letter-spacing: 0.5px;
+    font-size: 15px;
+    font-weight: 900;
+    font-family: a_FuturaOrtoBold, serif;
+    color: white;
+}
+
+.geo_body_uslugi_box4{
+  width: 268px;
+   height: 340px;
+   background-color: #343437;
+   position: absolute;
+   border-radius: 20px 20px 20px 20px;
+   margin-top: -500px;
+   margin-left: 1200px;
+}
+
+.geo_body_box4_image{
+    width: 268px;
+    height: 134px;
+    align-items: center;
+    border-radius: 20px 20px 0 0;
+    margin-left: 1px;
+    margin-top: 1px;
+    position: absolute;
+    z-index: 1;
+    /*animation: unrotate 20s linear infinite;*/
+}
+
+
+.geo_body_text4{
+    font-size: 15px;
+    color: white;
+    font-family: a_FuturaOrtoLt, serif;
+    margin-top: 195px;
+    margin-left: 12px;
+    width: 255px;
+
+}
+
+.geo_body_price4{
+    position: absolute;
+    margin-top: 310px;
+    margin-left: 15px;
+    letter-spacing: 0.5px;
+    font-size: 15px;
+    font-weight: 900;
+    font-family: a_FuturaOrtoBold, serif;
+    color: white;
+}
+
+.geo_body_uslugi_box5{
+   width: 268px;
+   height: 340px;
+   background-color: #343437;
+   position: absolute;
+   margin-top: -125px;
+   margin-left: 192px;
+   border-radius: 20px 20px 20px 20px;
+    -webkit-filter: brightness(100%);
+}
+
+
+.geo_body_box5_image{
+    width: 268px;
+    height: 134px;
+    align-items: center;
+    border-radius: 20px 20px 0 0;
+    position: absolute;
+    /*animation: unrotate 20s linear infinite;*/
+}
+
+.geo_body_uslugi_box5_title{
+    margin-top: 153px;
+    width: 253px;
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: a_FuturaOrtoBold, serif;
+    position: absolute;
+        color: #ffffff;
+        line-height: 1; /* Уменьшаем расстояние между строками */
+}
+
+.geo_body_text5{
+    font-size: 15px;
+    color: white;
+        font-family: a_FuturaOrtoLt, serif;
+    margin-top: 200px;
+    margin-left: 12px;
+    width: 260px;
+
+}
+
+.geo_body_price5{
+    position: absolute;
+    margin-top: 310px;
+    margin-left: 15px;
+    letter-spacing: 0.5px;
+    font-size: 15px;
+    font-weight: 900;
+    font-family: a_FuturaOrtoBold, serif;
+    color: white;
+}
+
+
+.geo_body_uslugi_box6{
+   width: 268px;
+   height: 340px;
+   background-color: #343437;
+   position: absolute;
+   border-radius: 20px 20px 20px 20px;
+   margin-top: -125px;
+   margin-left: 520px;
+
+}
+
+.geo_body_box6_image{
+    width: 268px;
+    height: 134px;
+    align-items: center;
+    border-radius: 20px 20px 0 0;
+    margin-left: 1px;
+    margin-top: 1px;
+    position: absolute;
+    z-index: 1;
+    /*animation: unrotate 20s linear infinite;*/
+}
+
+.geo_body_text6{
+    font-size: 15px;
+    color: white;
+        font-family: a_FuturaOrtoLt, serif;
+    margin-top: 195px;
+    margin-left: 12px;
+    width: 255px;
+
+}
+
+.geo_body_price6{
+    position: absolute;
+    margin-top: 310px;
+    margin-left: 15px;
+    letter-spacing: 0.5px;
+    font-size: 15px;
+    font-weight: 900;
+    font-family: a_FuturaOrtoBold, serif;
+    color: white;
+}
+
+.geo_body_uslugi_box7{
+  width: 268px;
+   height: 340px;
+   background-color: #343437;
+   position: absolute;
+   border-radius: 20px 20px 20px 20px;
+   margin-top: -125px;
+   margin-left: 850px;
+}
+
+.geo_body_box7_image{
+    width: 268px;
+    height: 134px;
+    align-items: center;
+    border-radius: 20px 20px 0 0;
+    margin-left: 1px;
+    margin-top: 1px;
+    position: absolute;
+    z-index: 1;
+    /*animation: unrotate 20s linear infinite;*/
+}
+
+.geo_body_text7{
+    font-size: 15px;
+    color: white;
+    font-family: a_FuturaOrtoLt, serif;
+    margin-top: 195px;
+    margin-left: 12px;
+    width: 255px;
+}
+
+.geo_body_price7{
+    position: absolute;
+    margin-top: 310px;
+    margin-left: 15px;
+    letter-spacing: 0.5px;
+    font-size: 15px;
+    font-weight: 900;
+    font-family: a_FuturaOrtoBold, serif;
+    color: white;
+}
+
+.geo_body_uslugi_box8{
+  width: 268px;
+   height: 340px;
+   background-color: #343437;
+   position: absolute;
+   border-radius: 20px 20px 20px 20px;
+   margin-top: -125px;
+   margin-left: 1200px;
+}
+
+.geo_body_box8_image{
+    width: 268px;
+    height: 134px;
+    align-items: center;
+    border-radius: 20px 20px 0 0;
+    margin-left: 1px;
+    margin-top: 1px;
+    position: absolute;
+    z-index: 1;
+    /*animation: unrotate 20s linear infinite;*/
+}
+
+
+.geo_body_text8{
+    font-size: 15px;
+    color: white;
+    font-family: a_FuturaOrtoLt, serif;
+    margin-top: 195px;
+    margin-left: 12px;
+    width: 255px;
+
+}
+
+.geo_body_price8{
+    position: absolute;
+    margin-top: 310px;
+    margin-left: 15px;
+    letter-spacing: 0.5px;
+    font-size: 15px;
+    font-weight: 900;
+    font-family: a_FuturaOrtoBold, serif;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+}
+
+.Power_Supply{
+    max-width: 2500px;
+    height: auto;
+    display: flex;
+    position: absolute;
+    top: 7px; /* Прикрепить шапку к верху экрана */
+    /* Дополнительные стили для вашей шапки */
+    background-color: #242424;
+    font-family: 'a_FuturaOrtoLt', Arial, sans-serif;
+}
+
+.supply_header{
+    width: 2500px;
+    display: flex;
+    position: absolute;
+}
+
+.logo-supply{
+    width: 170px;
+    margin-left: 40px;
+    margin-top: 20px;
+    position: fixed;
+    z-index: 1999;
+      filter: brightness(0%);
+}
+
+.menu_supply{
+    position: fixed;
+    max-width: 45px; /* Установите желаемую ширину для логотипа */
+    max-height: 45px;
+    margin-left: 2380px;
+    margin-top: 30px;
+    z-index: 500;
+}
+
+.supply_body{
+    width: 2500px;
+    height: auto;
+    margin-top: 130px;
+    position: absolute;
+}
+
+.supply_title{
+    text-align: center;
+    width: 1000px;
+    height: 210px;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 900;
+    margin-left: 760px;
+    font-family: a_FuturaOrtoBold, serif;
+    letter-spacing: 2.35px;
+    position: absolute;
+    z-index: 499;
+    margin-top: -25px;
+    color: #000000;
+    justify-content: center;
+    align-items: center;
+     overflow: hidden; /* Ограничиваем видимую область контейнера */
+}
+
+.geo_span{
+    display: block; /* Сделаем внутренний span блочным элементом */
+    margin-top: -130px; /* Уменьшаем отступ сверху для второй строки */
+}
+
+
+
+.geo_bgc{
+    width: 2500px;
+    height: 1800px;
+    background-color: rgba(255, 255, 255, 0.89);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*DOP 1*/
+
+
+
+
+
+.dop_1{
+    margin-top: 120px;
+}
+
+.dop_1_text_1{
+    width: 525px;
+    margin-top: 120px;
+    font-size: 17px;
+}
+
+
+
+
+/*DOP 2*/
+
+
+
+.dop_2{
+    width: 1110px;
+    height: auto;
+    margin-left: -375px;
+    margin-top: 120px;
+}
+
+.dop_2_text_1{
+    width: 555px;
+    font-size: 17px;
+}
+
+
+
+
+/*DOP 3*/
+
+
+
+.dop_3{
+    width: 1110px;
+    height: auto;
+    margin-left: -750px;
+    margin-top: 120px;
+}
+
+.dop_3_text_1{
+    width: 535px;
+    font-size: 17px;
+}
+
+
+
+
+/*  FOOTER  */
+
+
+
+
+.supply_footer{
+    background-color: white;
+    position: relative;
+   bottom:0;
+   width: 2500px;
+   height: 130px;   /* Высота блока "footer" */
+    margin-top: 900px;
+    margin-left: -195px;
+}
+
+.supply_footer_logo{
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    margin-left: 430px;
+    margin-top: 35px;
+}
+
+.supply_footer_logo2{
+    position: absolute;
+    margin-left: 500px;
+    width: 240px;
+    margin-top: 45px;
+}
+
+.supply_footer_s{
+    margin-top: 25px;
+    color: black;
+    display: flex;
+    flex: 0.2;
+    justify-content: space-between;
+    margin-left: 930px;
+    position: absolute;
+        text-decoration: none;
+    list-style-type: none;
+}
+
+.supply_footer_source{
+    margin-left: 50px;
+    max-width: 1000px;
+    font-size: 21px;
+    margin-top: 15px;
+}
+
+.supply_footer_source a{
+    color: black;
+}
+
+.supply_footer_callback{
+    margin-top: 5px;
+    margin-left: 100px;
+    font-size: 21px;
+    border: 1px solid #000000;/* Add your desired border color and width */
+    padding: 10px 60px;
+    border-radius: 45px;
+            text-decoration: none;
+    list-style-type: none;
+}
+
+.supply_black_line{
+    background-color: black;
+    width: 2500px;
+    height: 10px;
+    position: absolute;
+    margin-top: 95px;
+    margin-left: -930px;
+}
+
+.footer-shot_1{
+    margin-top: 2600px;
+}
+
+.footer-shot_2{
+    margin-top: 2700px;
+}
+
+.footer-shot_3{
+    margin-top: 2550px;
+}
+
+
+
+
+/* MENU */
+
+
