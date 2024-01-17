@@ -293,6 +293,7 @@ p.setup = () => {
                     </div>
                     <div className='Header_menu_text'>
                         <a className='Header_menu_text_1' href='/project'>Услуги</a>
+                        <a className='Header_menu_text_1' href='/about'>Примеры работ</a>
                         <a className='Header_menu_text_4' href='/contacts'>Контакты</a>
                     </div>
                 </div>
@@ -309,7 +310,7 @@ p.setup = () => {
                 {activeHandler === 4 && (
                     <div className='Header_menu_activate'>
                             <div className="scaled-iframe-container">
-                                <iframe src="http://localhost" frameBorder="0"></iframe>
+                                <iframe src="http://www.pixelwebdesign.ru" frameBorder="0"></iframe>
                             </div>
                         <div className='Header_menu_activate_text_blok'>
                             <p className='Header_menu_activate_text_blok_nav'>Навигация по главной странице</p>

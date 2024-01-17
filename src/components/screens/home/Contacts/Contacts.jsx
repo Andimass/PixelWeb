@@ -108,7 +108,9 @@ const Contacts = () =>  {
               <p className='Contacts_info'>г. Краснодар</p>
               <p className='Contacts_info'>ул. Заполярная 37 к4</p>
               <p className='Contacts_info'>+ 7 (918) 073<span className='dop_1_span'>-</span>94<span className='dop_1_span'>-</span>14</p>
+                  <p className='Contacts_info'>+ 7 (918) 331<span className='dop_1_span'>-</span>25<span className='dop_1_span'>-</span>57</p>
               <p className='Contacts_info'>mail@partner-krd.ru</p>
+              <p className='Contacts_info'>ИНН - 2308260213</p>
                   <iframe className='Contacts_card' src="https://yandex.ru/map-widget/v1/?um=constructor%3Ac3618170045ccfe1e04e54057366cabe927f9f429a5e0fa99d736f8bc57ca348&amp;source=constructor" frameBorder="0"></iframe>
               </div>
           </div>
