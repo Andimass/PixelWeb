@@ -293,7 +293,8 @@ p.setup = () => {
                     </div>
                     <div className='Header_menu_text'>
                         <p className='Header_menu_text_phone'>+ 7 (918) 331<span className='dop_1_span'>-</span>25<span className='dop_1_span'>-</span>57</p>
-                        <p className='Header_menu_text_adres'>Юр.Адрес - <span>350012, г. Краснодар ул. Заполярная, дом 37 корпус 4 помещение 25</span></p>
+                        <p className='Header_menu_text_adres'>Юр.Адрес -  <span> 350012, г. Краснодар ул. Заполярная, дом 37 корпус 4 помещение 25</span></p>
+                        <p className='Header_menu_text_email'>mail@partner-krd.ru</p>
                         <a className='Header_menu_text_1' href='/project'>Услуги</a>
                         <a className='Header_menu_text_1' href='/about'>Примеры работ</a>
                         <a className='Header_menu_text_4' href='/contacts'>Контакты</a>
@@ -334,7 +335,7 @@ p.setup = () => {
                     <div className='Header_menu_center_cvadro'></div>
                 </div>
                 <div className='Header_menu_down'>
-                    <p className='Header_menu_down_text'>PWD - это отмеченная наградами консалтинговая компания в области создания, продвижения и администрирования сайтов, которая преобразует бизнес, генерируя идеи и ускоряя рост.</p>
+                    <p className='Header_menu_down_text'>ООО "ЮТС" занимается созданием и поддрежкой сайтов, на основании ОКВЭД'а 62.01, творчсекий псевдоним нашей компании - PixelWebDesign. PWD - это отмеченная наградами консалтинговая компания в области создания, продвижения и администрирования сайтов, которая преобразует бизнес, генерируя идеи и ускоряя рост.</p>
                 </div>
                 </div>
                 </Slide>

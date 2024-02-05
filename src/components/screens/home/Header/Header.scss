@@ -128,7 +128,7 @@
 .Header_menu_text_phone{
   position: absolute;
     color: white;
-  margin-left: -1450px;
+  margin-left: -1480px;
   margin-top: 0px;
   font-size: 21px;
   text-transform: uppercase;
@@ -138,7 +138,7 @@
 .Header_menu_text_adres{
   position: absolute;
     color: white;
-  margin-left: -1250px;
+  margin-left: -1240px;
   margin-top: 0px;
   font-size: 21px;
   text-transform: uppercase;
@@ -160,6 +160,29 @@
 
 .Header_menu_text_adres span{
   color: white;
+}
+
+.Header_menu_text_email{
+    position: absolute;
+    color: white;
+  margin-left: -280px;
+  margin-top: 0px;
+  font-size: 21px;
+  text-transform: uppercase;
+  font-family: "Cera Pro Regular", sans-serif;
+    background: linear-gradient(45deg, gold, deeppink);
+
+  /* Использование фона только для текста */
+  -webkit-background-clip: text;
+  background-clip: text;
+
+  /* Делаем цвет текста прозрачным, чтобы был виден только фон */
+  color: transparent;
+
+  /* Применяем обрезку к тексту */
+  -webkit-clip-path: inset(0px round 10px);
+  clip-path: inset(0px round 10px);
+  animation: borderAnimation 2s infinite;
 }
 
 
@@ -505,7 +528,7 @@
   font-size: 26px;
   width: 1400px;
   margin-left: 550px;
-  margin-top: 1100px;
+  margin-top: 1050px;
 }
 
 .Header_container_1 {
