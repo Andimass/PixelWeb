@@ -292,6 +292,8 @@ p.setup = () => {
                         <img className='' src='/public/logo mini.png'/>
                     </div>
                     <div className='Header_menu_text'>
+                        <p className='Header_menu_text_phone'>+ 7 (918) 331<span className='dop_1_span'>-</span>25<span className='dop_1_span'>-</span>57</p>
+                        <p className='Header_menu_text_adres'>Юр.Адрес - <span>350012, г. Краснодар ул. Заполярная, дом 37 корпус 4 помещение 25</span></p>
                         <a className='Header_menu_text_1' href='/project'>Услуги</a>
                         <a className='Header_menu_text_1' href='/about'>Примеры работ</a>
                         <a className='Header_menu_text_4' href='/contacts'>Контакты</a>
@@ -328,11 +330,11 @@ p.setup = () => {
                     <img className='Header_img' src='public/logo (2).png'/>
                 </div>
                 <div className='Header_menu_center'>
-                    <p className='Header_menu_center_text'>Мы траснформируем ваш бизнес</p>
+                    <p className='Header_menu_center_text'>Мы траснформируем ваш сайт</p>
                     <div className='Header_menu_center_cvadro'></div>
                 </div>
                 <div className='Header_menu_down'>
-                    <p className='Header_menu_down_text'>PWD - это отмеченная наградами консалтинговая компания в области технологий, которая преобразует бизнес, генерируя идеи, создавая продукты и ускоряя рост.</p>
+                    <p className='Header_menu_down_text'>PWD - это отмеченная наградами консалтинговая компания в области создания, продвижения и администрирования сайтов, которая преобразует бизнес, генерируя идеи и ускоряя рост.</p>
                 </div>
                 </div>
                 </Slide>

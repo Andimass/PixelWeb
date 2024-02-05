@@ -125,6 +125,43 @@
   margin-top: -50px;
 }
 
+.Header_menu_text_phone{
+  position: absolute;
+    color: white;
+  margin-left: -1450px;
+  margin-top: 0px;
+  font-size: 21px;
+  text-transform: uppercase;
+  font-family: "Cera Pro Regular", sans-serif;
+}
+
+.Header_menu_text_adres{
+  position: absolute;
+    color: white;
+  margin-left: -1250px;
+  margin-top: 0px;
+  font-size: 21px;
+  text-transform: uppercase;
+  font-family: "Cera Pro Regular", sans-serif;
+  background: linear-gradient(45deg, gold, deeppink);
+
+  /* Использование фона только для текста */
+  -webkit-background-clip: text;
+  background-clip: text;
+
+  /* Делаем цвет текста прозрачным, чтобы был виден только фон */
+  color: transparent;
+
+  /* Применяем обрезку к тексту */
+  -webkit-clip-path: inset(0px round 10px);
+  clip-path: inset(0px round 10px);
+  animation: borderAnimation 2s infinite;
+}
+
+.Header_menu_text_adres span{
+  color: white;
+}
+
 
 .Header_menu a{
   color: white;
