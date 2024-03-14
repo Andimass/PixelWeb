@@ -937,7 +937,7 @@
         filter: hue-rotate(0deg);
     }
     100% {
-        filter: hue-rorate(360deg);
+        filter: hue-rotate(360deg);
     }
 }
 
@@ -1064,4 +1064,146 @@
   margin-left: 120px;
   text-transform: uppercase;
   margin-top: 105px;
+}
+
+
+.about_spec {
+  position: absolute;
+  width: 2495px;
+  margin-top: -10px;
+background-color: black;
+    height: 100%;
+}
+
+.about_spec_title {
+  margin-left: 120px;
+  font-size: 50px;
+  text-transform: uppercase;
+  font-family: "Cera Pro Bold", sans-serif;
+    background: linear-gradient(45deg, gold, #fd028b);
+
+  /* Использование фона только для текста */
+  -webkit-background-clip: text;
+  background-clip: text;
+
+  /* Делаем цвет текста прозрачным, чтобы был виден только фон */
+  color: transparent;
+
+  /* Применяем обрезку к тексту */
+  -webkit-clip-path: inset(0px round 4px);
+  clip-path: inset(0px round 4px);
+  animation: borderAnimation 2s infinite;
+}
+
+.about_spec_title span{
+  font-size: 50px;
+  text-transform: uppercase;
+  font-family: "Cera Pro Bold", sans-serif;
+  margin-top: 60px;
+  position: absolute;
+  margin-left: -635px;
+  background: linear-gradient(45deg, gold, deeppink);
+
+  /* Использование фона только для текста */
+  -webkit-background-clip: text;
+  background-clip: text;
+
+  /* Делаем цвет текста прозрачным, чтобы был виден только фон */
+  color: transparent;
+
+  /* Применяем обрезку к тексту */
+  -webkit-clip-path: inset(0px round 10px);
+  clip-path: inset(0px round 10px);
+  animation: borderAnimation 2s infinite;
+}
+
+@keyframes borderAnimation {
+    0% {
+        filter: hue-rotate(0deg);
+    }
+    100% {
+        filter: hue-rotate(360deg);
+    }
+}
+
+
+.about_rab {
+    width: 2230px;
+    height: 555px;
+    margin-left: 122px;
+}
+
+.about_scaled-iframe-container {
+    transform: scale(0.59);
+    transform-origin: 0 0;
+    width: 3600px; /* Удвоение размера контейнера для компенсации масштабирования */
+    height: 200%;
+  margin-left: -585px;
+  position: absolute;
+    margin-top: -200px;
+}
+
+.about_scaled-iframe-container iframe {
+    width: 72%;
+    height: 100%;
+    margin-top: 450px;
+    margin-left: 1000px;
+}
+
+.about_rab_title{
+ margin-left: 1px;
+  font-size: 50px;
+  text-transform: uppercase;
+  font-family: "Cera Pro Bold", sans-serif;
+position: absolute;
+    margin-top: -30px;
+}
+
+.about_rab_text{
+ margin-left: 1600px;
+  font-size: 24px;
+  text-transform: uppercase;
+  font-family: "Cera Pro Bold", sans-serif;
+position: absolute;
+    margin-top: 60px;
+    width: 700px;
+}
+
+.about_rab_otz_img{
+    margin-left: 1600px;
+    margin-top: 185px;
+    width: 6%;
+    position: absolute;
+}
+
+.about_rab_otz{
+ margin-left: 1600px;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-family: "Cera Pro Bold", sans-serif;
+position: absolute;
+    margin-top: 190px;
+    width: 400px;
+    background: linear-gradient(45deg, #ffea00, #fc00c1);
+
+  /* Использование фона только для текста */
+  -webkit-background-clip: text;
+  background-clip: text;
+
+  /* Делаем цвет текста прозрачным, чтобы был виден только фон */
+  color: transparent;
+
+  /* Применяем обрезку к тексту */
+  -webkit-clip-path: inset(0px round 10px);
+  clip-path: inset(0px round 10px);
+}
+
+.about_rab_otziv{
+ margin-left: 1600px;
+  font-size: 21px;
+  font-family: "Cera Pro Bold", sans-serif;
+position: absolute;
+    margin-top: 280px;
+    width: 650px;
+
 }

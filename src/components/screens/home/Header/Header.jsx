@@ -272,6 +272,9 @@ p.setup = () => {
     };
 
 
+
+
+
         return (
         <html>
         <head>
@@ -295,8 +298,6 @@ p.setup = () => {
                         <p className='Header_menu_text_phone'>+ 7 (918) 331<span className='dop_1_span'>-</span>25<span className='dop_1_span'>-</span>57</p>
                         <p className='Header_menu_text_adres'>Юр.Адрес -  <span> 350012, г. Краснодар ул. Заполярная, дом 37 корпус 4 помещение 25</span></p>
                         <p className='Header_menu_text_email'>mail@partner-krd.ru</p>
-                        <a className='Header_menu_text_1' href='/project'>Услуги</a>
-                        <a className='Header_menu_text_1' href='/about'>Примеры работ</a>
                         <a className='Header_menu_text_4' href='/contacts'>Контакты</a>
                     </div>
                 </div>
@@ -335,7 +336,7 @@ p.setup = () => {
                     <div className='Header_menu_center_cvadro'></div>
                 </div>
                 <div className='Header_menu_down'>
-                    <p className='Header_menu_down_text'>ООО "ЮТС" занимается созданием и поддрежкой сайтов, на основании ОКВЭД'а 62.01, творчсекий псевдоним нашей компании - PixelWebDesign. PWD - это отмеченная наградами консалтинговая компания в области создания, продвижения и администрирования сайтов, которая преобразует бизнес, генерируя идеи и ускоряя рост.</p>
+                    <p className='Header_menu_down_text'>ООО "ЮТС" занимается созданием и поддержкой сайтов, на основании ОКВЭД'а 62.01, творческий псевдоним нашей компании - PixelWebDesign. PWD - это отмеченная наградами консалтинговая компания в области создания, продвижения и администрирования сайтов, которая преобразует бизнес, генерируя идеи и ускоряя рост.</p>
                 </div>
                 </div>
                 </Slide>
@@ -407,6 +408,58 @@ p.setup = () => {
 
                         </div>
                     </div>
+                </Slide>
+                <Slide>
+            <div className='project_spec'>
+                <p className='project_spec_title'>Мы специализируемся<span>На следующих услугах</span></p>
+                <div className='project_spec_1'>
+                    <img className='project_spec_1_img_1' src='/public/raz1.png'/>
+                    <img className='project_spec_1_img_2' src='/public/raz2.png'/>
+                    <p className='project_spec_1_1'>Разработка сайтов под ключ</p>
+                    <p className='project_spec_1_2'>Мы предлагаем полный спектр услуг по созданию сайтов, начиная от первоначального концепта и заканчивая запуском работающего продукта. Наша команда профессионалов глубоко погружается в каждый проект, чтобы понять уникальные потребности и цели вашего бизнеса.</p>
+                  {/*{buttonText === '2/2' && (*/}
+                  {/*  <p className='project_spec_1_3' onClick={buttomClick}>Наша цель - не просто разработать сайт, а создать мощный онлайн-инструмент, который будет усиливать ваш бренд, привлекать целевую аудиторию и способствовать росту вашего бизнеса.</p>*/}
+                  {/*)}*/}
+                  {/*  <button className='project_spec_1_buttom' onClick={buttomClick}>{buttonText}</button>*/}
+                    <div className='project_spec_1_bgc'></div>
+                </div>
+                <div className='project_spec_2'>
+                    <p className='project_spec_2_2'>Администрирование и сопровождение</p>
+                    <p className='project_spec_2_3'>Мы предлагаем круглосуточную поддержку, мониторинг серверов и безопасности, что позволяет вам сосредоточиться на развитии бизнеса. Наша услуга включает в себя регулярные бэкапы, обновления ПО и оптимизацию работы сайта, чтобы ваш онлайн-ресурс всегда был доступен и работал эффективно.</p>
+                    <div className='project_spec_2_bgc'></div>
+                    <img className='project_spec_2_img_2' src='/public/admin.png'/>
+                    <img className='project_spec_2_img_1' src='/public/admin2.png'/>
+                </div>
+                <div className='project_spec_3'>
+                    <p className='project_spec_3_3'>Обновление ваших действующих сайтов</p>
+                    <p className='project_spec_3_4'>Мы регулярно анализируем и внедряем новейшие технологии и тренды дизайна, чтобы ваш сайт оставался актуальным, привлекательным и функциональным. Наша услуга также включает обновление контента и SEO-оптимизацию, что способствует повышению видимости сайта в поисковых системах и привлечению новых посетителей.</p>
+                    <div className='project_spec_3_bgc'></div>
+                    <img className='project_spec_3_img_1' src='/public/obn1.png'/>
+                    <img className='project_spec_3_img_2' src='/public/obn2.png'/>
+                </div>
+                <div className='project_spec_4'>
+                    <p className='project_spec_4_4'>SEO - продвижение</p>
+                    <p className='project_spec_4_5'>SEO-продвижение - это комплексная услуга, направленная на улучшение видимости вашего сайта в поисковых системах. Мы применяем передовые методики оптимизации, включая анализ ключевых слов и повышение качества контента, чтобы ваш сайт отвечал самым актуальным требованиям поисковых систем. </p>
+                    <div className='project_spec_4_bgc'></div>
+                    <img className='project_spec_4_img_1' src='/public/seo1.png'/>
+                    <img className='project_spec_4_img_2' src='/public/seo2.png'/>
+                </div>
+            </div>
+                </Slide>
+                <Slide>
+                <div className='about_spec'>
+                <p className='about_spec_title'>Выполненные работы</p>
+                <div className='about_rab'>
+                    <p className='about_rab_title'>Сайт Организации "ПАРТНЕР"</p>
+                    <div className="about_scaled-iframe-container">
+                        <iframe src="http://www.partner-tech.ru" frameBorder="0"></iframe>
+                    </div>
+                    <p className='about_rab_text'>Данный сайт до сих пор находится в процессе разработки, вот реальный отзыв генерального директора компании "ПАРТНЕР" - </p>
+                    <img className='about_rab_otz_img' src='/public/5star.png'/>
+                    <p className='about_rab_otz'>Клоконос Александр</p>
+                    <p className='about_rab_otziv'>"Я просто поражен тем, как вы работаете над созданием нашего сайта! Несмотря на то, что проект все еще в процессе разработки, уже сейчас виден ваш высокий профессионализм и внимание к деталям. Ваша команда не только воплощает наши идеи в жизнь, но и предлагает креативные решения, которые делают сайт еще лучше. Мы особенно впечатлены тем, как вы умело сочетаете дизайн и функциональность, делая интерфейс интуитивно понятным и привлекательным. Это важно для нас, так как мы стремимся предоставить нашим клиентам наилучший пользовательский опыт. Огромное спасибо за вашу тяжелую работу и творческий подход. Мы с нетерпением ждем запуска сайта и уверены, что он превзойдет все наши ожидания!"</p>
+                </div>
+            </div>
                 </Slide>
             </FullPage>
             </body>

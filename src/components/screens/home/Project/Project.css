@@ -22,6 +22,8 @@
   position: absolute;
   width: 2495px;
   margin-top: 30px;
+    background-color: black;
+    height: 110%;
 }
 
 .project_spec_title {
