@@ -379,6 +379,11 @@ p.setup = () => {
                         </div>
                         <div className='Header_container_2_glav'>
                             <div className='Header_container_2_cvadro'></div>
+                            <div className="dop_content">
+                                <p className="dop_content_1">Наш стек</p>
+                                <p className="dop_content_2"><span>HTML/CSS</span> : Основные языки разметки и стилей для создания веб-страниц с красивым дизайном.</p>
+                                <p className="dop_content_3"><span>JavaScript (включая React.js)</span> : Мы активно используем JavaScript и его современные фреймворки, такие как React.js, для разработки интерактивных и динамичных веб-приложений.</p>
+                            </div>
                             <div className="title-content">
                                     {title[activeSlide]}
                                   </div>

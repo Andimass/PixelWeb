@@ -2,6 +2,7 @@
     .custom-zoom-page {
       zoom: 16.33%;
       background-color: black;
+      color: white;
 
       .Header_container_1 {
         margin-top: -4150px;
@@ -29,6 +30,19 @@
       .Header_container_3 {
         margin-top: 620px;
       }
+      .project_spec {
+        margin-top: 330px;
+
+    }
+
+      .Header_menu_down {
+    margin-top: 1000px;
+}
+
+      .about_spec {
+  margin-top: 690px;
+}
+
     }
 }
 
@@ -201,11 +215,11 @@
 .Header_menu_icon{
   width: 50px;
   height: 50px;
-  margin-left: 2400px;
+  margin-left: 2300px;
   position: fixed;
   margin-top: -30px;
   overflow: hidden;
-
+  display: none;
 }
 
 .Header_menu_icon_1{
@@ -932,6 +946,77 @@
   opacity: 0.4;
 }
 
+.dop_content{
+  position: absolute;
+  margin-left: 0px;
+}
+
+.dop_content_1{
+    color: white;
+  text-align: center;
+  font-family: "Cera Pro Bold", sans-serif;
+  font-weight: 400;
+  font-size: 50px;
+  position: absolute;
+  margin-left: -1670px;
+  text-transform: uppercase;
+  top: 60px;
+}
+
+.dop_content_2{
+  color: white;
+  font-family: "Cera Pro Bold", sans-serif;
+  font-weight: 400;
+  font-size: 35px;
+  position: absolute;
+  top: 175px;
+  margin-left: -1200px;
+  max-width: 700px;
+}
+
+.dop_content_2 span{
+  background: linear-gradient(45deg, gold, deeppink);
+
+  /* Использование фона только для текста */
+  -webkit-background-clip: text;
+  background-clip: text;
+
+  /* Делаем цвет текста прозрачным, чтобы был виден только фон */
+  color: transparent;
+
+  /* Применяем обрезку к тексту */
+  -webkit-clip-path: inset(0px round 10px);
+  clip-path: inset(0px round 10px);
+  animation: borderAnimation 2s infinite;
+}
+
+.dop_content_3{
+  color: white;
+  font-family: "Cera Pro Bold", sans-serif;
+  font-weight: 400;
+  font-size: 35px;
+  position: absolute;
+  top: 375px;
+  margin-left: -1200px;
+  max-width: 700px;
+}
+
+.dop_content_3 span{
+  background: linear-gradient(45deg, gold, deeppink);
+
+  /* Использование фона только для текста */
+  -webkit-background-clip: text;
+  background-clip: text;
+
+  /* Делаем цвет текста прозрачным, чтобы был виден только фон */
+  color: transparent;
+
+  /* Применяем обрезку к тексту */
+  -webkit-clip-path: inset(0px round 10px);
+  clip-path: inset(0px round 10px);
+  animation: borderAnimation 2s infinite;
+}
+
 @keyframes borderAnimation {
     0% {
         filter: hue-rotate(0deg);
@@ -956,7 +1041,7 @@
 .Header_container_2_glav{
   width: 1200px;
   justify-content: center;
-  margin-left: 970px;
+  margin-left: 1320px;
   margin-top: 200px;
   position: absolute;
 }
@@ -968,6 +1053,11 @@
 
 .slider-dots{
   margin-left: -240px;
+  width: 500px;
+}
+
+.p5Canvas{
+  width: 0px;
 }
 
 .title-content{
