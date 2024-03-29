@@ -272,9 +272,44 @@ p.setup = () => {
     };
 
 
+    useEffect(() => {
+        const vibor1 = document.querySelector('.vibor_1');
+        const dopContent = document.querySelector('.dop_content_');
+
+        // Добавляем обработчик события клика на элемент 'Header_menu_vibor_1'
+        vibor1.addEventListener('click', function () {
+            // Скрываем элемент Header_menu_center_text
+            const centerText = document.querySelector('.Header_menu_center_text');
+            const centerText_2 = document.querySelector('.dop_content__');
+            centerText.style.display = 'none';
+            centerText_2.style.display = 'none';
+
+            // Показываем элемент dop_content_
+            dopContent.style.display = 'block';
+
+        });
+
+    });
 
 
+    useEffect(() => {
+        const vibor2 = document.querySelector('.vibor_2');
+        const dopContent = document.querySelector('.dop_content__');
 
+        // Добавляем обработчик события клика на элемент 'Header_menu_vibor_1'
+        vibor2.addEventListener('click', function () {
+            // Скрываем элемент Header_menu_center_text
+            const centerText = document.querySelector('.Header_menu_center_text');
+            const centerText_2 = document.querySelector('.dop_content_');
+            centerText.style.display = 'none';
+            centerText_2.style.display = 'none';
+
+            // Показываем элемент dop_content_
+            dopContent.style.display = 'block';
+
+        });
+
+    });
         return (
         <html>
         <head>
@@ -334,6 +369,32 @@ p.setup = () => {
                 <div className='Header_menu_center'>
                     <p className='Header_menu_center_text'>Мы траснформируем ваш сайт</p>
                     <div className='Header_menu_center_cvadro'></div>
+                    <div className='vibor_1'>
+                        <div className='Header_menu_vibor_1'>Наш стек</div>
+                        <div className="arrow-7">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <div className="dop_content_">
+                                <p className="dop_content_2_2"><span>HTML/CSS</span> : Основные языки разметки и стилей для создания веб-страниц с красивым дизайном.</p>
+                                <p className="dop_content_3_3"><span>JavaScript</span> : Мы активно используем JavaScript и его современные фреймворки, такие как React.js, для разработки интерактивных и динамичных веб-приложений.</p>
+                            </div>
+                    </div>
+                    <div className='vibor_2'>
+                        <div className='Header_menu_vibor_2'>Наш услуги</div>
+                        <div className="arrow-8">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <div className="dop_content__">
+                            <p className='dop_content__1'><span>Разработка</span> сайтов под ключ</p>
+                            <p className='dop_content__2'><span>Администрирование</span> и сопровождение</p>
+                            <p className='dop_content__3'><span>Обновление</span> ваших действующих сайтов</p>
+                                <p className='dop_content__4'><span>SEO</span> - продвижение</p>
+                            </div>
+                    </div>
                 </div>
                 <div className='Header_menu_down'>
                     <p className='Header_menu_down_text'>ООО "ЮТС" занимается созданием и поддержкой сайтов, на основании ОКВЭД'а 62.01, творческий псевдоним нашей компании - PixelWebDesign. PWD - это отмеченная наградами консалтинговая компания в области создания, продвижения и администрирования сайтов, которая преобразует бизнес, генерируя идеи и ускоряя рост.</p>

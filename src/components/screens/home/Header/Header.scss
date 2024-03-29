@@ -151,7 +151,7 @@
 
 .Header_menu_text_adres{
   position: absolute;
-    color: white;
+  color: white;
   margin-left: -1240px;
   margin-top: 0px;
   font-size: 21px;
@@ -531,7 +531,207 @@
         filter: hue-rotate(0deg);
     }
     100% {
-        filter: hue-rorate(360deg);
+        filter: hue-rotate(360deg);
+    }
+}
+
+.Header_menu_vibor_1{
+  position: absolute;
+  color: white;
+  font-size: 30px;
+  text-transform: uppercase ;
+  margin-left: 485px;
+  margin-top: 350px;
+}
+
+.arrow-7 {
+    margin: 40px auto 10px auto;
+    width: 5px;
+    height: 100px;
+  rotate: -90deg;
+  position: absolute;
+  margin-left: 720px;
+  margin-top: 330px;
+}
+.arrow-7 span {
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-bottom: 5px solid #337AB7;
+    border-right: 5px solid #337AB7;
+    transform: rotate(45deg);
+    margin: -12px 0;
+    animation: arrow-7 2s infinite;
+}
+.arrow-7 span:nth-child(2){
+    animation-delay: -0.2s;
+}
+.arrow-7 span:nth-child(3){
+    animation-delay: -0.4s;
+}
+@keyframes arrow-7 {
+    0%{
+        opacity: 0;
+        transform: translate(0,-20px) rotate(45deg);
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        transform: translate(0,20px) rotate(45deg);
+    }
+}
+
+.dop_content_{
+  margin-left: 2170px;
+  position: absolute;
+  margin-top: 100px;
+  display: none;
+}
+.dop_content_2_2{
+  color: white;
+  font-family: "Cera Pro Bold", sans-serif;
+  font-weight: 400;
+  font-size: 35px;
+  position: absolute;
+  top: 175px;
+  margin-left: -1200px;
+  max-width: 600px;
+}
+
+.dop_content_2_2 span{
+  background: linear-gradient(45deg, gold, deeppink);
+
+  /* Использование фона только для текста */
+  -webkit-background-clip: text;
+  background-clip: text;
+
+  /* Делаем цвет текста прозрачным, чтобы был виден только фон */
+  color: transparent;
+
+  /* Применяем обрезку к тексту */
+  -webkit-clip-path: inset(0px round 10px);
+  clip-path: inset(0px round 10px);
+  animation: borderAnimation 2s infinite;
+}
+
+.dop_content_3_3{
+  color: white;
+  font-family: "Cera Pro Bold", sans-serif;
+  font-weight: 400;
+  font-size: 35px;
+  position: absolute;
+  top: 380px;
+  margin-left: -1200px;
+  width: 550px;
+}
+
+.dop_content_3_3 span{
+  background: linear-gradient(45deg, gold, deeppink);
+
+  /* Использование фона только для текста */
+  -webkit-background-clip: text;
+  background-clip: text;
+
+  /* Делаем цвет текста прозрачным, чтобы был виден только фон */
+  color: transparent;
+
+  /* Применяем обрезку к тексту */
+  -webkit-clip-path: inset(0px round 10px);
+  clip-path: inset(0px round 10px);
+  animation: borderAnimation 2s infinite;
+  max-width: 550px;
+}
+
+.dop_content__{
+  margin-left: -300px;
+  position: absolute;
+  margin-top: 300px;
+  width: 500px;
+  display: none;
+}
+
+.dop_content__ p {
+font-size: 35px;
+}
+
+.dop_content__ p span{
+  background: linear-gradient(45deg, gold, deeppink);
+
+  /* Использование фона только для текста */
+  -webkit-background-clip: text;
+  background-clip: text;
+
+  /* Делаем цвет текста прозрачным, чтобы был виден только фон */
+  color: transparent;
+
+  /* Применяем обрезку к тексту */
+  -webkit-clip-path: inset(0px round 10px);
+  clip-path: inset(0px round 10px);
+  animation: borderAnimation 2s infinite;
+  max-width: 550px;
+}
+
+@keyframes borderAnimation {
+    0% {
+        filter: hue-rotate(0deg);
+    }
+    100% {
+        filter: hue-rotate(360deg);
+    }
+}
+
+
+.vibor_2{
+  margin-left: 1330px;
+}
+
+.Header_menu_vibor_2{
+  position: absolute;
+  color: white;
+  font-size: 30px;
+  text-transform: uppercase ;
+  margin-left: 485px;
+  margin-top: 350px;
+}
+
+.arrow-8 {
+    margin: 40px auto 10px auto;
+    width: 5px;
+    height: 100px;
+  rotate: 90deg;
+  position: absolute;
+  margin-left: 390px;
+  margin-top: 320px;
+}
+.arrow-8 span {
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-bottom: 5px solid #337AB7;
+    border-right: 5px solid #337AB7;
+    transform: rotate(45deg);
+    margin: -12px 0;
+    animation: arrow-7 2s infinite;
+}
+.arrow-8 span:nth-child(2){
+    animation-delay: -0.2s;
+}
+.arrow-8 span:nth-child(3){
+    animation-delay: -0.4s;
+}
+@keyframes arrow-8 {
+    0%{
+        opacity: 0;
+        transform: translate(0,-20px) rotate(45deg);
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        transform: translate(0,20px) rotate(45deg);
     }
 }
 
@@ -1227,7 +1427,7 @@ background-color: black;
     transform: scale(0.59);
     transform-origin: 0 0;
     width: 3600px; /* Удвоение размера контейнера для компенсации масштабирования */
-    height: 200%;
+    height: 50%;
   margin-left: -585px;
   position: absolute;
     margin-top: -200px;

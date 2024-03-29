@@ -88,7 +88,7 @@ background-color: black;
     transform: scale(0.59);
     transform-origin: 0 0;
     width: 3600px; /* Удвоение размера контейнера для компенсации масштабирования */
-    height: 200%;
+    height: 172.5%;
   margin-left: -585px;
   position: absolute;
     margin-top: -200px;
